@@ -2,8 +2,13 @@
     "docs": [
         {
             "location": "/", 
-            "text": "The Apinf platform offers a comprehensive tool for API management. Building on \nAPI Umbrella\n, it provides enhanced user interface features for API managers and consumers alike.\n\n\nFor API consumers Apinf provides simple key management, key usage analytics and API discovery along with API documentation. Managers have simplified workflow for common tasks, such as key management, rate limiting and viewing API usage analytics.", 
+            "text": "Welcome\n\n\nThe Apinf platform offers a comprehensive tool for API management. Building on \nAPI Umbrella\n, it provides enhanced user interface features for API managers and consumers alike.\n\n\nFor API consumers Apinf provides simple key management, key usage analytics and API discovery along with API documentation. Managers have simplified workflow for common tasks, such as key management, rate limiting and viewing API usage analytics.", 
             "title": "Home"
+        }, 
+        {
+            "location": "/#welcome", 
+            "text": "The Apinf platform offers a comprehensive tool for API management. Building on  API Umbrella , it provides enhanced user interface features for API managers and consumers alike.  For API consumers Apinf provides simple key management, key usage analytics and API discovery along with API documentation. Managers have simplified workflow for common tasks, such as key management, rate limiting and viewing API usage analytics.", 
+            "title": "Welcome"
         }, 
         {
             "location": "/organization/communications-plan/", 
