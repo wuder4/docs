@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+
+	<title>Rate Limit Configuration - Apinf Documentation</title>
+
+        <link href="../../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../../css/font-awesome-4.0.3.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../../../css/highlight.css">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="../../..">Apinf Documentation</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="../../..">Home</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Organization <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../../organization/communications-plan/">Communications plan</a>
+</li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Minutes</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../organization/minutes/2015-04-07-Sprint-0-Planning/">2015 04 07 Sprint 0 Planning</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../organization/minutes/2015-04-13-Meeting-With-Jarkko/">2015 04 13 Meeting With Jarkko</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../organization/minutes/2015-04-17-Sprint-0-Review/">2015 04 17 Sprint 0 Review</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../organization/minutes/2015-04-20-Sprint-1-Planning/">2015 04 20 Sprint 1 Planning</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../organization/minutes/2015-04-21-Needs-Assessment/">2015 04 21 Needs Assessment</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../organization/minutes/2015-05-04-Apinf-Sprint-2-Planning/">2015 05 04 Apinf Sprint 2 Planning</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../organization/minutes/2015-05-08-User-Personas-Session/">2015 05 08 User Personas Session</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../organization/minutes/2015-05-15-Sprint-2-Review/">2015 05 15 Sprint 2 Review</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../organization/minutes/2015-05-18-Sprint-3-Planning/">2015 05 18 Sprint 3 Planning</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../organization/minutes/2015-05-29-Sprint-3-Retrospective/">2015 05 29 Sprint 3 Retrospective</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../organization/minutes/2015-05-29-Sprint-3-Review/">2015 05 29 Sprint 3 Review</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../organization/minutes/2015-06-06-Sprint-04-Planning/">2015 06 06 Sprint 04 Planning</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../organization/minutes/2015-06-12-Sprint-4-Review/">2015 06 12 Sprint 4 Review</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../organization/minutes/2015-06-15-Sprint-5-Planning/">2015 06 15 Sprint 5 Planning</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../organization/minutes/2015-06-26-Sprint-5-Review/">2015 06 26 Sprint 5 Review</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../organization/minutes/2015-06-29-Sprint-6-Planning/">2015 06 29 Sprint 6 Planning</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../organization/minutes/2015-07-10-Sprint-6-Review/">2015 07 10 Sprint 6 Review</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../organization/minutes/2015-07-13-Sprint-7-Planning/">2015 07 13 Sprint 7 Planning</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../organization/minutes/2015-07-15-Sprint-6-Retrospective/">2015 07 15 Sprint 6 Retrospective</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../organization/minutes/2015-07-24-Sprint-7-Review/">2015 07 24 Sprint 7 Review</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../organization/minutes/2015-07-27-Sprint-8-Planning/">2015 07 27 Sprint 8 Planning</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../organization/minutes/2015-08-07-Sprint-8-Review/">2015 08 07 Sprint 8 Review</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../organization/minutes/2015-08-10-Sprint-9-Planning/">2015 08 10 Sprint 9 Planning</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../organization/minutes/2015-08-14-Sprint-9-Review/">2015 08 14 Sprint 9 Review</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../organization/minutes/2015-08-17-Sprint-10-Planning/">2015 08 17 Sprint 10 Planning</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../organization/minutes/2015-08-31-Sprint-10-Review-Meeting/">2015 08 31 Sprint 10 Review Meeting</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../organization/minutes/2015-08-31-Sprint-11-Planning/">2015 08 31 Sprint 11 Planning</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../organization/minutes/Rotation/">Rotation</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Outreach</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../organization/outreach/EU-Codeweek-Hackathon/">EU Codeweek Hackathon</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../organization/outreach/Mindtrek-Apinf-Launch-Workshop/">Mindtrek Apinf Launch Workshop</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../organization/outreach/Mini-Hackathon/">Mini Hackathon</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../organization/outreach/Outline-For-Apinf-Launch-Presentation/">Outline For Apinf Launch Presentation</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../organization/outreach/Social-Media-Strategy/">Social Media Strategy</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../organization/outreach/Social-Media-Tools-And-Practices/">Social Media Tools And Practices</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Content</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../organization/content/APInf frontpage/">APInf frontpage</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Design <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../../design/API-Status-Notification/">API Status Notification</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../../design/APInf-MVP-UI-Specification/">APInf MVP UI Specification</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../../design/Boilerplate-UI-Color-Schemas/">Boilerplate UI Color Schemas</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../../design/Demonstration-Catalogue-View-for-APIs/">Demonstration Catalogue View for APIs</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../../design/Material-Design/">Material Design</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../../design/User-Profile-Redesign/">User Profile Redesign</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Research <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../../research/API Community Resources/">API Community Resources</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../../research/API Lifecycle/">API Lifecycle</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../../research/APIOps - Builder Backbone of Internet of Things/">APIOps   Builder Backbone of Internet of Things</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../../research/APIOps - builder backbone of IoT/">APIOps   builder backbone of IoT</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../../research/Audit API design and management tools/">Audit API design and management tools</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../../research/Invitation to join APIOps - APItalist network/">Invitation to join APIOps   APItalist network</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../../research/apiops - apitalist training university/">Apiops   apitalist training university</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../../research/op/">Op</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Develop <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../Code-Styleguide/">Code Styleguide</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../Release-Versioning/">Release Versioning</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../Roadmap/">Roadmap</a>
+</li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Integration</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../Integration/API-Umbrella-Response-Object/">API Umbrella Response Object</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">REST API</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../REST-API/API-Design/">API Design</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">MVP</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../MVP/MVP-Specification/">MVP Specification</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Architecture</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../Permissions/">Permissions</a>
+</li>
+
+        
+            
+<li class="active">
+    <a href="./">Rate Limit Configuration</a>
+</li>
+
+        
+            
+<li >
+    <a href="../Rate-Limiting/">Rate Limiting</a>
+</li>
+
+        
+            
+<li >
+    <a href="../Software-Technologies-Comparison/">Software Technologies Comparison</a>
+</li>
+
+        
+            
+<li >
+    <a href="../Technologies-Used-in-Apinf/">Technologies Used in Apinf</a>
+</li>
+
+        
+            
+<li >
+    <a href="../User-Roles-in-Apinf/">User Roles in Apinf</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                </ul>
+            
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                
+                    <li >
+                        <a rel="next" href="../Permissions/">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../Rate-Limiting/">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+                
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#rate-limit-configuration">Rate limit configuration</a></li>
+        
+    
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="rate-limit-configuration">Rate limit configuration</h1>
+<p><strong>GUI notes</strong></p>
+<ul>
+<li>The basic model structure is that an API Backend contains a settings object, which can contain some high-level rate limit settings like <a href="https://github.com/NREL/api-umbrella-web/blob/1f43fe1cc7f3ece819a028a64677e4dfd795a035/app/models/api/settings.rb#L16">rate_limit_mode</a> (default, unlimited, or custom). In the event of a "custom" mode, then the settings object can contain an array of <a href="https://github.com/NREL/api-umbrella-web/blob/1f43fe1cc7f3ece819a028a64677e4dfd795a035/app/models/api/settings.rb#L26">rate_limits</a> that reference that RateLimit model.</li>
+<li>Each rate limit instance defines the limit on a specific time  duration (for example, allow 500 requests per hour). There's some more options on each limit, which we recently tried to document here: <a href="https://github.com/NREL/api-umbrella-gatekeeper/tree/master/config#apisettingsrate_limits"></a><a href="https://github.com/NREL/api-umbrella-gatekeeper/tree/master/config#apisettingsrate_limits">https://github.com/NREL/api-umbrella-gatekeeper/tree/master/config#apisettingsrate_limits</a></li>
+<li>Here's an example of how the api record with a custom rate limit would actually look as a nested object in the Mongo database: <a href="https://github.com/NREL/api-umbrella-gatekeeper/blob/f6ef66fd8d0d2a001a305fe8385410d077bfdf29/test/server/rate_limiting.js#L775-L824"></a><a href="https://github.com/NREL/api-umbrella-gatekeeper/blob/f6ef66fd8d0d2a001a305fe8385410d077bfdf29/test/server/rate_limiting.js#L775-L824">https://github.com/NREL/api-umbrella-gatekeeper/blob/f6ef66fd8d0d2a001a305fe8385410d077bfdf29/test/server/rate_limiting.js#L775-L824</a></li>
+</ul>
+<p><strong>apiSettings.rate_limits</strong></p>
+<p>Calculating usage rates involves some practical limitations. Notably, we don't want to create a new record for every request; we really only need a counter. To implement that, the timeline is cut into evenly-sized, indexable periods (of size accuracy milliseconds). Daily usage, then, is the summation of the usage counts for each of the periods between now and 24 hours ago.</p>
+<ul>
+<li>apiSettings.rate_limits.duration - This is the length of time (in milliseconds) over which a usage rate should be calculated.</li>
+<li>apiSettings.rate_limits.accuracy - Effectively, the granularity (in milliseconds) to split the timeline. The smaller granularity, the more frequently a user' requests are forgotten</li>
+<li>apiSettings.rate_limits.limit_by - what we should bucket requests by. Options include ip and apiKey, which count each request towards the associated IP address or API key's rate limits.</li>
+<li>apiSettings.rate_limits.limit - the number of requests allowed for this limit_by over a period of duration</li>
+<li>apiSettings.rate_limits.distributed - a boolean, indicating whether or not this limit should be aggregated between multiple servers. Generally, this should only be false for very small durations</li>
+<li>apiSettings.rate_limits.response_headers - a boolean, indicating whether or not the rate limit and remaining number of requests should be added as headers to the response</li>
+</ul></div>
+            
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            
+            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+
+        <script src="../../../js/jquery-1.10.2.min.js"></script>
+        <script src="../../../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../../../js/highlight.pack.js"></script>
+        <script>var base_url = '../../..';</script>
+        <script data-main="../../../mkdocs/js/search.js" src="../../../mkdocs/js/require.js"></script>
+        <script src="../../../js/base.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            From here you can search these documents. Enter
+                            your search terms below.
+                        </p>
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                            </div>
+                        </form>
+                        <div id="mkdocs-search-results"></div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+
+	<title>APInf MVP UI Specification - Apinf Documentation</title>
+
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../../css/highlight.css">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="../..">Apinf Documentation</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="../..">Home</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Organization <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../organization/communications-plan/">Communications plan</a>
+</li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Minutes</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../organization/minutes/2015-04-07-Sprint-0-Planning/">2015 04 07 Sprint 0 Planning</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../organization/minutes/2015-04-13-Meeting-With-Jarkko/">2015 04 13 Meeting With Jarkko</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../organization/minutes/2015-04-17-Sprint-0-Review/">2015 04 17 Sprint 0 Review</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../organization/minutes/2015-04-20-Sprint-1-Planning/">2015 04 20 Sprint 1 Planning</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../organization/minutes/2015-04-21-Needs-Assessment/">2015 04 21 Needs Assessment</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../organization/minutes/2015-05-04-Apinf-Sprint-2-Planning/">2015 05 04 Apinf Sprint 2 Planning</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../organization/minutes/2015-05-08-User-Personas-Session/">2015 05 08 User Personas Session</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../organization/minutes/2015-05-15-Sprint-2-Review/">2015 05 15 Sprint 2 Review</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../organization/minutes/2015-05-18-Sprint-3-Planning/">2015 05 18 Sprint 3 Planning</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../organization/minutes/2015-05-29-Sprint-3-Retrospective/">2015 05 29 Sprint 3 Retrospective</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../organization/minutes/2015-05-29-Sprint-3-Review/">2015 05 29 Sprint 3 Review</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../organization/minutes/2015-06-06-Sprint-04-Planning/">2015 06 06 Sprint 04 Planning</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../organization/minutes/2015-06-12-Sprint-4-Review/">2015 06 12 Sprint 4 Review</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../organization/minutes/2015-06-15-Sprint-5-Planning/">2015 06 15 Sprint 5 Planning</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../organization/minutes/2015-06-26-Sprint-5-Review/">2015 06 26 Sprint 5 Review</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../organization/minutes/2015-06-29-Sprint-6-Planning/">2015 06 29 Sprint 6 Planning</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../organization/minutes/2015-07-10-Sprint-6-Review/">2015 07 10 Sprint 6 Review</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../organization/minutes/2015-07-13-Sprint-7-Planning/">2015 07 13 Sprint 7 Planning</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../organization/minutes/2015-07-15-Sprint-6-Retrospective/">2015 07 15 Sprint 6 Retrospective</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../organization/minutes/2015-07-24-Sprint-7-Review/">2015 07 24 Sprint 7 Review</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../organization/minutes/2015-07-27-Sprint-8-Planning/">2015 07 27 Sprint 8 Planning</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../organization/minutes/2015-08-07-Sprint-8-Review/">2015 08 07 Sprint 8 Review</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../organization/minutes/2015-08-10-Sprint-9-Planning/">2015 08 10 Sprint 9 Planning</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../organization/minutes/2015-08-14-Sprint-9-Review/">2015 08 14 Sprint 9 Review</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../organization/minutes/2015-08-17-Sprint-10-Planning/">2015 08 17 Sprint 10 Planning</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../organization/minutes/2015-08-31-Sprint-10-Review-Meeting/">2015 08 31 Sprint 10 Review Meeting</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../organization/minutes/2015-08-31-Sprint-11-Planning/">2015 08 31 Sprint 11 Planning</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../organization/minutes/Rotation/">Rotation</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Outreach</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../organization/outreach/EU-Codeweek-Hackathon/">EU Codeweek Hackathon</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../organization/outreach/Mindtrek-Apinf-Launch-Workshop/">Mindtrek Apinf Launch Workshop</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../organization/outreach/Mini-Hackathon/">Mini Hackathon</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../organization/outreach/Outline-For-Apinf-Launch-Presentation/">Outline For Apinf Launch Presentation</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../organization/outreach/Social-Media-Strategy/">Social Media Strategy</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../organization/outreach/Social-Media-Tools-And-Practices/">Social Media Tools And Practices</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Content</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../organization/content/APInf frontpage/">APInf frontpage</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Design <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../API-Status-Notification/">API Status Notification</a>
+</li>
+
+                        
+                            
+<li class="active">
+    <a href="./">APInf MVP UI Specification</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../Boilerplate-UI-Color-Schemas/">Boilerplate UI Color Schemas</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../Demonstration-Catalogue-View-for-APIs/">Demonstration Catalogue View for APIs</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../Material-Design/">Material Design</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../User-Profile-Redesign/">User Profile Redesign</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Research <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../research/API Community Resources/">API Community Resources</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../research/API Lifecycle/">API Lifecycle</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../research/APIOps - Builder Backbone of Internet of Things/">APIOps   Builder Backbone of Internet of Things</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../research/APIOps - builder backbone of IoT/">APIOps   builder backbone of IoT</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../research/Audit API design and management tools/">Audit API design and management tools</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../research/Invitation to join APIOps - APItalist network/">Invitation to join APIOps   APItalist network</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../research/apiops - apitalist training university/">Apiops   apitalist training university</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../research/op/">Op</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Develop <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../develop/Code-Styleguide/">Code Styleguide</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../develop/Release-Versioning/">Release Versioning</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../develop/Roadmap/">Roadmap</a>
+</li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Integration</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../develop/Integration/API-Umbrella-Response-Object/">API Umbrella Response Object</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">REST API</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../develop/REST-API/API-Design/">API Design</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">MVP</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../develop/MVP/MVP-Specification/">MVP Specification</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Architecture</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../develop/Architecture/Permissions/">Permissions</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../develop/Architecture/Rate-Limit-Configuration/">Rate Limit Configuration</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../develop/Architecture/Rate-Limiting/">Rate Limiting</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../develop/Architecture/Software-Technologies-Comparison/">Software Technologies Comparison</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../develop/Architecture/Technologies-Used-in-Apinf/">Technologies Used in Apinf</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../develop/Architecture/User-Roles-in-Apinf/">User Roles in Apinf</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                </ul>
+            
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                
+                    <li >
+                        <a rel="next" href="../API-Status-Notification/">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../Boilerplate-UI-Color-Schemas/">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+                
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#apinf-mvp-ui-specification">APINF MVP UI specification</a></li>
+        
+            <li><a href="#frontend-view">Frontend view</a></li>
+        
+            <li><a href="#dashboard">Dashboard</a></li>
+        
+    
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="apinf-mvp-ui-specification">APINF MVP UI specification</h1>
+<p>The purpose of the document is to specify which views will be available in the minium viable product. Included in the descriptions are the relevant routes to the views.</p>
+<h2 id="frontend-view">Frontend view</h2>
+<p><strong>Homepage</strong></p>
+<ul>
+<li>route: /</li>
+</ul>
+<p><strong>Sign-up and login page</strong></p>
+<ul>
+<li>pop-up / modal without a route</li>
+</ul>
+<p><strong>Terms and conditions</strong></p>
+<ul>
+<li>
+<p>pop-up view, which opens from sign-up</p>
+</li>
+<li>
+<p>route: /terms</p>
+</li>
+</ul>
+<p><strong>Footer (partial view)</strong></p>
+<ul>
+<li>contains social media links</li>
+<li>Impressum</li>
+</ul>
+<h2 id="dashboard">Dashboard</h2>
+<p><strong>Common features</strong></p>
+<ul>
+<li>Logout view</li>
+<li>
+<p>User profile</p>
+</li>
+<li>
+<p>route: /profile</p>
+</li>
+<li>
+<p>Note: Currently there is also a view for deleting accounting and changing password, but will possibly be combined with profile</p>
+</li>
+<li>
+<p>Navigation sidebar (partial view)</p>
+</li>
+</ul>
+<p><strong>User dashboard (API users)</strong></p>
+<ul>
+<li>
+<p>route: /dashboard</p>
+</li>
+<li>
+<p>Analytics (partial view)</p>
+<pre><code>*   Usage logs
+</code></pre>
+</li>
+<li>
+<p>Documentation browser (not part of MVP?)</p>
+</li>
+<li>
+<p>route: /docs</p>
+</li>
+</ul>
+<p><strong>API administration (API owners)</strong></p>
+<ul>
+<li>
+<p>route: /<api-name>/admin (could also be <organisation-name>/admin)</p>
+</li>
+<li>
+<p>Creating and maintaining admin groups (not part of MVP?)</p>
+</li>
+<li>
+<p>Analytics</p>
+</li>
+<li>
+<p>route: /<api-name>/analytics</p>
+</li>
+<li>
+<p>API Drilldown</p>
+</li>
+<li>Filter Logs</li>
+<li>By Users</li>
+<li>
+<p>By Location</p>
+</li>
+<li>
+<p>User management (not part of MPV?)</p>
+</li>
+<li>
+<p>Upload API description file (Swagger and RAML, not part of MVP)</p>
+</li>
+</ul>
+<p><strong>System administration</strong></p>
+<ul>
+<li>
+<p>route: /admin</p>
+</li>
+<li>
+<p>route: /admin/users</p>
+</li>
+<li>
+<p>route: /admin/users/new</p>
+</li>
+<li>
+<p>route: /admin/users/<user-id>/edit</p>
+</li>
+<li>
+<p>Delete user (action button, not a view)</p>
+</li>
+<li>
+<p>Creating and maintaining admin groups</p>
+</li>
+<li>
+<p>route: /admin/groups</p>
+</li>
+<li>
+<p>route: /admin/groups/new</p>
+</li>
+<li>
+<p>route: /admin/groups/<group-id>/edit</p>
+</li>
+<li>
+<p>Delete admin group (action button, not a view)</p>
+</li>
+<li>
+<p>Creating and maintaining API scopes</p>
+</li>
+<li>
+<p>route: /admin/scopes/</p>
+</li>
+<li>
+<p>route: /admin/scopes/new</p>
+</li>
+<li>
+<p>route: /admin/scopes/<scope-id>/edit</p>
+</li>
+<li>
+<p>Delete admin group (action button, not a view)</p>
+</li>
+<li>
+<p>API Backends</p>
+</li>
+<li>
+<p>route: /admin/backends</p>
+</li>
+<li>
+<p>route: /admin/backends/new</p>
+</li>
+<li>
+<p>route: /admin/backends/backend-id/edit</p>
+</li>
+<li>
+<p>route: /admin/import_export</p>
+</li>
+</ul></div>
+            
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            
+            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+
+        <script src="../../js/jquery-1.10.2.min.js"></script>
+        <script src="../../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../../js/highlight.pack.js"></script>
+        <script>var base_url = '../..';</script>
+        <script data-main="../../mkdocs/js/search.js" src="../../mkdocs/js/require.js"></script>
+        <script src="../../js/base.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            From here you can search these documents. Enter
+                            your search terms below.
+                        </p>
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                            </div>
+                        </form>
+                        <div id="mkdocs-search-results"></div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
