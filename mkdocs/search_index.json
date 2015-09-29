@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Welcome to Apinf docs\n\n\nApinf is an open source API proxy solution built on top of API Umbrella.\n\n\nGetting started\n\n\nPlease review the project \nREADME\n for installation instructions.", 
+            "text": "Welcome to Apinf docs\n\n\nApinf is an open source API proxy solution built on top of API Umbrella.\n\n\nGetting started\n\n\nPlease review the project \nREADME\n for \ninstallation instructions\n.", 
             "title": "Home"
         }, 
         {
@@ -12,7 +12,7 @@
         }, 
         {
             "location": "/#getting-started", 
-            "text": "Please review the project  README  for installation instructions.", 
+            "text": "Please review the project  README  for  installation instructions .", 
             "title": "Getting started"
         }, 
         {
