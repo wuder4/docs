@@ -4,7 +4,7 @@
     
     <url>
      <loc>None/</loc>
-     <lastmod>2015-09-29</lastmod>
+     <lastmod>2016-05-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -12,50 +12,38 @@
     
         
     <url>
-     <loc>None/research/API Community Resources/</loc>
-     <lastmod>2015-09-29</lastmod>
+     <loc>None/design/API-Status-Notification/</loc>
+     <lastmod>2016-05-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/research/API Lifecycle/</loc>
-     <lastmod>2015-09-29</lastmod>
+     <loc>None/design/APInf-MVP-UI-Specification/</loc>
+     <lastmod>2016-05-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/research/APIOps - Builder Backbone of Internet of Things/</loc>
-     <lastmod>2015-09-29</lastmod>
+     <loc>None/design/Boilerplate-UI-Color-Schemas/</loc>
+     <lastmod>2016-05-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/research/APIOps - builder backbone of IoT/</loc>
-     <lastmod>2015-09-29</lastmod>
+     <loc>None/design/Demonstration-Catalogue-View-for-APIs/</loc>
+     <lastmod>2016-05-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/research/Audit API design and management tools/</loc>
-     <lastmod>2015-09-29</lastmod>
+     <loc>None/design/Material-Design/</loc>
+     <lastmod>2016-05-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/research/Invitation to join APIOps - APItalist network/</loc>
-     <lastmod>2015-09-29</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/research/apiops - apitalist training university/</loc>
-     <lastmod>2015-09-29</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/research/op/</loc>
-     <lastmod>2015-09-29</lastmod>
+     <loc>None/design/User-Profile-Redesign/</loc>
+     <lastmod>2016-05-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -65,19 +53,25 @@
         
     <url>
      <loc>None/develop/Code-Styleguide/</loc>
-     <lastmod>2015-09-29</lastmod>
+     <lastmod>2016-05-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/develop/Release-Versioning/</loc>
-     <lastmod>2015-09-29</lastmod>
+     <lastmod>2016-05-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/develop/Roadmap/</loc>
-     <lastmod>2015-09-29</lastmod>
+     <lastmod>2016-05-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/develop/contributing/</loc>
+     <lastmod>2016-05-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -102,46 +96,6 @@
     <url>
      <loc>None</loc>
      <lastmod></lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    
-
-    
-        
-    <url>
-     <loc>None/design/API-Status-Notification/</loc>
-     <lastmod>2015-09-29</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/design/APInf-MVP-UI-Specification/</loc>
-     <lastmod>2015-09-29</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/design/Boilerplate-UI-Color-Schemas/</loc>
-     <lastmod>2015-09-29</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/design/Demonstration-Catalogue-View-for-APIs/</loc>
-     <lastmod>2015-09-29</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/design/Material-Design/</loc>
-     <lastmod>2015-09-29</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/design/User-Profile-Redesign/</loc>
-     <lastmod>2015-09-29</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -151,7 +105,7 @@
         
     <url>
      <loc>None/organization/communications-plan/</loc>
-     <lastmod>2015-09-29</lastmod>
+     <lastmod>2016-05-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -170,6 +124,74 @@
     <url>
      <loc>None</loc>
      <lastmod></lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>None/research/API Community Resources/</loc>
+     <lastmod>2016-05-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/research/API Lifecycle/</loc>
+     <lastmod>2016-05-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/research/API Metadata Standards/</loc>
+     <lastmod>2016-05-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/research/APIOps - Builder Backbone of Internet of Things/</loc>
+     <lastmod>2016-05-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/research/APIOps - builder backbone of IoT/</loc>
+     <lastmod>2016-05-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/research/Audit API design and management tools/</loc>
+     <lastmod>2016-05-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/research/Invitation to join APIOps - APItalist network/</loc>
+     <lastmod>2016-05-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/research/apiops - apitalist training university/</loc>
+     <lastmod>2016-05-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/research/op/</loc>
+     <lastmod>2016-05-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>None/support/Adding-SOAP-API/</loc>
+     <lastmod>2016-05-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         

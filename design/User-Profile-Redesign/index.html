@@ -1,594 +1,795 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        
-        
-        <link rel="shortcut icon" href="../../img/favicon.ico">
-
-	<title>User Profile Redesign - Apinf Documentation</title>
-
-        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
-        <link href="../../css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="../../css/highlight.css">
-
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-        <![endif]-->
-
-        
-    </head>
-
-    <body>
-
-        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
-
-        <!-- Collapsed navigation -->
-        <div class="navbar-header">
-            
-            <!-- Expander button -->
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            
-
-            <!-- Main title -->
-            <a class="navbar-brand" href="../..">Apinf Documentation</a>
-        </div>
-
-        <!-- Expanded navigation -->
-        <div class="navbar-collapse collapse">
-            
-                <!-- Main navigation -->
-                <ul class="nav navbar-nav">
-                
-                
-                    <li >
-                        <a href="../..">Home</a>
-                    </li>
-                
-                
-                
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Research <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                        
-                            
-<li >
-    <a href="../../research/API Community Resources/">API Community Resources</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../research/API Lifecycle/">API Lifecycle</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../research/APIOps - Builder Backbone of Internet of Things/">APIOps   Builder Backbone of Internet of Things</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../research/APIOps - builder backbone of IoT/">APIOps   builder backbone of IoT</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../research/Audit API design and management tools/">Audit API design and management tools</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../research/Invitation to join APIOps - APItalist network/">Invitation to join APIOps   APItalist network</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../research/apiops - apitalist training university/">Apiops   apitalist training university</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../research/op/">Op</a>
-</li>
-
-                        
-                        </ul>
-                    </li>
-                
-                
-                
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Develop <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                        
-                            
-<li >
-    <a href="../../develop/Code-Styleguide/">Code Styleguide</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../develop/Release-Versioning/">Release Versioning</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../develop/Roadmap/">Roadmap</a>
-</li>
-
-                        
-                            
-  <li class="dropdown-submenu">
-    <a tabindex="-1" href="">Integration</a>
-    <ul class="dropdown-menu">
-        
-            
-<li >
-    <a href="../../develop/Integration/API-Umbrella-Response-Object/">API Umbrella Response Object</a>
-</li>
-
-        
-    </ul>
-  </li>
-
-                        
-                            
-  <li class="dropdown-submenu">
-    <a tabindex="-1" href="">REST API</a>
-    <ul class="dropdown-menu">
-        
-            
-<li >
-    <a href="../../develop/REST-API/API-Design/">API Design</a>
-</li>
-
-        
-    </ul>
-  </li>
-
-                        
-                            
-  <li class="dropdown-submenu">
-    <a tabindex="-1" href="">Architecture</a>
-    <ul class="dropdown-menu">
-        
-            
-<li >
-    <a href="../../develop/Architecture/Permissions/">Permissions</a>
-</li>
-
-        
-            
-<li >
-    <a href="../../develop/Architecture/Rate-Limit-Configuration/">Rate Limit Configuration</a>
-</li>
-
-        
-            
-<li >
-    <a href="../../develop/Architecture/Rate-Limiting/">Rate Limiting</a>
-</li>
-
-        
-            
-<li >
-    <a href="../../develop/Architecture/Software-Technologies-Comparison/">Software Technologies Comparison</a>
-</li>
-
-        
-            
-<li >
-    <a href="../../develop/Architecture/Technologies-Used-in-Apinf/">Technologies Used in Apinf</a>
-</li>
-
-        
-            
-<li >
-    <a href="../../develop/Architecture/User-Roles-in-Apinf/">User Roles in Apinf</a>
-</li>
-
-        
-    </ul>
-  </li>
-
-                        
-                            
-  <li class="dropdown-submenu">
-    <a tabindex="-1" href="">MVP</a>
-    <ul class="dropdown-menu">
-        
-            
-<li >
-    <a href="../../develop/MVP/MVP-Specification/">MVP Specification</a>
-</li>
-
-        
-    </ul>
-  </li>
-
-                        
-                        </ul>
-                    </li>
-                
-                
-                
-                    <li class="dropdown active">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Design <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                        
-                            
-<li >
-    <a href="../API-Status-Notification/">API Status Notification</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../APInf-MVP-UI-Specification/">APInf MVP UI Specification</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../Boilerplate-UI-Color-Schemas/">Boilerplate UI Color Schemas</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../Demonstration-Catalogue-View-for-APIs/">Demonstration Catalogue View for APIs</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../Material-Design/">Material Design</a>
-</li>
-
-                        
-                            
-<li class="active">
-    <a href="./">User Profile Redesign</a>
-</li>
-
-                        
-                        </ul>
-                    </li>
-                
-                
-                
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Organization <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                        
-                            
-<li >
-    <a href="../../organization/communications-plan/">Communications plan</a>
-</li>
-
-                        
-                            
-  <li class="dropdown-submenu">
-    <a tabindex="-1" href="">Content</a>
-    <ul class="dropdown-menu">
-        
-            
-<li >
-    <a href="../../organization/content/APInf frontpage/">APInf frontpage</a>
-</li>
-
-        
-    </ul>
-  </li>
-
-                        
-                            
-  <li class="dropdown-submenu">
-    <a tabindex="-1" href="">Minutes</a>
-    <ul class="dropdown-menu">
-        
-            
-<li >
-    <a href="../../organization/minutes/2015-04-07-Sprint-0-Planning/">2015 04 07 Sprint 0 Planning</a>
-</li>
-
-        
-            
-<li >
-    <a href="../../organization/minutes/2015-04-13-Meeting-With-Jarkko/">2015 04 13 Meeting With Jarkko</a>
-</li>
-
-        
-            
-<li >
-    <a href="../../organization/minutes/2015-04-17-Sprint-0-Review/">2015 04 17 Sprint 0 Review</a>
-</li>
-
-        
-            
-<li >
-    <a href="../../organization/minutes/2015-04-20-Sprint-1-Planning/">2015 04 20 Sprint 1 Planning</a>
-</li>
-
-        
-            
-<li >
-    <a href="../../organization/minutes/2015-04-21-Needs-Assessment/">2015 04 21 Needs Assessment</a>
-</li>
-
-        
-            
-<li >
-    <a href="../../organization/minutes/2015-05-04-Apinf-Sprint-2-Planning/">2015 05 04 Apinf Sprint 2 Planning</a>
-</li>
-
-        
-            
-<li >
-    <a href="../../organization/minutes/2015-05-08-User-Personas-Session/">2015 05 08 User Personas Session</a>
-</li>
-
-        
-            
-<li >
-    <a href="../../organization/minutes/2015-05-15-Sprint-2-Review/">2015 05 15 Sprint 2 Review</a>
-</li>
-
-        
-            
-<li >
-    <a href="../../organization/minutes/2015-05-18-Sprint-3-Planning/">2015 05 18 Sprint 3 Planning</a>
-</li>
-
-        
-            
-<li >
-    <a href="../../organization/minutes/2015-05-29-Sprint-3-Retrospective/">2015 05 29 Sprint 3 Retrospective</a>
-</li>
-
-        
-            
-<li >
-    <a href="../../organization/minutes/2015-05-29-Sprint-3-Review/">2015 05 29 Sprint 3 Review</a>
-</li>
-
-        
-            
-<li >
-    <a href="../../organization/minutes/2015-06-06-Sprint-04-Planning/">2015 06 06 Sprint 04 Planning</a>
-</li>
-
-        
-            
-<li >
-    <a href="../../organization/minutes/2015-06-12-Sprint-4-Review/">2015 06 12 Sprint 4 Review</a>
-</li>
-
-        
-            
-<li >
-    <a href="../../organization/minutes/2015-06-15-Sprint-5-Planning/">2015 06 15 Sprint 5 Planning</a>
-</li>
-
-        
-            
-<li >
-    <a href="../../organization/minutes/2015-06-26-Sprint-5-Review/">2015 06 26 Sprint 5 Review</a>
-</li>
-
-        
-            
-<li >
-    <a href="../../organization/minutes/2015-06-29-Sprint-6-Planning/">2015 06 29 Sprint 6 Planning</a>
-</li>
-
-        
-            
-<li >
-    <a href="../../organization/minutes/2015-07-10-Sprint-6-Review/">2015 07 10 Sprint 6 Review</a>
-</li>
-
-        
-            
-<li >
-    <a href="../../organization/minutes/2015-07-13-Sprint-7-Planning/">2015 07 13 Sprint 7 Planning</a>
-</li>
-
-        
-            
-<li >
-    <a href="../../organization/minutes/2015-07-15-Sprint-6-Retrospective/">2015 07 15 Sprint 6 Retrospective</a>
-</li>
-
-        
-            
-<li >
-    <a href="../../organization/minutes/2015-07-24-Sprint-7-Review/">2015 07 24 Sprint 7 Review</a>
-</li>
-
-        
-            
-<li >
-    <a href="../../organization/minutes/2015-07-27-Sprint-8-Planning/">2015 07 27 Sprint 8 Planning</a>
-</li>
-
-        
-            
-<li >
-    <a href="../../organization/minutes/2015-08-07-Sprint-8-Review/">2015 08 07 Sprint 8 Review</a>
-</li>
-
-        
-            
-<li >
-    <a href="../../organization/minutes/2015-08-10-Sprint-9-Planning/">2015 08 10 Sprint 9 Planning</a>
-</li>
-
-        
-            
-<li >
-    <a href="../../organization/minutes/2015-08-14-Sprint-9-Review/">2015 08 14 Sprint 9 Review</a>
-</li>
-
-        
-            
-<li >
-    <a href="../../organization/minutes/2015-08-17-Sprint-10-Planning/">2015 08 17 Sprint 10 Planning</a>
-</li>
-
-        
-            
-<li >
-    <a href="../../organization/minutes/2015-08-31-Sprint-10-Review-Meeting/">2015 08 31 Sprint 10 Review Meeting</a>
-</li>
-
-        
-            
-<li >
-    <a href="../../organization/minutes/2015-08-31-Sprint-11-Planning/">2015 08 31 Sprint 11 Planning</a>
-</li>
-
-        
-            
-<li >
-    <a href="../../organization/minutes/2015-09-25-Sprint-12-Review/">2015 09 25 Sprint 12 Review</a>
-</li>
-
-        
-            
-<li >
-    <a href="../../organization/minutes/2015-09-28-Sprint-13-Planning/">2015 09 28 Sprint 13 Planning</a>
-</li>
-
-        
-            
-<li >
-    <a href="../../organization/minutes/Rotation/">Rotation</a>
-</li>
-
-        
-    </ul>
-  </li>
-
-                        
-                            
-  <li class="dropdown-submenu">
-    <a tabindex="-1" href="">Outreach</a>
-    <ul class="dropdown-menu">
-        
-            
-<li >
-    <a href="../../organization/outreach/EU-Codeweek-Hackathon/">EU Codeweek Hackathon</a>
-</li>
-
-        
-            
-<li >
-    <a href="../../organization/outreach/Mindtrek-Apinf-Launch-Workshop/">Mindtrek Apinf Launch Workshop</a>
-</li>
-
-        
-            
-<li >
-    <a href="../../organization/outreach/Mini-Hackathon/">Mini Hackathon</a>
-</li>
-
-        
-            
-<li >
-    <a href="../../organization/outreach/Outline-For-Apinf-Launch-Presentation/">Outline For Apinf Launch Presentation</a>
-</li>
-
-        
-            
-<li >
-    <a href="../../organization/outreach/Social-Media-Strategy/">Social Media Strategy</a>
-</li>
-
-        
-            
-<li >
-    <a href="../../organization/outreach/Social-Media-Tools-And-Practices/">Social Media Tools And Practices</a>
-</li>
-
-        
-    </ul>
-  </li>
-
-                        
-                        </ul>
-                    </li>
-                
-                
-                </ul>
-            
-
-            <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
-                        <i class="fa fa-search"></i> Search
-                    </a>
-                </li>
-                
-                    <li >
-                        <a rel="next" href="../Material-Design/">
-                            <i class="fa fa-arrow-left"></i> Previous
-                        </a>
-                    </li>
-                    <li >
-                        <a rel="prev" href="../../organization/communications-plan/">
-                            Next <i class="fa fa-arrow-right"></i>
-                        </a>
-                    </li>
-                
-                
-            </ul>
-        </div>
-    </div>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <title>User Profile Redesign - Apinf Documentation</title>
+  
+
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/highlight.css">
+
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "User Profile Redesign";
+    var mkdocs_page_input_path = "design/User-Profile-Redesign.md";
+    var mkdocs_page_url = "/design/User-Profile-Redesign/";
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js"></script>
+  <script src="../../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../../js/highlight.pack.js"></script>
+  <script src="../../js/theme.js"></script> 
+
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Apinf Documentation</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
 </div>
+      </div>
 
-        <div class="container">
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        <ul class="current">
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../..">Home</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Design</span></li>
+
+        
             
-                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
-    <ul class="nav bs-sidenav">
-    
-        <li class="main active"><a href="#user-profile-design-document">User profile design document</a></li>
+    <li class="toctree-l1 ">
+        <a class="" href="../API-Status-Notification/">API Status Notification</a>
         
-            <li><a href="#current-situation">Current situation</a></li>
-        
-            <li><a href="#proposed-changes">Proposed changes</a></li>
-        
-            <li><a href="#the-blocks">The blocks</a></li>
-        
-            <li><a href="#design">Design</a></li>
-        
-    
-    </ul>
-</div></div>
-                <div class="col-md-9" role="main">
+    </li>
 
-<h1 id="user-profile-design-document">User profile design document</h1>
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../APInf-MVP-UI-Specification/">APInf MVP UI Specification</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../Boilerplate-UI-Color-Schemas/">Boilerplate UI Color Schemas</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../Demonstration-Catalogue-View-for-APIs/">Demonstration Catalogue View for APIs</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../Material-Design/">Material Design</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 current">
+        <a class="current" href="./">User Profile Redesign</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#user-profile-design-document">User profile design document</a></li>
+                
+                    <li><a class="toctree-l4" href="#current-situation">Current situation</a></li>
+                
+                    <li><a class="toctree-l4" href="#proposed-changes">Proposed changes</a></li>
+                
+                    <li><a class="toctree-l4" href="#the-blocks">The blocks</a></li>
+                
+                    <li><a class="toctree-l4" href="#design">Design</a></li>
+                
+            
+            </ul>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Develop</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../develop/Code-Styleguide/">Code Styleguide</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../develop/Release-Versioning/">Release Versioning</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../develop/Roadmap/">Roadmap</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../develop/contributing/">Contributing</a>
+        
+    </li>
+
+        
+            
+    <ul class="subnav">
+    <li><span>Architecture</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../develop/Architecture/Permissions/">Permissions</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../develop/Architecture/Rate-Limit-Configuration/">Rate Limit Configuration</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../develop/Architecture/Rate-Limiting/">Rate Limiting</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../develop/Architecture/Software-Technologies-Comparison/">Software Technologies Comparison</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../develop/Architecture/Technologies-Used-in-Apinf/">Technologies Used in Apinf</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../develop/Architecture/User-Roles-in-Apinf/">User Roles in Apinf</a>
+        
+    </li>
+
+        
+    </ul>
+
+        
+            
+    <ul class="subnav">
+    <li><span>Integration</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../develop/Integration/API-Umbrella-Response-Object/">API Umbrella Response Object</a>
+        
+    </li>
+
+        
+    </ul>
+
+        
+            
+    <ul class="subnav">
+    <li><span>MVP</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../develop/MVP/MVP-Specification/">MVP Specification</a>
+        
+    </li>
+
+        
+    </ul>
+
+        
+            
+    <ul class="subnav">
+    <li><span>REST API</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../develop/REST-API/API-Design/">API Design</a>
+        
+    </li>
+
+        
+    </ul>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Organization</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/communications-plan/">Communications plan</a>
+        
+    </li>
+
+        
+            
+    <ul class="subnav">
+    <li><span>Content</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/content/APInf frontpage/">APInf frontpage</a>
+        
+    </li>
+
+        
+    </ul>
+
+        
+            
+    <ul class="subnav">
+    <li><span>Minutes</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/minutes/2015-01-04-Sprint20-Planning/">2015 01 04 Sprint20 Planning</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/minutes/2015-04-07-Sprint-0-Planning/">2015 04 07 Sprint 0 Planning</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/minutes/2015-04-13-Meeting-With-Jarkko/">2015 04 13 Meeting With Jarkko</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/minutes/2015-04-17-Sprint-0-Review/">2015 04 17 Sprint 0 Review</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/minutes/2015-04-20-Sprint-1-Planning/">2015 04 20 Sprint 1 Planning</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/minutes/2015-04-21-Needs-Assessment/">2015 04 21 Needs Assessment</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/minutes/2015-05-04-Apinf-Sprint-2-Planning/">2015 05 04 Apinf Sprint 2 Planning</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/minutes/2015-05-08-User-Personas-Session/">2015 05 08 User Personas Session</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/minutes/2015-05-15-Sprint-2-Review/">2015 05 15 Sprint 2 Review</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/minutes/2015-05-18-Sprint-3-Planning/">2015 05 18 Sprint 3 Planning</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/minutes/2015-05-29-Sprint-3-Retrospective/">2015 05 29 Sprint 3 Retrospective</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/minutes/2015-05-29-Sprint-3-Review/">2015 05 29 Sprint 3 Review</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/minutes/2015-06-06-Sprint-04-Planning/">2015 06 06 Sprint 04 Planning</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/minutes/2015-06-12-Sprint-4-Review/">2015 06 12 Sprint 4 Review</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/minutes/2015-06-15-Sprint-5-Planning/">2015 06 15 Sprint 5 Planning</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/minutes/2015-06-26-Sprint-5-Review/">2015 06 26 Sprint 5 Review</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/minutes/2015-06-29-Sprint-6-Planning/">2015 06 29 Sprint 6 Planning</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/minutes/2015-07-10-Sprint-6-Review/">2015 07 10 Sprint 6 Review</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/minutes/2015-07-13-Sprint-7-Planning/">2015 07 13 Sprint 7 Planning</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/minutes/2015-07-15-Sprint-6-Retrospective/">2015 07 15 Sprint 6 Retrospective</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/minutes/2015-07-24-Sprint-7-Review/">2015 07 24 Sprint 7 Review</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/minutes/2015-07-27-Sprint-8-Planning/">2015 07 27 Sprint 8 Planning</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/minutes/2015-08-07-Sprint-8-Review/">2015 08 07 Sprint 8 Review</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/minutes/2015-08-10-Sprint-9-Planning/">2015 08 10 Sprint 9 Planning</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/minutes/2015-08-14-Sprint-9-Review/">2015 08 14 Sprint 9 Review</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/minutes/2015-08-17-Sprint-10-Planning/">2015 08 17 Sprint 10 Planning</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/minutes/2015-08-31-Sprint-10-Review-Meeting/">2015 08 31 Sprint 10 Review Meeting</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/minutes/2015-08-31-Sprint-11-Planning/">2015 08 31 Sprint 11 Planning</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/minutes/2015-09-25-Sprint-12-Review/">2015 09 25 Sprint 12 Review</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/minutes/2015-09-28-Sprint-13-Planning/">2015 09 28 Sprint 13 Planning</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/minutes/2015-10-09-Sprint-13-Review/">2015 10 09 Sprint 13 Review</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/minutes/2015-10-12-Sprint-14-Planning/">2015 10 12 Sprint 14 Planning</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/minutes/2015-10-23-Sprint-14-Review/">2015 10 23 Sprint 14 Review</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/minutes/2015-10-26-Sprint-15-Planning/">2015 10 26 Sprint 15 Planning</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/minutes/2015-11-06-Sprint-15-Review/">2015 11 06 Sprint 15 Review</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/minutes/2015-11-09-Sprint-16-Planning/">2015 11 09 Sprint 16 Planning</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/minutes/2015-11-20-Sprint-16-Review/">2015 11 20 Sprint 16 Review</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/minutes/2015-11-23-Sprint-17-Planning/">2015 11 23 Sprint 17 Planning</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/minutes/2015-12-04-Sprint-17-Review/">2015 12 04 Sprint 17 Review</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/minutes/2015-12-31-Sprint-19-Review/">2015 12 31 Sprint 19 Review</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/minutes/2016-01-15-Sprint-20-Review/">2016 01 15 Sprint 20 Review</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/minutes/2016-01-29-Sprint-22-Planning/">2016 01 29 Sprint 22 Planning</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/minutes/2016-02-01-Sprint-22-Planning/">2016 02 01 Sprint 22 Planning</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/minutes/2016-02-12-Sprint-22-Review/">2016 02 12 Sprint 22 Review</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/minutes/Rotation/">Rotation</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/minutes/Wrap-up-and-next-steps_2016-05-17/">Wrap up and next steps 2016 05 17</a>
+        
+    </li>
+
+        
+    </ul>
+
+        
+            
+    <ul class="subnav">
+    <li><span>Outreach</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/outreach/EU-Codeweek-Hackathon/">EU Codeweek Hackathon</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/outreach/Mindtrek-Apinf-Launch-Workshop/">Mindtrek Apinf Launch Workshop</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/outreach/Mini-Hackathon/">Mini Hackathon</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/outreach/Outline-For-Apinf-Launch-Presentation/">Outline For Apinf Launch Presentation</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/outreach/Social-Media-Strategy/">Social Media Strategy</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../organization/outreach/Social-Media-Tools-And-Practices/">Social Media Tools And Practices</a>
+        
+    </li>
+
+        
+    </ul>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Research</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../research/API Community Resources/">API Community Resources</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../research/API Lifecycle/">API Lifecycle</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../research/API Metadata Standards/">API Metadata Standards</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../research/APIOps - Builder Backbone of Internet of Things/">APIOps   Builder Backbone of Internet of Things</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../research/APIOps - builder backbone of IoT/">APIOps   builder backbone of IoT</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../research/Audit API design and management tools/">Audit API design and management tools</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../research/Invitation to join APIOps - APItalist network/">Invitation to join APIOps   APItalist network</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../research/apiops - apitalist training university/">Apiops   apitalist training university</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../research/op/">Op</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Support</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../support/Adding-SOAP-API/">Adding SOAP API</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Apinf Documentation</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Design &raquo;</li>
+        
+      
+    
+    <li>User Profile Redesign</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="user-profile-design-document">User profile design document</h1>
 <p>This document describes what fields are neccessary in the user profile.</p>
 <h2 id="current-situation">Current situation</h2>
 <p>Here is a screenshot how the user profile looks right now.</p>
@@ -641,47 +842,50 @@
 <p><img alt="" src="https://hackpad-attachments.s3.amazonaws.com/apinf.hackpad.com_ENcxfFNtWkl_p.365221_1432120165605_userprofile_onepage_wireframes.png" /></p>
 <p><strong>All on one page, on different tabs</strong></p>
 <p><img alt="" src="https://hackpad-attachments.s3.amazonaws.com/apinf.hackpad.com_ENcxfFNtWkl_p.373935_1432119289287_Profile_Tabbed_Design.png" /><strong>All on different pages</strong></p>
-<p><img alt="" src="https://hackpad-attachments.s3.amazonaws.com/apinf.hackpad.com_ENcxfFNtWkl_p.365221_1432119949517_several_pages.png" /></p></div>
-            
-        </div>
-
-        <footer class="col-md-12">
-            <hr>
-            
-            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
-        </footer>
-
-        <script src="../../js/jquery-1.10.2.min.js"></script>
-        <script src="../../js/bootstrap-3.0.3.min.js"></script>
-        <script src="../../js/highlight.pack.js"></script>
-        <script>var base_url = '../..';</script>
-        <script data-main="../../mkdocs/js/search.js" src="../../mkdocs/js/require.js"></script>
-        <script src="../../js/base.js"></script>
-
-        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
-                    </div>
-                    <div class="modal-body">
-                        <p>
-                            From here you can search these documents. Enter
-                            your search terms below.
-                        </p>
-                        <form role="form">
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
-                            </div>
-                        </form>
-                        <div id="mkdocs-search-results"></div>
-                    </div>
-                    <div class="modal-footer">
-                    </div>
-                </div>
+<p><img alt="" src="https://hackpad-attachments.s3.amazonaws.com/apinf.hackpad.com_ENcxfFNtWkl_p.365221_1432119949517_several_pages.png" /></p>
+              
             </div>
-        </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../../develop/Code-Styleguide/" class="btn btn-neutral float-right" title="Code Styleguide">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../Material-Design/" class="btn btn-neutral" title="Material Design"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
 
-    </body>
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+<div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../Material-Design/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../../develop/Code-Styleguide/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+
+</body>
 </html>
