@@ -56,16 +56,6 @@
             "title": "How to add color schemas to boilerplate UI"
         }, 
         {
-            "location": "/design/Demonstration-Catalogue-View-for-APIs/", 
-            "text": "Demonstration: CatalogueView for apis\n\n\nThis document is for my own reminder for the review.\n\n\nCreated CatalogueView for  available APIs. The chart can be found at projectdomain/catalogueview\n\n\nThe table fetches the information from the database. \n\n\nDemo:\n\n\ninsert something into database via console:\n\n\nApiBackends.insert({name: \"aasdasdasd\", author: \"asdsadasdasdasd\", url: \"sdasdasdsdasdsadsadasd\"})", 
-            "title": "Demonstration Catalogue View for APIs"
-        }, 
-        {
-            "location": "/design/Demonstration-Catalogue-View-for-APIs/#demonstration-catalogueview-for-apis", 
-            "text": "This document is for my own reminder for the review.  Created CatalogueView for  available APIs. The chart can be found at projectdomain/catalogueview  The table fetches the information from the database.   Demo:  insert something into database via console:  ApiBackends.insert({name: \"aasdasdasd\", author: \"asdsadasdasdasd\", url: \"sdasdasdsdasdsadsadasd\"})", 
-            "title": "Demonstration: CatalogueView for apis"
-        }, 
-        {
             "location": "/design/Material-Design/", 
             "text": "Icons\n\n\nPackage\nhttps://atmospherejs.com/dapearce/material-icons\n\n\nMaterial Design Icons\nhttps://materialdesignicons.com/\n\n\nUsage\n\n\ni class=\nmdi mdi-icon-name\n/i", 
             "title": "Material Design"
@@ -366,6 +356,66 @@
             "title": "API Backends"
         }, 
         {
+            "location": "/ideas/APIOps_-_Builder_Backbone_of_Internet_of_Things/", 
+            "text": "Introduction\n\n\n[Lets coin the term APIOps now and start educating APIOps people in Finland]. Once this document is ready to meet our standards, lets push it to own domain for further development. We could easily create a handout from this]\n\n\nMcKinsey Global Institute\n estimates the potential economic impact of the Internet of Things to be $2.7 trillion to $6.2 trillion per year by 2025.  The GSM Association predicts that by 2020, there will be 24 billion connected devices, while Cisco\u2019s Internet of Everything prediction is 50 billion \u201cintelligent things,\u201d such as cars,  appliances, smartphones, tablets, monitoring sensors and more, connected  to the Internet. The rise of IoT depends on a whole host of enabling technologies like  RFID, IPv6, Big Data, and Application Programming Interfaces (APIs). Web APIs, or more specifically REST APIs, are key for connecting devices to the Internet.\n\n\n[DRAWING OF  CONNECTED THINGS - API IN THE MIDDLE]\n\n\nA large part of the interoperability, scale, and control for IoT can be achieved through \nAPI management\n.  Standards-based  design patterns for Web APIs, API management, and a  RESTful  architecture provide tremendous value in simplifying the task  of  interoperability across heterogeneous systems handling vast amounts  of  data. Since APIs have become ubiquitous, IoT deployments spanning a  wide  range of market segments can benefit from this proven  architecture.\n\n\n\"Companies focusing on enabling fast API development together with customers and nearby interest groups will rule the IoT\n. \"\n\n\nIndustrial Internet, Internet of Everything, Internet of Things (IoT) and Industrie 4.0 are the terms which are brought up more and more in articles and discussions when it comes to future and the visions for it. IoT is driven by the power and speed of \nAPIs\n. IoT is often discussed in the context of industry mostly because that is where it will first create biggest changes. However, to understand more clearly what IoT is we should take imagine what it could be in the everyday life of citizens. \n\n\nIn everyday life IoT can be rather simple things. For example your coffee maker is connected to your alarm clock and no matter what time up the alarm goes off, coffee is brewed. Your colleagues at work can be notified of your possible delay because of possible traffic jams on your way to office. Your home automation can shut the lights and adjust  temperature when everyone is away. According to Samsung in 2020, every device Samsung sells world wide will be connected to the Internet of Things. Since leading manufacturers of our digital devices have such goals, it is no wonder that Gartner predicts that there will be nearly 26 billion devices on the Internet of Things by 2020. Eventually it means that even our living room chairs are connected to IoT and exchange information with other devices. Our living room it self could be connected to tv and according to noise level adjust the volume to be just perfect. This also gives us opportunities to use surfaces as interfaces. For example we could use ordinary windows made of glass as email app interface. Or we could watch morning news from the mirror while brushing teeth.\n\n\n[DRAWING HERE ABOUT ONE COMMON EVERYDAY LIFE IOT EXAMPLE]\n\n\nInternational Organization for Standardization is well known and established standardization body and their definition of IoT is as follows: \n\n\n\n\n_\"An infrastructure of interconnected objects, people, systems and information resources together with intelligent services to allow them to process information of the physical and the virtual world and react.\" _\n\n\n\n\nJust  like DevOps can be seen as offspring or spinoff of Agile thinking,  APIOps can be seen to extend DevOps to fulfil the needs of Application  Interface and Internet of Things development (IoT).  Therefore I foresee clear need for APIOps, a new breed of DevOps to support creation and maintence of IoT driven ecosystem. \n\n\nPractitioners of APIOps principles and values are the builders of the future.  \n\n\nAPIOps manifesto\n\n\n\n\nAPIOps Values\n \u2013 APIOps values are effectively captured in      the Agile Manifesto. APIOps extends the \u201c\nPeople over Process over Tools\n,\u201d and urges API developer  +  system operator + 3\nrd\n party service developer collaboration.\n\n\nAPIOps Principles\n \u2013 APIOps at the conceptual level is based on Agile\u2019s and DevOps principles to focus on effective collaborative design, development and maintenance of APIs to enable extremely fast and flexible service design and development.\n\n\nAPIOps Methods\n \u2013 You can use Scrum with operations, Kanban with operations, etc. Provide methods to collaboratively design APIs for service development utilizing the principles of design first approach.\n\n\nAPIOps Practices\n \u2013 Provide low barrier access to reliable APIs, documentation supporting usage, sandboxes to test and build on top of, generated libraries and code examples for service developers. \n\n\nAPIOps Tools\n \u2013 Tools you\u2019d use in the commission of these principles. In the APIOps world there\u2019s a lot of  emerging tools and evolving standards in provisioning (docker, vagrant), design (RAML, API Blueprint, Swagger), API server code generation (\nDrakov\n ), generating OS specific libraries (\nAPIMATIC\n ), managing APIs (apinf.com, 3scale.com,) and many more.\n\n\n\n\nAPI design first development process\n\n\n\n\nJoint open design process\n\n\n[DRAWING OF PEOPLE DOING COOPERATION]\n\n\nAPI design first approach focuses on involving service and API developers and marketing to same process of co-creating API description. API description is a communication tool, it is not code, at best it is browser-based graphical userface in which all participants collaborate and contribute. Process involves 3rd party service developers into the development since they are endusers of APIs and know best the needs. Obviously the product owner of service utlizing APIs is involved. During the process all work together; sometimes intensively and occasionally there might be total silence. The  team uses f2f meetigns and online environments as well as instant messaging tools to communicate. In other words, there is no written rule or need to necessary to be all the time in the  space/room. This phase produces shared version controlled understanding of:\n\n\n\n\nAPI feautures\n\n\nAPI consumer needs\n\n\nMachine readable description of API or multiple APIs\n\n\n\n\nSpeed up development with code generation\n\n\nIn the  second phase APIOps (API developer) uses the machine readable  description file to configure code generation toolchain. Toolchain automatically generates both API server skeleton and client side development kits (SDK) for plethora of operating systems including mobile platforms such as iOS, Android, Windows. \n\n\nGenerating API server code kicks the development at fullspeed right from the start. API developer needs to adjust and finetune actual code a lot less compared to other approaches. The SDKs are important since they lower the barrier to utilize newly created APIs. Having top knotch API is nice, but widely utilized and liked API is golden. \n\n\nService Development Platform as online hub\n\n\nEventually API server code is launched at production server and attached to API management, which is part of Developer Portal (DP). DP enables service developers' easy access to APIs, API documentation, SDKs, code examples and community. In Developer Portal  API provider can limit the usage of APIs, see metrics and even retire entire API. In portal, API developers and consumers can exchange ideas and use documented comments as feedback for the next cycle which begins from the Joint open design process.  \n\n\nAll this should take plane inside planned roadmap and business plan. Internet of Things (IoT) is something  which in common terms connects devices to each other to exchange data.  IoT relies heavily on web APIs which in fact enable us to connect  services and objects with each other. Without reliable, easily  implemented backends and frontend support, new services build on top of  IoT, will not succeed. \n\n\nWhat can we do for you\n\n\nSolutions and services apinf \n Sampo Software can provide: \n\n\n\n\nUnderstanding and experties of API lifecycle and development\n\n\nFullstack API design process and browser based toolchain\n\n\nAgile APIs driven Service Development Platform\n\n\nAPIOps  as hired guns to speed up your IoT service development\n\n\nTop API management solution\n\n\nCommunity discussion platform: \nhttps://apiops.slack.com\n established - join now!", 
+            "title": "APIOps   Builder Backbone of Internet of Things"
+        }, 
+        {
+            "location": "/ideas/APIOps_-_Builder_Backbone_of_Internet_of_Things/#introduction", 
+            "text": "[Lets coin the term APIOps now and start educating APIOps people in Finland]. Once this document is ready to meet our standards, lets push it to own domain for further development. We could easily create a handout from this]  McKinsey Global Institute  estimates the potential economic impact of the Internet of Things to be $2.7 trillion to $6.2 trillion per year by 2025.  The GSM Association predicts that by 2020, there will be 24 billion connected devices, while Cisco\u2019s Internet of Everything prediction is 50 billion \u201cintelligent things,\u201d such as cars,  appliances, smartphones, tablets, monitoring sensors and more, connected  to the Internet. The rise of IoT depends on a whole host of enabling technologies like  RFID, IPv6, Big Data, and Application Programming Interfaces (APIs). Web APIs, or more specifically REST APIs, are key for connecting devices to the Internet.  [DRAWING OF  CONNECTED THINGS - API IN THE MIDDLE]  A large part of the interoperability, scale, and control for IoT can be achieved through  API management .  Standards-based  design patterns for Web APIs, API management, and a  RESTful  architecture provide tremendous value in simplifying the task  of  interoperability across heterogeneous systems handling vast amounts  of  data. Since APIs have become ubiquitous, IoT deployments spanning a  wide  range of market segments can benefit from this proven  architecture.  \"Companies focusing on enabling fast API development together with customers and nearby interest groups will rule the IoT . \"  Industrial Internet, Internet of Everything, Internet of Things (IoT) and Industrie 4.0 are the terms which are brought up more and more in articles and discussions when it comes to future and the visions for it. IoT is driven by the power and speed of  APIs . IoT is often discussed in the context of industry mostly because that is where it will first create biggest changes. However, to understand more clearly what IoT is we should take imagine what it could be in the everyday life of citizens.   In everyday life IoT can be rather simple things. For example your coffee maker is connected to your alarm clock and no matter what time up the alarm goes off, coffee is brewed. Your colleagues at work can be notified of your possible delay because of possible traffic jams on your way to office. Your home automation can shut the lights and adjust  temperature when everyone is away. According to Samsung in 2020, every device Samsung sells world wide will be connected to the Internet of Things. Since leading manufacturers of our digital devices have such goals, it is no wonder that Gartner predicts that there will be nearly 26 billion devices on the Internet of Things by 2020. Eventually it means that even our living room chairs are connected to IoT and exchange information with other devices. Our living room it self could be connected to tv and according to noise level adjust the volume to be just perfect. This also gives us opportunities to use surfaces as interfaces. For example we could use ordinary windows made of glass as email app interface. Or we could watch morning news from the mirror while brushing teeth.  [DRAWING HERE ABOUT ONE COMMON EVERYDAY LIFE IOT EXAMPLE]  International Organization for Standardization is well known and established standardization body and their definition of IoT is as follows:    _\"An infrastructure of interconnected objects, people, systems and information resources together with intelligent services to allow them to process information of the physical and the virtual world and react.\" _   Just  like DevOps can be seen as offspring or spinoff of Agile thinking,  APIOps can be seen to extend DevOps to fulfil the needs of Application  Interface and Internet of Things development (IoT).  Therefore I foresee clear need for APIOps, a new breed of DevOps to support creation and maintence of IoT driven ecosystem.   Practitioners of APIOps principles and values are the builders of the future.", 
+            "title": "Introduction"
+        }, 
+        {
+            "location": "/ideas/APIOps_-_Builder_Backbone_of_Internet_of_Things/#apiops-manifesto", 
+            "text": "APIOps Values  \u2013 APIOps values are effectively captured in      the Agile Manifesto. APIOps extends the \u201c People over Process over Tools ,\u201d and urges API developer  +  system operator + 3 rd  party service developer collaboration.  APIOps Principles  \u2013 APIOps at the conceptual level is based on Agile\u2019s and DevOps principles to focus on effective collaborative design, development and maintenance of APIs to enable extremely fast and flexible service design and development.  APIOps Methods  \u2013 You can use Scrum with operations, Kanban with operations, etc. Provide methods to collaboratively design APIs for service development utilizing the principles of design first approach.  APIOps Practices  \u2013 Provide low barrier access to reliable APIs, documentation supporting usage, sandboxes to test and build on top of, generated libraries and code examples for service developers.   APIOps Tools  \u2013 Tools you\u2019d use in the commission of these principles. In the APIOps world there\u2019s a lot of  emerging tools and evolving standards in provisioning (docker, vagrant), design (RAML, API Blueprint, Swagger), API server code generation ( Drakov  ), generating OS specific libraries ( APIMATIC  ), managing APIs (apinf.com, 3scale.com,) and many more.", 
+            "title": "APIOps manifesto"
+        }, 
+        {
+            "location": "/ideas/APIOps_-_Builder_Backbone_of_Internet_of_Things/#api-design-first-development-process", 
+            "text": "Joint open design process  [DRAWING OF PEOPLE DOING COOPERATION]  API design first approach focuses on involving service and API developers and marketing to same process of co-creating API description. API description is a communication tool, it is not code, at best it is browser-based graphical userface in which all participants collaborate and contribute. Process involves 3rd party service developers into the development since they are endusers of APIs and know best the needs. Obviously the product owner of service utlizing APIs is involved. During the process all work together; sometimes intensively and occasionally there might be total silence. The  team uses f2f meetigns and online environments as well as instant messaging tools to communicate. In other words, there is no written rule or need to necessary to be all the time in the  space/room. This phase produces shared version controlled understanding of:   API feautures  API consumer needs  Machine readable description of API or multiple APIs   Speed up development with code generation  In the  second phase APIOps (API developer) uses the machine readable  description file to configure code generation toolchain. Toolchain automatically generates both API server skeleton and client side development kits (SDK) for plethora of operating systems including mobile platforms such as iOS, Android, Windows.   Generating API server code kicks the development at fullspeed right from the start. API developer needs to adjust and finetune actual code a lot less compared to other approaches. The SDKs are important since they lower the barrier to utilize newly created APIs. Having top knotch API is nice, but widely utilized and liked API is golden.   Service Development Platform as online hub  Eventually API server code is launched at production server and attached to API management, which is part of Developer Portal (DP). DP enables service developers' easy access to APIs, API documentation, SDKs, code examples and community. In Developer Portal  API provider can limit the usage of APIs, see metrics and even retire entire API. In portal, API developers and consumers can exchange ideas and use documented comments as feedback for the next cycle which begins from the Joint open design process.    All this should take plane inside planned roadmap and business plan. Internet of Things (IoT) is something  which in common terms connects devices to each other to exchange data.  IoT relies heavily on web APIs which in fact enable us to connect  services and objects with each other. Without reliable, easily  implemented backends and frontend support, new services build on top of  IoT, will not succeed.", 
+            "title": "API design first development process"
+        }, 
+        {
+            "location": "/ideas/APIOps_-_Builder_Backbone_of_Internet_of_Things/#what-can-we-do-for-you", 
+            "text": "Solutions and services apinf   Sampo Software can provide:    Understanding and experties of API lifecycle and development  Fullstack API design process and browser based toolchain  Agile APIs driven Service Development Platform  APIOps  as hired guns to speed up your IoT service development  Top API management solution  Community discussion platform:  https://apiops.slack.com  established - join now!", 
+            "title": "What can we do for you"
+        }, 
+        {
+            "location": "/ideas/APIOps_-_builder_backbone_of_IoT/", 
+            "text": "APISTRAT conference session \n\n\nhttp://austin2015.apistrat.com/call-for-papers\n\n\nTOPIC: APIOps \n APItalist \u2013 builder backbone of IoT \n\n\nIn  this session, one of the creators of above concept discusses the key  components and values. You will learn why your organizations should  apply APIOps practices and values to gain maximum from APIs driven  business whether it's IoT or something else. This new concept will lower the learning curve to utilize APIs, minimizes man-made errors, helps to mimize development risks and costs, and maximizes your API customer satisfaction. Presentation is a story of how this concept was build so far and what is to come. \n\n\nFast API development together with customers\n\n\nWeb APIs, or more specifically REST APIs, are key for connecting devices to the Internet. Companies focusing on enabling fast API development together with customers and nearby interest groups will rule the IoT. \n\n\nAPIOps can be seen to extend DevOps\n\n\nJust like DevOps can be seen as offspring or spinoff of Agile thinking, APIOps can be seen to extend DevOps to fulfil the needs of Application Interface and Internet of Things development (IoT). \n\n\nTogether APIOps and APItalist are winning combination\n\n\nTogether APIOps and APItalist are winning combination. APIOps alone does not do the trick. They are highly talented and trained API tech experts. They need the help of APItalist - the talent to create business plans and API-strategies. APItalist is the engine to create value. \n\n\nTherefore we - APIOps community - foresee clear need for APIOps, a new breed of DevOps to support creation and maintenance of IoT driven ecosystem. Community is building around \nlocal APIops groups\n, which organize meetups. In addition we have initiated discussion to start APIOps and APItalist training in universities of applied sciences.", 
+            "title": "APIOps   builder backbone of IoT"
+        }, 
+        {
+            "location": "/ideas/Invitation_to_join_APIOps_-_APItalist_network/", 
+            "text": "Invitation to join APIOps \n APItalist network\n\n\nMcKinsey Global Institute  estimates the potential economic impact of the Internet of Things to be  $2.7 trillion to $6.2 trillion per year by 2025.  The GSM Association  predicts that by 2020, there will be 24 billion connected devices, while  Cisco\u2019s Internet of Everything prediction is 50 billion \u201cintelligent  things,\u201d such as cars,  appliances, smartphones, tablets, monitoring  sensors and more, connected  to the Internet. The rise of IoT depends on  a whole host of enabling technologies like  RFID, IPv6, Big Data, and  Application Programming Interfaces (APIs). \n\n\nWeb APIs, or more  specifically REST APIs, are key for connecting devices to the Internet. Companies focusing on enabling fast API development together with customers and nearby interest groups will rule the IoT.\n\n\nTogether APIOps and APItalist are winning combination\n\n\nJust  like DevOps can be seen as offspring  or spinoff of Agile thinking,  APIOps can be seen to extend DevOps to  fulfil the needs of Application  Interface and Internet of Things  development (IoT).  Therefore we - APIOps community - foresee clear need for APIOps, a new  breed of DevOps to support creation and maintenance of IoT driven  ecosystem. APIOps alone does not do the trick. They are highly talented and trained API tech experts. They need the help of APItalist - the talent to create business plans and API-strategies. APItalist is the engine to create value. \n\n\nImmediate  traction\n\n\nWe have kickstarted the APIOps network in Tampere, Finland just recently with first in the world APIOps Meetup. The meetup caught the attention of the biggest API -management company 3Scale.com. We were also invited to present the concept to API Strategy \n Practice Conference in Austin Texas November 18-20, 2015. After that we have been contacted by several companies. All this  clearly indicates that APIOps \n APItalist  concept fills in a hole. \n\n\nNew groups supported\n\n\nNew groups are spawning also in Helsinki, Switzerland, Estonia and New Zealand. Our intention is to grow the network to contain activities in all continents. For those interested to initiate APIOps meetup in local city, we offer the following support: \n\n\n\n\n6 months Meetup.com service payments \n\n\nOnline tutoring before the first meetup (skype, hangout)\n\n\ncommunity support  from experienced community managers and meetup organizers\n\n\nReady-made  presentations to use as inspiration\n\n\nTop class developer friendly API -management environment\n\n\n\n\nWe are also in the middle of creating  three short 1-2 minutes long animations about the following topics:\n\n\n\n\nWhat is APIops?\n\n\nWhat is APItalist? \n\n\nWhy APIOps and APItalist is winning combination?\n\n\n\n\nCertificates for APIOps and APItalist\n\n\nIf you became interested, contact us, details are below. We can promise you the ride of your life to API world! Read more from\n apiops.net \n \n\n\nJarkko Moilanen, APItalist\n\n\nTwitter: @kyyberi \n\n\nEmail: jarkko . moilanen (\u00e4t) ossoil . com", 
+            "title": "Invitation to join APIOps   APItalist network"
+        }, 
+        {
+            "location": "/ideas/Invitation_to_join_APIOps_-_APItalist_network/#invitation-to-join-apiops-apitalist-network", 
+            "text": "McKinsey Global Institute  estimates the potential economic impact of the Internet of Things to be  $2.7 trillion to $6.2 trillion per year by 2025.  The GSM Association  predicts that by 2020, there will be 24 billion connected devices, while  Cisco\u2019s Internet of Everything prediction is 50 billion \u201cintelligent  things,\u201d such as cars,  appliances, smartphones, tablets, monitoring  sensors and more, connected  to the Internet. The rise of IoT depends on  a whole host of enabling technologies like  RFID, IPv6, Big Data, and  Application Programming Interfaces (APIs).   Web APIs, or more  specifically REST APIs, are key for connecting devices to the Internet. Companies focusing on enabling fast API development together with customers and nearby interest groups will rule the IoT.  Together APIOps and APItalist are winning combination  Just  like DevOps can be seen as offspring  or spinoff of Agile thinking,  APIOps can be seen to extend DevOps to  fulfil the needs of Application  Interface and Internet of Things  development (IoT).  Therefore we - APIOps community - foresee clear need for APIOps, a new  breed of DevOps to support creation and maintenance of IoT driven  ecosystem. APIOps alone does not do the trick. They are highly talented and trained API tech experts. They need the help of APItalist - the talent to create business plans and API-strategies. APItalist is the engine to create value.   Immediate  traction  We have kickstarted the APIOps network in Tampere, Finland just recently with first in the world APIOps Meetup. The meetup caught the attention of the biggest API -management company 3Scale.com. We were also invited to present the concept to API Strategy   Practice Conference in Austin Texas November 18-20, 2015. After that we have been contacted by several companies. All this  clearly indicates that APIOps   APItalist  concept fills in a hole.   New groups supported  New groups are spawning also in Helsinki, Switzerland, Estonia and New Zealand. Our intention is to grow the network to contain activities in all continents. For those interested to initiate APIOps meetup in local city, we offer the following support:    6 months Meetup.com service payments   Online tutoring before the first meetup (skype, hangout)  community support  from experienced community managers and meetup organizers  Ready-made  presentations to use as inspiration  Top class developer friendly API -management environment   We are also in the middle of creating  three short 1-2 minutes long animations about the following topics:   What is APIops?  What is APItalist?   Why APIOps and APItalist is winning combination?   Certificates for APIOps and APItalist  If you became interested, contact us, details are below. We can promise you the ride of your life to API world! Read more from  apiops.net     Jarkko Moilanen, APItalist  Twitter: @kyyberi   Email: jarkko . moilanen (\u00e4t) ossoil . com", 
+            "title": "Invitation to join APIOps &amp; APItalist network"
+        }, 
+        {
+            "location": "/ideas/apiops_-_apitalist_training_university/", 
+            "text": "apiops \n apitalist training university\n\n\nHas to be practical\n\n\nAPIOPS\n\n\n\n\nWhat are APIs? History of APIs briefly\n\n\nWhat are description languages such as RAML, API Blueprint\n\n\n\n\nAPITALIST", 
+            "title": "Apiops   apitalist training university"
+        }, 
+        {
+            "location": "/ideas/apiops_-_apitalist_training_university/#apiops-apitalist-training-university", 
+            "text": "Has to be practical  APIOPS   What are APIs? History of APIs briefly  What are description languages such as RAML, API Blueprint   APITALIST", 
+            "title": "apiops &amp; apitalist training university"
+        }, 
+        {
+            "location": "/ideas/op/", 
+            "text": "op\n\n\nToimitamme esityksen miten t\u00e4ss\u00e4 voisi edet\u00e4\n\n\nStrategian design yhdess\u00e4\n\n\nPilotti\n\n\nHackathon palveluv\u00e4yl\u00e4ss\u00e4\n\n\n\n\nVRK/VM tarvitsee ja hakee t\u00e4llaista\n\n\nVaatii ett\u00e4 on joku rajapinta tai muutama jotka vied\u00e4\u00e4n kehitysymp\u00e4rist\u00f6\u00f6n\n*", 
+            "title": "Op"
+        }, 
+        {
+            "location": "/ideas/op/#op", 
+            "text": "Toimitamme esityksen miten t\u00e4ss\u00e4 voisi edet\u00e4  Strategian design yhdess\u00e4  Pilotti  Hackathon palveluv\u00e4yl\u00e4ss\u00e4   VRK/VM tarvitsee ja hakee t\u00e4llaista  Vaatii ett\u00e4 on joku rajapinta tai muutama jotka vied\u00e4\u00e4n kehitysymp\u00e4rist\u00f6\u00f6n\n*", 
+            "title": "op"
+        }, 
+        {
             "location": "/organization/communications-plan/", 
             "text": "Communications plan\n\n\nInternal stakeholders\n\n\nDevelopment team\n\n\nCommunications objective\n\n\n\n\nTransparency and open communication\n\n\nSystematic communication, keeping specifications, guidelines, research and progress documented. Re-purposing / reuse of materials and documents created in the project.\n\n\nProgress of tasks\n\n\n\n\nTechnological decisions and common guidelines\n\nMain channels and frequency\n\n\n\n\n\n\nGithub\n: Software code and finalized specifications\n\n\n\n\nWaffle\n: Used for managing project backlog and assignment of tasks\n\n\n\n\nHackpad\n: \n\n\n*   Used for creating specifications and other project documents collaboratively.\n\n\n\n\n\nFinalized versions of specifications to be stored in the Github \nWiki section\n.\n\n\nOther project documentation is stored in Hackpad.\n\n\n\n\n\n\n\n\nProject meetings:\n\n\n*   The project is organised into two-week sprints.\n\n\n\n\n\nSprint planning occurs on Mondays every other week (or 1st day of sprint)\n\n\nSprint review and sprint retrospective take place on Fridays every other week (or last day of sprint)\n\n\nfor sprint planning, review and retrospective meetings are stored in Hackpad.\n\n\nDaily stand-up meetings to check the current status of tasks in each sprint. (Currently face-to-face meetings. No minutes to be written.)\n\n\nOther meetings as per needed. Minutes also to be stored in Hackpad.\n\n\n\n\n\n\n\n\nChat\n: There is also a team-internal chat for daily communications.\n\n\n\n\n\n\nCEO\n\n\nCommunications objective\n\n\n\n\nStatus and progress of project\n\n\n\n\nAny issues that require involvement of management\n\nMain channels and frequency\n\n\n\n\n\n\nprogress\n\n\n\n\n\n\nExternal stakeholders\n\n\nOpen Source community\n\n\nCommunications objective\n\n\n\n\n\n\nx\n\nMain channels and frequency\n\n\n\n\n\n\nGithub, Hackpad, Twitter\n\n\n\n\n\n\nAPI Umbrella\n\n\nCommunications objective\n\n\n\n\n\n\nx\n\nMain channels and frequency\n\n\n\n\n\n\nx\n\n\n\n\n\n\nNREL\n\n\nCommunications objective\n\n\n\n\n\n\nx\n\nMain channels and frequency\n\n\n\n\n\n\nx\n\n\n\n\n\n\nCOSS\n\n\nCommunications objective\n\n\n\n\n\n\nx\n\nMain channels and frequency\n\n\n\n\n\n\nx\n\n\n\n\n\n\nAPI Suomi\n\n\nCommunications objective\n\n\n\n\n\n\nGathering requirements? Users for usability studies? Attracting API consumers\n\nMain channels and frequency\n\n\n\n\n\n\nx\n\n\n\n\n\n\nAPI owners: Avoin data? IoT companies? Other?\n\n\nCommunications objective\n\n\n\n\n\n\nx\n\nMain channels and frequency\n\n\n\n\n\n\nx", 
             "title": "Communications plan"
@@ -386,22 +436,22 @@
             "title": "External stakeholders"
         }, 
         {
-            "location": "/organization/content/APInf frontpage/", 
+            "location": "/organization/content/APInf_frontpage/", 
             "text": "APInf frontpage\n\n\nReference sites\n\n\nBenchmarking the sites of API management products\n\n\nApigee Edge\n\n\nThe page dedicated to \nApigee Edge\n presents all the features of Edge: designing, securing, scaling, publishing, visualisizing, monetizing and comparing API's. All features have their own section on the page, available from the sidebar. \n\n\nWhat I liked:\n\n\n\n\ndiagrams of the product, particularly the one at the top of the page \n make the page very visual and uncluttured\n\n\ndownloadable material (books and pdfs) that demonstrates their expertise on APIs\n\n\nhaving separate sections for each feature\n\n\nsidebar: easy access to all sections\n\n\nNext steps: link to demo and sign-up\n\n\n\n\nWhat I don't like\n\n\n\n\nThe page is too long\n\n\nLink to demo and sign-up only at the bottom of the page, should be sooner\n\n\nThe video\n\n\nToo many different visual elements or styles on the same page \n cleaner style would appear more modern\n\n\n\n\nHere are example of the content per feature:\n\n\n\n\n\n\nTop of the page\n\n\n*   Heading: _Intelligent API Management._\n\n\n\n\n\n\n\nManage, secure, scale and analyze your APIs with Apigee Edge\n\n\n\n\n\n\nContains an overall picture of Edge\n\n\n\n\n\n\n\n\n\n\nDesign \n Develop\n\n\n*   Heading: _Design and Develop Better APIs\u2026 Fast! _\n\n\n\n\n\n\n\nEnable agile API development and maintain secure reliable back-end operations\n\n\n\n\n\n\nContains a diagram of API platform together with backend system and text about their relationship\n\n\n\n\n3 expandable text boxes about modernizing APIs (e.g. SOAP to REST conversion), mobile-ready services and creating new services.\n\n\n\n\n\n\n\n\nSecurity\n\n\n*   Heading: _API Security at all Points of Engagement_\n\n\n\n\n\n\n\nAPI and data security, threat protection, regulatory compliance \n identity management\n\n\n\n\n\n\nContains a video about security and compliance and a list of supported technologies or policies\n\n\n\n\nDownloadable e-book about API security\n\n\n3 expandable text boxes about PCI and HIPAA compliance, cloud security and bot protection\n\n\n\n\n\n\n\n\nScale\n\n\n*   Heading: _Deploy \n Scale your APIs With Ease_\n\n\n\n\n\n\n\nCloud scale, global presence, centralized management\n\n\n\n\n\n\nText aboutb APIs needing to be available 24/7\n\n\n\n\nDiagram about having the application in company's own cloud or in apigee cloud\n\n\nDownloadable pdf file about API deployment model\n\n\n3 expandable text boxes about achieving cloud scale, going global and api-first management\n\n\n\n\n\n\n\n\nPublish\n\n\n*   Heading: _Engage Developers Internally and Externally_\n\n\n\n\n\n\n\nYou could have the best APIs in the world, but what if no one used it?\n\n\n\n\n\n\nText about developer portals and picture of either reference or sample developer portals\n\n\n\n\nDownloadable e-book: \nDevelopers hate marketing\n\n\n3 expandable text boxes about interactive api documentation, self service and CMS\n\n\n\n\n\n\n\n\nAnalyze\n\n\n*   Heading: _Comprehensive Visibility with API Analytics_\n\n\n\n\n\n\n\nMeasure and analyze API traffic through automatic and continuous data collection\n\n\n\n\n\n\nAnimation about API analytics / visualization\n\n\n\n\nBulleted list of API analytics features (Performance, latency, and error analysis, App and developer adoption, Geo and device distribution, Custom reports and API analytics, One minute data aggregation)\n\n\nDownloadable analytics datasheet\n\n\nLink to a video about Apigee's approach to analytics\n\n\nanalytics being ready to use, metrics and analytics flexibility and availability of fine-grained analysis\n\n\n\n\n\n\n\n\nMonetize\n\n\n*   Heading: _Profit from the API Economy_\n\n\n\n\n\n\n\nInnovate and iterate on new business models with your APIs\n\n\n\n\n\n\nText about out-of-box pricing models\n\n\n\n\nDiagram about pricing models\n\n\nDownloadable pdf file about API monetization\n\n\n3 expandable text boxes about experimenting with monetization / business models, being able to bill globally and tracking usage limits\n\n\n\n\n\n\n\n\nCompare\n\n\n*   Heading: _Compare Apigee Edge Products_\n\n\n\n\n\n\n\nLaunch like a startup, scale like an enterprise\n\n\n\n\n\n\nDiagram and text presenting different versions of Edge\n\n\n\n\nLink to a comparison of features of different product versions\n\n\n3 expandable text boxes\n    *   Speed and simplicity (free trial), link to sign-up\n\n\n\n\n\nProven API management, link to online demo\n\n\nScales with your success, link to feature comparison\n\n\n\n\n\n\n\n\n\n\n\n\nScreenshot from the top section of the page:\n\n\n\n\n3scale\n\n\nThe 3scale \nfrontpage\n is divided into several sections, which you can reach by scrolling down (no separate navigation)\n\n\n\n\nHeader contains a horizontal navigation bar and links to search, login and support.\n\n\nTop of page contains a cover photo of traffic with the text _Take control of your API's. _There is also a button for creating a free account and on option to toggle between 4 cover photos with texts and action buttons.\n\n\nSecond section contains brief introductions about why should one select 3scale and how it works (plus links to these pages. It also contains information about access /pricing, performance and partners and links to relevant pages.\n\n\nThird section contains examples of partners, links to recent posts and events and a featured API.\n\n\nFourth section is a \"call-for-action\" section with a button for creating an account.\n\n\nFooter contains links to different parts of the homepage and to social media.\n\n\n\n\n\n\nWishlist for frontpage\n\n\nApinf homepage should contain the following elements:\n\n\n\n\nproduct logo: top left corner\n\n\nproduct name and mission statement: below logo\n\n\ncover photo: top of page\n\n\nLogin button and Register link: top right corner\n\n\nFeatures for both API users and API owners: below cover photo. The pics act either as links to relevant sections on a feature page or open pop-ups with further descriptions. (This depends also on the content of the following section.)\n\n\nDescription of functionality/offering with screenshot(s): below feature lists. This could be a dynamic images that change/slide automatically and that can alternatively be scrolled.\n\n\nButtons for potential next steps e.g. Register, Learn more: below feature description\n\n\nSocial media links: bottom left corner\n\n\nSign in link: bottom right corner\n\n\nJoin community link: bottom right corner. Link leads to Developer community page or equivalent.\n\n\n\n\nSee below for an initial idea of the page elements.", 
             "title": "APInf frontpage"
         }, 
         {
-            "location": "/organization/content/APInf frontpage/#apinf-frontpage", 
+            "location": "/organization/content/APInf_frontpage/#apinf-frontpage", 
             "text": "", 
             "title": "APInf frontpage"
         }, 
         {
-            "location": "/organization/content/APInf frontpage/#reference-sites", 
+            "location": "/organization/content/APInf_frontpage/#reference-sites", 
             "text": "Benchmarking the sites of API management products  Apigee Edge  The page dedicated to  Apigee Edge  presents all the features of Edge: designing, securing, scaling, publishing, visualisizing, monetizing and comparing API's. All features have their own section on the page, available from the sidebar.   What I liked:   diagrams of the product, particularly the one at the top of the page   make the page very visual and uncluttured  downloadable material (books and pdfs) that demonstrates their expertise on APIs  having separate sections for each feature  sidebar: easy access to all sections  Next steps: link to demo and sign-up   What I don't like   The page is too long  Link to demo and sign-up only at the bottom of the page, should be sooner  The video  Too many different visual elements or styles on the same page   cleaner style would appear more modern   Here are example of the content per feature:    Top of the page  *   Heading: _Intelligent API Management._    Manage, secure, scale and analyze your APIs with Apigee Edge    Contains an overall picture of Edge      Design   Develop  *   Heading: _Design and Develop Better APIs\u2026 Fast! _    Enable agile API development and maintain secure reliable back-end operations    Contains a diagram of API platform together with backend system and text about their relationship   3 expandable text boxes about modernizing APIs (e.g. SOAP to REST conversion), mobile-ready services and creating new services.     Security  *   Heading: _API Security at all Points of Engagement_    API and data security, threat protection, regulatory compliance   identity management    Contains a video about security and compliance and a list of supported technologies or policies   Downloadable e-book about API security  3 expandable text boxes about PCI and HIPAA compliance, cloud security and bot protection     Scale  *   Heading: _Deploy   Scale your APIs With Ease_    Cloud scale, global presence, centralized management    Text aboutb APIs needing to be available 24/7   Diagram about having the application in company's own cloud or in apigee cloud  Downloadable pdf file about API deployment model  3 expandable text boxes about achieving cloud scale, going global and api-first management     Publish  *   Heading: _Engage Developers Internally and Externally_    You could have the best APIs in the world, but what if no one used it?    Text about developer portals and picture of either reference or sample developer portals   Downloadable e-book:  Developers hate marketing  3 expandable text boxes about interactive api documentation, self service and CMS     Analyze  *   Heading: _Comprehensive Visibility with API Analytics_    Measure and analyze API traffic through automatic and continuous data collection    Animation about API analytics / visualization   Bulleted list of API analytics features (Performance, latency, and error analysis, App and developer adoption, Geo and device distribution, Custom reports and API analytics, One minute data aggregation)  Downloadable analytics datasheet  Link to a video about Apigee's approach to analytics  analytics being ready to use, metrics and analytics flexibility and availability of fine-grained analysis     Monetize  *   Heading: _Profit from the API Economy_    Innovate and iterate on new business models with your APIs    Text about out-of-box pricing models   Diagram about pricing models  Downloadable pdf file about API monetization  3 expandable text boxes about experimenting with monetization / business models, being able to bill globally and tracking usage limits     Compare  *   Heading: _Compare Apigee Edge Products_    Launch like a startup, scale like an enterprise    Diagram and text presenting different versions of Edge   Link to a comparison of features of different product versions  3 expandable text boxes     *   Speed and simplicity (free trial), link to sign-up   Proven API management, link to online demo  Scales with your success, link to feature comparison       Screenshot from the top section of the page:   3scale  The 3scale  frontpage  is divided into several sections, which you can reach by scrolling down (no separate navigation)   Header contains a horizontal navigation bar and links to search, login and support.  Top of page contains a cover photo of traffic with the text _Take control of your API's. _There is also a button for creating a free account and on option to toggle between 4 cover photos with texts and action buttons.  Second section contains brief introductions about why should one select 3scale and how it works (plus links to these pages. It also contains information about access /pricing, performance and partners and links to relevant pages.  Third section contains examples of partners, links to recent posts and events and a featured API.  Fourth section is a \"call-for-action\" section with a button for creating an account.  Footer contains links to different parts of the homepage and to social media.", 
             "title": "Reference sites"
         }, 
         {
-            "location": "/organization/content/APInf frontpage/#wishlist-for-frontpage", 
+            "location": "/organization/content/APInf_frontpage/#wishlist-for-frontpage", 
             "text": "Apinf homepage should contain the following elements:   product logo: top left corner  product name and mission statement: below logo  cover photo: top of page  Login button and Register link: top right corner  Features for both API users and API owners: below cover photo. The pics act either as links to relevant sections on a feature page or open pop-ups with further descriptions. (This depends also on the content of the following section.)  Description of functionality/offering with screenshot(s): below feature lists. This could be a dynamic images that change/slide automatically and that can alternatively be scrolled.  Buttons for potential next steps e.g. Register, Learn more: below feature description  Social media links: bottom left corner  Sign in link: bottom right corner  Join community link: bottom right corner. Link leads to Developer community page or equivalent.   See below for an initial idea of the page elements.", 
             "title": "Wishlist for frontpage"
         }, 
@@ -2796,519 +2846,644 @@
             "title": "Practices"
         }, 
         {
-            "location": "/research/API Community Resources/", 
+            "location": "/research/API_Community_Resources/", 
             "text": "API Community Resources\n\n\nAPI Suomi\n - hub for Finnish API community (all information in Finnish)\n\n\n\n\nwebpage: \nhttp://apisuomi.fi/\n\n\nPublic Facebook group: \nhttps://www.facebook.com/groups/apisuomi/\n\n\nTwitter: \nhttps://twitter.com/apisuomi", 
             "title": "API Community Resources"
         }, 
         {
-            "location": "/research/API Community Resources/#api-community-resources", 
+            "location": "/research/API_Community_Resources/#api-community-resources", 
             "text": "API Suomi  - hub for Finnish API community (all information in Finnish)   webpage:  http://apisuomi.fi/  Public Facebook group:  https://www.facebook.com/groups/apisuomi/  Twitter:  https://twitter.com/apisuomi", 
             "title": "API Community Resources"
         }, 
         {
-            "location": "/research/API Lifecycle/", 
+            "location": "/research/API_Lifecycle/", 
             "text": "API Lifecycle\n\n\nThis document describes common ideas and stages related to API Lifecycle Management.\n\n\nSee also: \nAPIOps\n \n\n\nLifecycle Stages\n\n\nDesign\n\n\nIn design stage, the API Owner and Developer consider the overall structure of the API. What information will be accessible? What access control will be provided? The design process also includes initial documentation, in standard formats.\n\nTasks and deliverables\n\n\n\n\nAPI description\n\n\nAPI diagram\n\n\nAPI business case\n\n\nStakeholder communication plan\n\n\n\n\nTools and Resources\n\n\nA Product Managers Guide to Cloud Integrations\n \n\n\nDesigning a Great Web API\n \n\n\nAPI Design Tools List\n \n\n\nDevelop\n\n\nThe development stage involves programming or extending software platforms to provide access to the application data. This can be done in any platform, programming language, etc., and is dependent on existing infrastructure.  The development process also includes revising of design documentation, to match the constraints of development.\n\nTasks and deliverables\n\n\n\n\nAPI specification document in machine format (e.g. RAML)\n\n\nAPI documentation file (e.g. Swagger)\n\n\nCustom software development \n\n\n\n\nDeploy\n\n\nDeployment inolves making the API accessible to the general public. This often falls under the jurisprudence of \nAPI Ops\n  professionals, who manage the infrastructure to ensure functionality, uptime, etc.\n\nTasks and deliverables\n\n\n\n\nAPI load balancer configuration\n\n\nProxy deployment and configuration\n\n\nAnalytics configuration (e.g. reporting)\n\n\n\n\nRevision\n\n\nAs new business and customer needs emerge, or as the data takes shape, it is often necessary to change the original design. This can be done in such a way that minimises disruption to existing customers, such as API versioning, deprecation notices, and backwards compatibility.\n\nTasks and deliverables\n\n\n\n\nUser needs assessment\n\n\nData service audit\n\n\nAPI revision planning\n\n\nUser notification\n\n\n\n\nRetire\n\n\nOnce the API has served its functional lifespan, it is time for it to be retired. This includes issuing retirement notices to existing customers, re-purposing infrastructure, and planning new business strategy.\n\nTasks and deliverables\n\n\n\n\nBusiness model document\n\n\nStakeholder communication document\n\n\n\n\nReferences\n\n\n\n\n3scale - \nPractical Advice For The Stages Of The API Lifecycle\n \n\n\nAkana Lifecycle Manager overview\n \n\n\napigee - \nAPI development lifecycle\n \n\n\nAPI Lifecycle is Critical for API Management Solutions\n \n\n\nDell Boomi \nAPI Management\n \n\n\nCA Technologies - \nAPI Lifecycle Management\n \n\n\nNordic APIs - \nThe Entire API Lifecycle\n \n\n\nWSO2 - \nManaging an API Lifecycle", 
             "title": "API Lifecycle"
         }, 
         {
-            "location": "/research/API Lifecycle/#api-lifecycle", 
+            "location": "/research/API_Lifecycle/#api-lifecycle", 
             "text": "This document describes common ideas and stages related to API Lifecycle Management.  See also:  APIOps", 
             "title": "API Lifecycle"
         }, 
         {
-            "location": "/research/API Lifecycle/#lifecycle-stages", 
+            "location": "/research/API_Lifecycle/#lifecycle-stages", 
             "text": "Design  In design stage, the API Owner and Developer consider the overall structure of the API. What information will be accessible? What access control will be provided? The design process also includes initial documentation, in standard formats. Tasks and deliverables   API description  API diagram  API business case  Stakeholder communication plan   Tools and Resources  A Product Managers Guide to Cloud Integrations    Designing a Great Web API    API Design Tools List    Develop  The development stage involves programming or extending software platforms to provide access to the application data. This can be done in any platform, programming language, etc., and is dependent on existing infrastructure.  The development process also includes revising of design documentation, to match the constraints of development. Tasks and deliverables   API specification document in machine format (e.g. RAML)  API documentation file (e.g. Swagger)  Custom software development    Deploy  Deployment inolves making the API accessible to the general public. This often falls under the jurisprudence of  API Ops   professionals, who manage the infrastructure to ensure functionality, uptime, etc. Tasks and deliverables   API load balancer configuration  Proxy deployment and configuration  Analytics configuration (e.g. reporting)   Revision  As new business and customer needs emerge, or as the data takes shape, it is often necessary to change the original design. This can be done in such a way that minimises disruption to existing customers, such as API versioning, deprecation notices, and backwards compatibility. Tasks and deliverables   User needs assessment  Data service audit  API revision planning  User notification   Retire  Once the API has served its functional lifespan, it is time for it to be retired. This includes issuing retirement notices to existing customers, re-purposing infrastructure, and planning new business strategy. Tasks and deliverables   Business model document  Stakeholder communication document", 
             "title": "Lifecycle Stages"
         }, 
         {
-            "location": "/research/API Lifecycle/#references", 
+            "location": "/research/API_Lifecycle/#references", 
             "text": "3scale -  Practical Advice For The Stages Of The API Lifecycle    Akana Lifecycle Manager overview    apigee -  API development lifecycle    API Lifecycle is Critical for API Management Solutions    Dell Boomi  API Management    CA Technologies -  API Lifecycle Management    Nordic APIs -  The Entire API Lifecycle    WSO2 -  Managing an API Lifecycle", 
             "title": "References"
         }, 
         {
-            "location": "/research/API Metadata Standards/", 
+            "location": "/research/API_Metadata_Standards/", 
             "text": "API Metadata Standards\n\n\nThis document outlines existing standards for API description metadata.\n\n\nDefinition\n\n\n\n\nMetadata is structured information that describes, explains, locates, or otherwise makes it easier to retrieve, use, or manage an information resource (NISO 2004, ISBN: 1-880124-62-9).\n\n\n\n\nGovernmental metadata standards\n\n\nAustralia\n\n\n\n\nAGLS Metadata Standard\n\n\n\n\nUnited States\n\n\n\n\nCommon Core Metadata Schema\n\n\nProject Open Data Metadata Schema\n\n\n\n\nCoalition metadata standards\n\n\nX-Road\n\n\nThe X-Road initiative has provided documentation about their API standards, such as:\n* \nX-Road v6.4 -tiedonsiirtoprotokolla\n\n\nInternational standards\n\n\n\n\nDublin Core", 
             "title": "API Metadata Standards"
         }, 
         {
-            "location": "/research/API Metadata Standards/#api-metadata-standards", 
+            "location": "/research/API_Metadata_Standards/#api-metadata-standards", 
             "text": "This document outlines existing standards for API description metadata.", 
             "title": "API Metadata Standards"
         }, 
         {
-            "location": "/research/API Metadata Standards/#definition", 
+            "location": "/research/API_Metadata_Standards/#definition", 
             "text": "Metadata is structured information that describes, explains, locates, or otherwise makes it easier to retrieve, use, or manage an information resource (NISO 2004, ISBN: 1-880124-62-9).", 
             "title": "Definition"
         }, 
         {
-            "location": "/research/API Metadata Standards/#governmental-metadata-standards", 
+            "location": "/research/API_Metadata_Standards/#governmental-metadata-standards", 
             "text": "", 
             "title": "Governmental metadata standards"
         }, 
         {
-            "location": "/research/API Metadata Standards/#australia", 
+            "location": "/research/API_Metadata_Standards/#australia", 
             "text": "AGLS Metadata Standard", 
             "title": "Australia"
         }, 
         {
-            "location": "/research/API Metadata Standards/#united-states", 
+            "location": "/research/API_Metadata_Standards/#united-states", 
             "text": "Common Core Metadata Schema  Project Open Data Metadata Schema", 
             "title": "United States"
         }, 
         {
-            "location": "/research/API Metadata Standards/#coalition-metadata-standards", 
+            "location": "/research/API_Metadata_Standards/#coalition-metadata-standards", 
             "text": "", 
             "title": "Coalition metadata standards"
         }, 
         {
-            "location": "/research/API Metadata Standards/#x-road", 
+            "location": "/research/API_Metadata_Standards/#x-road", 
             "text": "The X-Road initiative has provided documentation about their API standards, such as:\n*  X-Road v6.4 -tiedonsiirtoprotokolla", 
             "title": "X-Road"
         }, 
         {
-            "location": "/research/API Metadata Standards/#international-standards", 
+            "location": "/research/API_Metadata_Standards/#international-standards", 
             "text": "Dublin Core", 
             "title": "International standards"
         }, 
         {
-            "location": "/research/APIOps - Builder Backbone of Internet of Things/", 
-            "text": "Introduction\n\n\n[Lets coin the term APIOps now and start educating APIOps people in Finland]. Once this document is ready to meet our standards, lets push it to own domain for further development. We could easily create a handout from this]\n\n\nMcKinsey Global Institute\n estimates the potential economic impact of the Internet of Things to be $2.7 trillion to $6.2 trillion per year by 2025.  The GSM Association predicts that by 2020, there will be 24 billion connected devices, while Cisco\u2019s Internet of Everything prediction is 50 billion \u201cintelligent things,\u201d such as cars,  appliances, smartphones, tablets, monitoring sensors and more, connected  to the Internet. The rise of IoT depends on a whole host of enabling technologies like  RFID, IPv6, Big Data, and Application Programming Interfaces (APIs). Web APIs, or more specifically REST APIs, are key for connecting devices to the Internet.\n\n\n[DRAWING OF  CONNECTED THINGS - API IN THE MIDDLE]\n\n\nA large part of the interoperability, scale, and control for IoT can be achieved through \nAPI management\n.  Standards-based  design patterns for Web APIs, API management, and a  RESTful  architecture provide tremendous value in simplifying the task  of  interoperability across heterogeneous systems handling vast amounts  of  data. Since APIs have become ubiquitous, IoT deployments spanning a  wide  range of market segments can benefit from this proven  architecture.\n\n\n\"Companies focusing on enabling fast API development together with customers and nearby interest groups will rule the IoT\n. \"\n\n\nIndustrial Internet, Internet of Everything, Internet of Things (IoT) and Industrie 4.0 are the terms which are brought up more and more in articles and discussions when it comes to future and the visions for it. IoT is driven by the power and speed of \nAPIs\n. IoT is often discussed in the context of industry mostly because that is where it will first create biggest changes. However, to understand more clearly what IoT is we should take imagine what it could be in the everyday life of citizens. \n\n\nIn everyday life IoT can be rather simple things. For example your coffee maker is connected to your alarm clock and no matter what time up the alarm goes off, coffee is brewed. Your colleagues at work can be notified of your possible delay because of possible traffic jams on your way to office. Your home automation can shut the lights and adjust  temperature when everyone is away. According to Samsung in 2020, every device Samsung sells world wide will be connected to the Internet of Things. Since leading manufacturers of our digital devices have such goals, it is no wonder that Gartner predicts that there will be nearly 26 billion devices on the Internet of Things by 2020. Eventually it means that even our living room chairs are connected to IoT and exchange information with other devices. Our living room it self could be connected to tv and according to noise level adjust the volume to be just perfect. This also gives us opportunities to use surfaces as interfaces. For example we could use ordinary windows made of glass as email app interface. Or we could watch morning news from the mirror while brushing teeth.\n\n\n[DRAWING HERE ABOUT ONE COMMON EVERYDAY LIFE IOT EXAMPLE]\n\n\nInternational Organization for Standardization is well known and established standardization body and their definition of IoT is as follows: \n\n\n\n\n_\"An infrastructure of interconnected objects, people, systems and information resources together with intelligent services to allow them to process information of the physical and the virtual world and react.\" _\n\n\n\n\nJust  like DevOps can be seen as offspring or spinoff of Agile thinking,  APIOps can be seen to extend DevOps to fulfil the needs of Application  Interface and Internet of Things development (IoT).  Therefore I foresee clear need for APIOps, a new breed of DevOps to support creation and maintence of IoT driven ecosystem. \n\n\nPractitioners of APIOps principles and values are the builders of the future.  \n\n\nAPIOps manifesto\n\n\n\n\nAPIOps Values\n \u2013 APIOps values are effectively captured in      the Agile Manifesto. APIOps extends the \u201c\nPeople over Process over Tools\n,\u201d and urges API developer  +  system operator + 3\nrd\n party service developer collaboration.\n\n\nAPIOps Principles\n \u2013 APIOps at the conceptual level is based on Agile\u2019s and DevOps principles to focus on effective collaborative design, development and maintenance of APIs to enable extremely fast and flexible service design and development.\n\n\nAPIOps Methods\n \u2013 You can use Scrum with operations, Kanban with operations, etc. Provide methods to collaboratively design APIs for service development utilizing the principles of design first approach.\n\n\nAPIOps Practices\n \u2013 Provide low barrier access to reliable APIs, documentation supporting usage, sandboxes to test and build on top of, generated libraries and code examples for service developers. \n\n\nAPIOps Tools\n \u2013 Tools you\u2019d use in the commission of these principles. In the APIOps world there\u2019s a lot of  emerging tools and evolving standards in provisioning (docker, vagrant), design (RAML, API Blueprint, Swagger), API server code generation (\nDrakov\n ), generating OS specific libraries (\nAPIMATIC\n ), managing APIs (apinf.com, 3scale.com,) and many more.\n\n\n\n\nAPI design first development process\n\n\n\n\nJoint open design process\n\n\n[DRAWING OF PEOPLE DOING COOPERATION]\n\n\nAPI design first approach focuses on involving service and API developers and marketing to same process of co-creating API description. API description is a communication tool, it is not code, at best it is browser-based graphical userface in which all participants collaborate and contribute. Process involves 3rd party service developers into the development since they are endusers of APIs and know best the needs. Obviously the product owner of service utlizing APIs is involved. During the process all work together; sometimes intensively and occasionally there might be total silence. The  team uses f2f meetigns and online environments as well as instant messaging tools to communicate. In other words, there is no written rule or need to necessary to be all the time in the  space/room. This phase produces shared version controlled understanding of:\n\n\n\n\nAPI feautures\n\n\nAPI consumer needs\n\n\nMachine readable description of API or multiple APIs\n\n\n\n\nSpeed up development with code generation\n\n\nIn the  second phase APIOps (API developer) uses the machine readable  description file to configure code generation toolchain. Toolchain automatically generates both API server skeleton and client side development kits (SDK) for plethora of operating systems including mobile platforms such as iOS, Android, Windows. \n\n\nGenerating API server code kicks the development at fullspeed right from the start. API developer needs to adjust and finetune actual code a lot less compared to other approaches. The SDKs are important since they lower the barrier to utilize newly created APIs. Having top knotch API is nice, but widely utilized and liked API is golden. \n\n\nService Development Platform as online hub\n\n\nEventually API server code is launched at production server and attached to API management, which is part of Developer Portal (DP). DP enables service developers' easy access to APIs, API documentation, SDKs, code examples and community. In Developer Portal  API provider can limit the usage of APIs, see metrics and even retire entire API. In portal, API developers and consumers can exchange ideas and use documented comments as feedback for the next cycle which begins from the Joint open design process.  \n\n\nAll this should take plane inside planned roadmap and business plan. Internet of Things (IoT) is something  which in common terms connects devices to each other to exchange data.  IoT relies heavily on web APIs which in fact enable us to connect  services and objects with each other. Without reliable, easily  implemented backends and frontend support, new services build on top of  IoT, will not succeed. \n\n\nWhat can we do for you\n\n\nSolutions and services apinf \n Sampo Software can provide: \n\n\n\n\nUnderstanding and experties of API lifecycle and development\n\n\nFullstack API design process and browser based toolchain\n\n\nAgile APIs driven Service Development Platform\n\n\nAPIOps  as hired guns to speed up your IoT service development\n\n\nTop API management solution\n\n\nCommunity discussion platform: \nhttps://apiops.slack.com\n established - join now!", 
-            "title": "APIOps   Builder Backbone of Internet of Things"
+            "location": "/research/resources/", 
+            "text": "Resources\n\n\nhttp://www.apiacademy.co/\nhttp://apigee.com/about/resources\n\n\n\n\nAPI Management Tools: How to find the right one for you\n\n\nHow does Mashery make money? - Quora", 
+            "title": "Resources"
         }, 
         {
-            "location": "/research/APIOps - Builder Backbone of Internet of Things/#introduction", 
-            "text": "[Lets coin the term APIOps now and start educating APIOps people in Finland]. Once this document is ready to meet our standards, lets push it to own domain for further development. We could easily create a handout from this]  McKinsey Global Institute  estimates the potential economic impact of the Internet of Things to be $2.7 trillion to $6.2 trillion per year by 2025.  The GSM Association predicts that by 2020, there will be 24 billion connected devices, while Cisco\u2019s Internet of Everything prediction is 50 billion \u201cintelligent things,\u201d such as cars,  appliances, smartphones, tablets, monitoring sensors and more, connected  to the Internet. The rise of IoT depends on a whole host of enabling technologies like  RFID, IPv6, Big Data, and Application Programming Interfaces (APIs). Web APIs, or more specifically REST APIs, are key for connecting devices to the Internet.  [DRAWING OF  CONNECTED THINGS - API IN THE MIDDLE]  A large part of the interoperability, scale, and control for IoT can be achieved through  API management .  Standards-based  design patterns for Web APIs, API management, and a  RESTful  architecture provide tremendous value in simplifying the task  of  interoperability across heterogeneous systems handling vast amounts  of  data. Since APIs have become ubiquitous, IoT deployments spanning a  wide  range of market segments can benefit from this proven  architecture.  \"Companies focusing on enabling fast API development together with customers and nearby interest groups will rule the IoT . \"  Industrial Internet, Internet of Everything, Internet of Things (IoT) and Industrie 4.0 are the terms which are brought up more and more in articles and discussions when it comes to future and the visions for it. IoT is driven by the power and speed of  APIs . IoT is often discussed in the context of industry mostly because that is where it will first create biggest changes. However, to understand more clearly what IoT is we should take imagine what it could be in the everyday life of citizens.   In everyday life IoT can be rather simple things. For example your coffee maker is connected to your alarm clock and no matter what time up the alarm goes off, coffee is brewed. Your colleagues at work can be notified of your possible delay because of possible traffic jams on your way to office. Your home automation can shut the lights and adjust  temperature when everyone is away. According to Samsung in 2020, every device Samsung sells world wide will be connected to the Internet of Things. Since leading manufacturers of our digital devices have such goals, it is no wonder that Gartner predicts that there will be nearly 26 billion devices on the Internet of Things by 2020. Eventually it means that even our living room chairs are connected to IoT and exchange information with other devices. Our living room it self could be connected to tv and according to noise level adjust the volume to be just perfect. This also gives us opportunities to use surfaces as interfaces. For example we could use ordinary windows made of glass as email app interface. Or we could watch morning news from the mirror while brushing teeth.  [DRAWING HERE ABOUT ONE COMMON EVERYDAY LIFE IOT EXAMPLE]  International Organization for Standardization is well known and established standardization body and their definition of IoT is as follows:    _\"An infrastructure of interconnected objects, people, systems and information resources together with intelligent services to allow them to process information of the physical and the virtual world and react.\" _   Just  like DevOps can be seen as offspring or spinoff of Agile thinking,  APIOps can be seen to extend DevOps to fulfil the needs of Application  Interface and Internet of Things development (IoT).  Therefore I foresee clear need for APIOps, a new breed of DevOps to support creation and maintence of IoT driven ecosystem.   Practitioners of APIOps principles and values are the builders of the future.", 
-            "title": "Introduction"
+            "location": "/research/resources/#resources", 
+            "text": "http://www.apiacademy.co/\nhttp://apigee.com/about/resources   API Management Tools: How to find the right one for you  How does Mashery make money? - Quora", 
+            "title": "Resources"
         }, 
         {
-            "location": "/research/APIOps - Builder Backbone of Internet of Things/#apiops-manifesto", 
-            "text": "APIOps Values  \u2013 APIOps values are effectively captured in      the Agile Manifesto. APIOps extends the \u201c People over Process over Tools ,\u201d and urges API developer  +  system operator + 3 rd  party service developer collaboration.  APIOps Principles  \u2013 APIOps at the conceptual level is based on Agile\u2019s and DevOps principles to focus on effective collaborative design, development and maintenance of APIs to enable extremely fast and flexible service design and development.  APIOps Methods  \u2013 You can use Scrum with operations, Kanban with operations, etc. Provide methods to collaboratively design APIs for service development utilizing the principles of design first approach.  APIOps Practices  \u2013 Provide low barrier access to reliable APIs, documentation supporting usage, sandboxes to test and build on top of, generated libraries and code examples for service developers.   APIOps Tools  \u2013 Tools you\u2019d use in the commission of these principles. In the APIOps world there\u2019s a lot of  emerging tools and evolving standards in provisioning (docker, vagrant), design (RAML, API Blueprint, Swagger), API server code generation ( Drakov  ), generating OS specific libraries ( APIMATIC  ), managing APIs (apinf.com, 3scale.com,) and many more.", 
-            "title": "APIOps manifesto"
+            "location": "/research/api-management/audit-template/", 
+            "text": "Audit Template\n\n\nThis template is designed to provide a simple to use template when auditing the different products. You may want to look into following things:\n\n\nOverview\n\n\nGeneral background information about the product and the company behind it.\n\n\nCommon features\n\n\nDetermine whether a given solution supports common features, such as:\n\n\n\n\nAnalytics - visual display of API metrics, such as latency, number of requests, etc.\n\n\nAvailability - ensure API is running to meet SLAs, handle errors, offer fallback for failure\n\n\nCommunity - involving community members in the API planning and management process. E.g. roadmap. backlog, feedback\n\n\nDeployment - options for deploying and managing the platform. E.g. Docker, SaaS, etc.\n\n\nDocumentation - support for displaying and browsing API documentation\n\n\nLoad management - handle API traffic, including rate limiting and load balancing\n\n\nMonetization - support for financial streams, billing, and other API business models\n\n\nSandboxing - allow people to test the API endpoints without any additional software\n\n\nSecurity - support for authentication and authorization. E.g. sign-in, permissions, roles\n\n\nTesting - test API endpoints, data structure, etc. to make sure it conforms to expectations\n\n\nTransformation - ability to map, or transform, data between sources. E.g. rewrite request/response data.\n\n\n\n\nLicensing \n Openness\n\n\nHow is the product licensed?\nWhat price point does it fall into?\nIs the product open source?\nWhat are the tools for community involvement?\n\n\nType of product\n\n\nIs the product a proxy, agent or a hybrid? What can you find about the technology behind the manager?\n\n\nLifecycle management\n\n\nIs the tool only a manager or does it have features that cater for other parts of API lifecycle. How does it work? What other features does it have?\n\n\nProgramming languages / technologies\n\n\nWhich programming language(s) / technologies  does the product base on?\n\n\nUI\n\n\nIf possible provide a screenshot of the UI and some additional information about usability and design.\n\n\nStrengths\n\n\nWhat are the strengths of this particular product? What can we learn from this product?\n\n\nWeaknesses\n\n\nWhat features were not so good in the product?", 
+            "title": "Audit template"
         }, 
         {
-            "location": "/research/APIOps - Builder Backbone of Internet of Things/#api-design-first-development-process", 
-            "text": "Joint open design process  [DRAWING OF PEOPLE DOING COOPERATION]  API design first approach focuses on involving service and API developers and marketing to same process of co-creating API description. API description is a communication tool, it is not code, at best it is browser-based graphical userface in which all participants collaborate and contribute. Process involves 3rd party service developers into the development since they are endusers of APIs and know best the needs. Obviously the product owner of service utlizing APIs is involved. During the process all work together; sometimes intensively and occasionally there might be total silence. The  team uses f2f meetigns and online environments as well as instant messaging tools to communicate. In other words, there is no written rule or need to necessary to be all the time in the  space/room. This phase produces shared version controlled understanding of:   API feautures  API consumer needs  Machine readable description of API or multiple APIs   Speed up development with code generation  In the  second phase APIOps (API developer) uses the machine readable  description file to configure code generation toolchain. Toolchain automatically generates both API server skeleton and client side development kits (SDK) for plethora of operating systems including mobile platforms such as iOS, Android, Windows.   Generating API server code kicks the development at fullspeed right from the start. API developer needs to adjust and finetune actual code a lot less compared to other approaches. The SDKs are important since they lower the barrier to utilize newly created APIs. Having top knotch API is nice, but widely utilized and liked API is golden.   Service Development Platform as online hub  Eventually API server code is launched at production server and attached to API management, which is part of Developer Portal (DP). DP enables service developers' easy access to APIs, API documentation, SDKs, code examples and community. In Developer Portal  API provider can limit the usage of APIs, see metrics and even retire entire API. In portal, API developers and consumers can exchange ideas and use documented comments as feedback for the next cycle which begins from the Joint open design process.    All this should take plane inside planned roadmap and business plan. Internet of Things (IoT) is something  which in common terms connects devices to each other to exchange data.  IoT relies heavily on web APIs which in fact enable us to connect  services and objects with each other. Without reliable, easily  implemented backends and frontend support, new services build on top of  IoT, will not succeed.", 
-            "title": "API design first development process"
-        }, 
-        {
-            "location": "/research/APIOps - Builder Backbone of Internet of Things/#what-can-we-do-for-you", 
-            "text": "Solutions and services apinf   Sampo Software can provide:    Understanding and experties of API lifecycle and development  Fullstack API design process and browser based toolchain  Agile APIs driven Service Development Platform  APIOps  as hired guns to speed up your IoT service development  Top API management solution  Community discussion platform:  https://apiops.slack.com  established - join now!", 
-            "title": "What can we do for you"
-        }, 
-        {
-            "location": "/research/APIOps - builder backbone of IoT/", 
-            "text": "APISTRAT conference session \n\n\nhttp://austin2015.apistrat.com/call-for-papers\n\n\nTOPIC: APIOps \n APItalist \u2013 builder backbone of IoT \n\n\nIn  this session, one of the creators of above concept discusses the key  components and values. You will learn why your organizations should  apply APIOps practices and values to gain maximum from APIs driven  business whether it's IoT or something else. This new concept will lower the learning curve to utilize APIs, minimizes man-made errors, helps to mimize development risks and costs, and maximizes your API customer satisfaction. Presentation is a story of how this concept was build so far and what is to come. \n\n\nFast API development together with customers\n\n\nWeb APIs, or more specifically REST APIs, are key for connecting devices to the Internet. Companies focusing on enabling fast API development together with customers and nearby interest groups will rule the IoT. \n\n\nAPIOps can be seen to extend DevOps\n\n\nJust like DevOps can be seen as offspring or spinoff of Agile thinking, APIOps can be seen to extend DevOps to fulfil the needs of Application Interface and Internet of Things development (IoT). \n\n\nTogether APIOps and APItalist are winning combination\n\n\nTogether APIOps and APItalist are winning combination. APIOps alone does not do the trick. They are highly talented and trained API tech experts. They need the help of APItalist - the talent to create business plans and API-strategies. APItalist is the engine to create value. \n\n\nTherefore we - APIOps community - foresee clear need for APIOps, a new breed of DevOps to support creation and maintenance of IoT driven ecosystem. Community is building around \nlocal APIops groups\n, which organize meetups. In addition we have initiated discussion to start APIOps and APItalist training in universities of applied sciences.", 
-            "title": "APIOps   builder backbone of IoT"
-        }, 
-        {
-            "location": "/research/Audit API design and management tools/", 
-            "text": "Audit API design and management tools\n\n\nThe idea of this document is to provide information about different API design and management tools.\n\n\nAudit Template\n\n\nThis template is designed to provide a simple to use template when auditing the different products. You may want to look into following things:\n\n\nOverview\n\n\nGeneral background information about the product and the company behind it.\n\n\nCommon features\n\n\nDetermine whether a given solution supports common features, such as:\n\n\n\n\nAnalytics - visual display of API metrics, such as latency, number of requests, etc.\n\n\nAvailability - ensure API is running to meet SLAs, handle errors, offer fallback for failure \n\n\nCommunity - involving community members in the API planning and management process. E.g. roadmap. backlog, feedback\n\n\nDeployment - options for deploying and managing the platform. E.g. Docker, SaaS, etc.\n\n\nDocumentation - support for displaying and browsing API documentation\n\n\nLoad management - handle API traffic, including rate limiting and load balancing\n\n\nMonetization - support for financial streams, billing, and other API business models\n\n\nSandboxing - allow people to test the API endpoints without any additional software\n\n\nSecurity - support for authentication and authorization. E.g. sign-in, permissions, roles\n\n\nTransformation - ability to map, or transform, data between sources. E.g. rewrite request/response data.\n\n\n\n\nLicensing \n Openness\n\n\nHow is the product licensed? \nWhat price point does it fall into? \nIs the product open source?\nWhat are the tools for community involvement?\n\n\nType of product\n\n\nIs the product a proxy, agent or a hybrid? What can you find about the technology behind the manager?\n\n\nLifecycle management\n\n\nIs the tool only a manager or does it have features that cater for other parts of API lifecycle. How does it work? What other features does it have? \n\n\nProgramming languages / technologies\n\n\nWhich programming language(s) / technologies  does the product base on? \n\n\nUI\n\n\nIf possible provide a screenshot of the UI and some additional information about usability and design.\n\n\nStrengths\n\n\nWhat are the strengths of this particular product? What can we learn from this product?\n\n\nWeaknesses\n\n\nWhat features were not so good in the product? \n\n\nSolutions\n\n\n3scale\n\n\n\n\nPricing\n\n\n\n\nAPI Blueprint\n\n\nFormat/specification and tools for API design, documentation, and development.\n\n\nWebsite\n\n\nApigee\n\n\nOverview\n\n\nApigee is one of the most popular API platforms used currently. Apigee provides the free Developer environment (\ndeveloper.apigee.com\n )  and then the commercial environment. The differences can be found on the \nfeature comparison list\nhttp://apigee.com/docs/developer-vs-edge\n\n\nLicensing \n Openness\n\n\nMostly commercial, partially open. According to developers.apigee.com  \"\nApigee contributes several open source projects and tools including  apigee-127, Volos NPMs, Apache Usergrid, SDKs, and many other tools and utilities for API deployment and documentation\n. \"\n\n\nType\n\n\nApigee provides a proxy environment.\n\n\nLifecycle management\n\n\nLanguage\n\n\nI couldn't find what programming language Apigee bases on.\n\n\nUI\n\n\nScreenshot of their dashboard and the traffic statistics.\n\n\n\nStrengths\n\n\n\n\nApigee's monitoring tools are really powerful and well made.\n\n\n\n\nWeaknesses\n\n\n\n\nVery unclear technical documentation. Pricing is also very unclear.\n\n\n\n\nApiAxle\n\n\nWebsite\n\n\nDocumentation\n\n\nSourcecode\n\n\nAxway\n\n\nProprietery engagement platform with \nAPI Management\n component.\n\n\nAkana\n\n\nCA Layer7\n\n\nKong (Mashape)\n\n\n\n\nWebsite\n\n\nSourcecode\n\n\n\n\nOverview\n\n\nSecure, Manage \n Extend your APIs and Microservices\nThe open-source management layer for APIs, delivering high performance and reliability.\n\n\n\n\nFeatures\n\n\nDetermine whether a given solution supports common features, such as:\n\n\nPlugins\n\n- Analytics - Plugins (Galileo), Logging\n- Availability - Failure Detection \n Recovery\n- Community - Gelato\n- Deployment - Cloud, on-premise, hybrid (Docker, ...)\n- Documentation - Gelato\n- Load management - Traffic Control (Rate Limiting,...)\n- Monetization - ?\n- Sandboxing - ?\n- Security - Security (ACL, CORS,...)\n- Transformation - Request, Response transformations and Correlation ID\n\n\nLicensing \n Openness\n\n\nApache License 2.0\n\n\nCommunity involvement\n\n\nKong has \nmultiple channels for community engagement\n. In addition, there are many \ncommunity resources and tools\n\n\nType of product\n\n\nAPI Proxy\n\n\nLifecycle management\n\n\nDesigned as a proxy for existing API backends. Offers tools for the management lifecycle stage.\n\n\nProgramming languages / technologies\n\n\n\n\nLua language sourcecode\n\n\n\n\nUI\n\n\nhttps://www.mashape.com/assets/images/home/galileo/screenshot-1x.png\n\n\n3rd party packages https://github.com/PGBI/kong-dashboard\nhttps://raw.githubusercontent.com/PGBI/kong-dashboard/master/screenshots/apis_list.jpg\n\n\nStrengths\n\n\nPlugin architecture\n\n\nWeaknesses\n\n\nNot fully open source, some plugins are commercial. E.g. visual analytics requires commercial subscription.\n\n\nMuleSoft Anypoint\n\n\nOverview\n\n\nMulesofts product Anypoint offers a manager that enables to manage users, traffic, SLAs, and secure the APIs.\n\n\nLicensing \n Openness\n\n\nCommercial. Target audience enterprises.\n\n\nType\n\n\nLifecycle management\n\n\nProgramming languages / technologies\n\n\nUI\n\n\n\n\nStrengths\n\n\nWeaknesses\n\n\nIBM API Management\n\n\nOpenRepose\n\n\nWebsite\n\n\nOracle SOA\n\n\nMashery API Management\n\n\nhttp://www.mashery.com/api-management\n\n\nOverview\n\n\nThe complete SaaS-based API Management solution deployed any way you want it: in the cloud, on-premise or hybrid.\nMashery is based in the US.\nTibco and Mashery merged recently.\n\n\nFeatures\n\n\nDetermine whether a given solution supports common features, such as:\n\n\n\n\nAnalytics - API Analytics\n\n\nAvailability - API Traffic\n\n\nCommunity - API Portal\n\n\nDeployment - Cloud and Local\n\n\nDocumentation - API Portal\n\n\nLoad management - API Traffic\n\n\nMonetization - ?\n\n\nSandboxing - API Packager\n\n\nSecurity - API Security\n\n\nTransformation - ?\n\n\n\n\nLicensing \n Openness\n\n\nCommercial license costs 99$/m (difficult to find price model)\n\n\n\nNo open source offering.\n\n\nCommunity involvement\nhttp://developer.mashery.com/\nThe Mashery API Network allows you to register once and gain access to 40+ Mashery-powered APIs with a single sign-on.\n\n\nType of product\n\n\nProxy\nhttp://www.developereconomics.com/api-management-tools-how-to-find-the-one-for-you/\n\n\nLifecycle management\n\n\nIs  the tool only a manager or does it have features that cater for other  parts of API lifecycle. How does it work? What other features does it  have? \n\n\nProgramming languages / technologies\n\n\nWhich programming language(s) / technologies  does the product base on? \n\n\nUI\n\n\nhttp://support.mashery.com/files/method_drill_down_screenshot.jpg\n\n\nStrengths\n\n\n\n\nInventor of API Management\n\n\nFirst cloud-based \n multitenant\n\n\nFull deployment flexibility\n\n\nFirst PCI-compliant platform\n\n\n\n\nWeaknesses\n\n\nDifficult to find out the Unique Selling Proposition (i.e. what they offer).\nNo screenshots. No clear pricing model.\n\n\nMashery API Power Tools\n\n\n\n\nOpen-source documentation and SDK generator\n\n\nAPI Catalog\n\n\n\n\nMicrosoft\u2019s Azure API Management\n\n\nWSO2\n\n\nOverview\n\n\nhttp://wso2.com/cloud/api-cloud/\nhttp://wso2.com/products/api-manager/\n\n\nOffers a portfolio of products around API management, analytics, IoT, machine learning, etc.\n\nsourcecode\n  \n\n\n\n\nThe platform is made up of over 20 products covering all major  categories from integration and API management to identity and  analytics.\n\n\n\n\nFeatures\n\n\nDetermine whether a given solution supports common features, such as:\n\n\n\n\nAnalytics - integrates with the WSO2 analytics platform, and provides out of the box reports and alerts, giving you instant insight into APIs behavior.\n\n\nAvailability - \n\n\nCommunity - Developer Portal\n\n\n 5,000 questions on Stack Overflow\n\n\nDeployment -  public, private clouds, and hybrid implementations - Easily Deployable in Your Enterprise\n\n\nDocumentation - APIs can be documented, tagged, categorized, and tested right from the store itself\n\n\nLoad management - Manage and scale API Traffic\n\n\nMonetization - Monitor and Monetize\n\n\nSandboxing - Publish APIs and Govern API Use\n\n\nSecurity - Control Access and Enforce Security\n\n\nTransformation - ?\n\n\n\n\nLicensing \n Openness\n\n\n100% open source\nApache License 2.0\n\n\nCommunity involvement\nhttps://docs.wso2.com/display/AM1100/Getting+Started\n\n\nOpen Process\nhttps://github.com/wso2/product-apim/tree/master/design-docs\n\n\nSaaS offering\nFrom 100$ (starter) to 10 000$ (extra-large)\n\n\nType of product\n\n\n?\nProbably proxy or hybrid\n\n\nLifecycle management\n\n\nDesign and Prototype APIs\nImport Swagger 2.0 definition\n\n\nProgramming languages / technologies\n\n\nJava based.\n\n\nUI\n\n\n\nPluggable, Extensible, and Themeable\n\n\nStrengths\n\n\nFull open source, open development.\nBig community, mature company backing the product.\n\n\nWeaknesses\n\n\nAnalytics are fragmented across multiple screens.\nJava.\n\n\nLocated in US\nDocker image\nhttp://wso2.com/products/api-manager/\nhttps://github.com/wso2/product-apim\n\n\nNode Red\n\n\nGraphical data-flow modeler.\n\n\nWebsite\n\n\nResources\n\n\nhttp://www.apiacademy.co/\nhttp://apigee.com/about/resources\n\n\nReferences\n\n\n\n\nAPI Management Tools: How to find the right one for you\n\n\nHow does Mashery make money? - Quora", 
-            "title": "Audit API design and management tools"
-        }, 
-        {
-            "location": "/research/Audit API design and management tools/#audit-api-design-and-management-tools", 
-            "text": "The idea of this document is to provide information about different API design and management tools.", 
-            "title": "Audit API design and management tools"
-        }, 
-        {
-            "location": "/research/Audit API design and management tools/#audit-template", 
+            "location": "/research/api-management/audit-template/#audit-template", 
             "text": "This template is designed to provide a simple to use template when auditing the different products. You may want to look into following things:", 
             "title": "Audit Template"
         }, 
         {
-            "location": "/research/Audit API design and management tools/#overview", 
+            "location": "/research/api-management/audit-template/#overview", 
             "text": "General background information about the product and the company behind it.", 
             "title": "Overview"
         }, 
         {
-            "location": "/research/Audit API design and management tools/#common-features", 
-            "text": "Determine whether a given solution supports common features, such as:   Analytics - visual display of API metrics, such as latency, number of requests, etc.  Availability - ensure API is running to meet SLAs, handle errors, offer fallback for failure   Community - involving community members in the API planning and management process. E.g. roadmap. backlog, feedback  Deployment - options for deploying and managing the platform. E.g. Docker, SaaS, etc.  Documentation - support for displaying and browsing API documentation  Load management - handle API traffic, including rate limiting and load balancing  Monetization - support for financial streams, billing, and other API business models  Sandboxing - allow people to test the API endpoints without any additional software  Security - support for authentication and authorization. E.g. sign-in, permissions, roles  Transformation - ability to map, or transform, data between sources. E.g. rewrite request/response data.", 
+            "location": "/research/api-management/audit-template/#common-features", 
+            "text": "Determine whether a given solution supports common features, such as:   Analytics - visual display of API metrics, such as latency, number of requests, etc.  Availability - ensure API is running to meet SLAs, handle errors, offer fallback for failure  Community - involving community members in the API planning and management process. E.g. roadmap. backlog, feedback  Deployment - options for deploying and managing the platform. E.g. Docker, SaaS, etc.  Documentation - support for displaying and browsing API documentation  Load management - handle API traffic, including rate limiting and load balancing  Monetization - support for financial streams, billing, and other API business models  Sandboxing - allow people to test the API endpoints without any additional software  Security - support for authentication and authorization. E.g. sign-in, permissions, roles  Testing - test API endpoints, data structure, etc. to make sure it conforms to expectations  Transformation - ability to map, or transform, data between sources. E.g. rewrite request/response data.", 
             "title": "Common features"
         }, 
         {
-            "location": "/research/Audit API design and management tools/#licensing-openness", 
-            "text": "How is the product licensed? \nWhat price point does it fall into? \nIs the product open source?\nWhat are the tools for community involvement?", 
+            "location": "/research/api-management/audit-template/#licensing-openness", 
+            "text": "How is the product licensed?\nWhat price point does it fall into?\nIs the product open source?\nWhat are the tools for community involvement?", 
             "title": "Licensing &amp; Openness"
         }, 
         {
-            "location": "/research/Audit API design and management tools/#type-of-product", 
+            "location": "/research/api-management/audit-template/#type-of-product", 
             "text": "Is the product a proxy, agent or a hybrid? What can you find about the technology behind the manager?", 
             "title": "Type of product"
         }, 
         {
-            "location": "/research/Audit API design and management tools/#lifecycle-management", 
+            "location": "/research/api-management/audit-template/#lifecycle-management", 
             "text": "Is the tool only a manager or does it have features that cater for other parts of API lifecycle. How does it work? What other features does it have?", 
             "title": "Lifecycle management"
         }, 
         {
-            "location": "/research/Audit API design and management tools/#programming-languages-technologies", 
+            "location": "/research/api-management/audit-template/#programming-languages-technologies", 
             "text": "Which programming language(s) / technologies  does the product base on?", 
             "title": "Programming languages / technologies"
         }, 
         {
-            "location": "/research/Audit API design and management tools/#ui", 
+            "location": "/research/api-management/audit-template/#ui", 
             "text": "If possible provide a screenshot of the UI and some additional information about usability and design.", 
             "title": "UI"
         }, 
         {
-            "location": "/research/Audit API design and management tools/#strengths", 
+            "location": "/research/api-management/audit-template/#strengths", 
             "text": "What are the strengths of this particular product? What can we learn from this product?", 
             "title": "Strengths"
         }, 
         {
-            "location": "/research/Audit API design and management tools/#weaknesses", 
+            "location": "/research/api-management/audit-template/#weaknesses", 
             "text": "What features were not so good in the product?", 
             "title": "Weaknesses"
         }, 
         {
-            "location": "/research/Audit API design and management tools/#solutions", 
-            "text": "", 
-            "title": "Solutions"
+            "location": "/research/api-management-tools/3scale/", 
+            "text": "3scale\n\n\n\n\nPricing", 
+            "title": "3scale"
         }, 
         {
-            "location": "/research/Audit API design and management tools/#3scale", 
+            "location": "/research/api-management-tools/3scale/#3scale", 
             "text": "Pricing", 
             "title": "3scale"
         }, 
         {
-            "location": "/research/Audit API design and management tools/#api-blueprint", 
-            "text": "Format/specification and tools for API design, documentation, and development.  Website", 
-            "title": "API Blueprint"
+            "location": "/research/api-management-tools/_audit-template/", 
+            "text": "Audit Template\n\n\nThis template is designed to provide a simple to use template when auditing the different products. You may want to look into following things:\n\n\nOverview\n\n\nGeneral background information about the product and the company behind it.\n\n\nCommon features\n\n\nDetermine whether a given solution supports common features, such as:\n\n\n\n\nAnalytics - visual display of API metrics, such as latency, number of requests, etc.\n\n\nAvailability - ensure API is running to meet SLAs, handle errors, offer fallback for failure\n\n\nCommunity - involving community members in the API planning and management process. E.g. roadmap. backlog, feedback\n\n\nDeployment - options for deploying and managing the platform. E.g. Docker, SaaS, etc.\n\n\nDocumentation - support for displaying and browsing API documentation\n\n\nLoad management - handle API traffic, including rate limiting and load balancing\n\n\nMonetization - support for financial streams, billing, and other API business models\n\n\nSandboxing - allow people to test the API endpoints without any additional software\n\n\nSecurity - support for authentication and authorization. E.g. sign-in, permissions, roles\n\n\nTesting - test API endpoints, data structure, etc. to make sure it conforms to expectations\n\n\nTransformation - ability to map, or transform, data between sources. E.g. rewrite request/response data.\n\n\n\n\nLicensing \n Openness\n\n\nHow is the product licensed?\nWhat price point does it fall into?\nIs the product open source?\nWhat are the tools for community involvement?\n\n\nType of product\n\n\nIs the product a proxy, agent or a hybrid? What can you find about the technology behind the manager?\n\n\nLifecycle management\n\n\nIs the tool only a manager or does it have features that cater for other parts of API lifecycle. How does it work? What other features does it have?\n\n\nProgramming languages / technologies\n\n\nWhich programming language(s) / technologies  does the product base on?\n\n\nUI\n\n\nIf possible provide a screenshot of the UI and some additional information about usability and design.\n\n\nStrengths\n\n\nWhat are the strengths of this particular product? What can we learn from this product?\n\n\nWeaknesses\n\n\nWhat features were not so good in the product?", 
+            "title": " audit template"
         }, 
         {
-            "location": "/research/Audit API design and management tools/#apigee", 
-            "text": "", 
-            "title": "Apigee"
+            "location": "/research/api-management-tools/_audit-template/#audit-template", 
+            "text": "This template is designed to provide a simple to use template when auditing the different products. You may want to look into following things:", 
+            "title": "Audit Template"
         }, 
         {
-            "location": "/research/Audit API design and management tools/#overview_1", 
-            "text": "Apigee is one of the most popular API platforms used currently. Apigee provides the free Developer environment ( developer.apigee.com  )  and then the commercial environment. The differences can be found on the  feature comparison list http://apigee.com/docs/developer-vs-edge", 
+            "location": "/research/api-management-tools/_audit-template/#overview", 
+            "text": "General background information about the product and the company behind it.", 
             "title": "Overview"
         }, 
         {
-            "location": "/research/Audit API design and management tools/#licensing-openness_1", 
-            "text": "Mostly commercial, partially open. According to developers.apigee.com  \" Apigee contributes several open source projects and tools including  apigee-127, Volos NPMs, Apache Usergrid, SDKs, and many other tools and utilities for API deployment and documentation . \"", 
+            "location": "/research/api-management-tools/_audit-template/#common-features", 
+            "text": "Determine whether a given solution supports common features, such as:   Analytics - visual display of API metrics, such as latency, number of requests, etc.  Availability - ensure API is running to meet SLAs, handle errors, offer fallback for failure  Community - involving community members in the API planning and management process. E.g. roadmap. backlog, feedback  Deployment - options for deploying and managing the platform. E.g. Docker, SaaS, etc.  Documentation - support for displaying and browsing API documentation  Load management - handle API traffic, including rate limiting and load balancing  Monetization - support for financial streams, billing, and other API business models  Sandboxing - allow people to test the API endpoints without any additional software  Security - support for authentication and authorization. E.g. sign-in, permissions, roles  Testing - test API endpoints, data structure, etc. to make sure it conforms to expectations  Transformation - ability to map, or transform, data between sources. E.g. rewrite request/response data.", 
+            "title": "Common features"
+        }, 
+        {
+            "location": "/research/api-management-tools/_audit-template/#licensing-openness", 
+            "text": "How is the product licensed?\nWhat price point does it fall into?\nIs the product open source?\nWhat are the tools for community involvement?", 
             "title": "Licensing &amp; Openness"
         }, 
         {
-            "location": "/research/Audit API design and management tools/#type", 
-            "text": "Apigee provides a proxy environment.", 
-            "title": "Type"
-        }, 
-        {
-            "location": "/research/Audit API design and management tools/#lifecycle-management_1", 
-            "text": "", 
-            "title": "Lifecycle management"
-        }, 
-        {
-            "location": "/research/Audit API design and management tools/#language", 
-            "text": "I couldn't find what programming language Apigee bases on.", 
-            "title": "Language"
-        }, 
-        {
-            "location": "/research/Audit API design and management tools/#ui_1", 
-            "text": "Screenshot of their dashboard and the traffic statistics.", 
-            "title": "UI"
-        }, 
-        {
-            "location": "/research/Audit API design and management tools/#strengths_1", 
-            "text": "Apigee's monitoring tools are really powerful and well made.", 
-            "title": "Strengths"
-        }, 
-        {
-            "location": "/research/Audit API design and management tools/#weaknesses_1", 
-            "text": "Very unclear technical documentation. Pricing is also very unclear.", 
-            "title": "Weaknesses"
-        }, 
-        {
-            "location": "/research/Audit API design and management tools/#apiaxle", 
-            "text": "Website  Documentation  Sourcecode", 
-            "title": "ApiAxle"
-        }, 
-        {
-            "location": "/research/Audit API design and management tools/#axway", 
-            "text": "Proprietery engagement platform with  API Management  component.", 
-            "title": "Axway"
-        }, 
-        {
-            "location": "/research/Audit API design and management tools/#akana", 
-            "text": "", 
-            "title": "Akana"
-        }, 
-        {
-            "location": "/research/Audit API design and management tools/#ca-layer7", 
-            "text": "", 
-            "title": "CA Layer7"
-        }, 
-        {
-            "location": "/research/Audit API design and management tools/#kong-mashape", 
-            "text": "Website  Sourcecode", 
-            "title": "Kong (Mashape)"
-        }, 
-        {
-            "location": "/research/Audit API design and management tools/#overview_2", 
-            "text": "Secure, Manage   Extend your APIs and Microservices\nThe open-source management layer for APIs, delivering high performance and reliability.", 
-            "title": "Overview"
-        }, 
-        {
-            "location": "/research/Audit API design and management tools/#features", 
-            "text": "Determine whether a given solution supports common features, such as:  Plugins \n- Analytics - Plugins (Galileo), Logging\n- Availability - Failure Detection   Recovery\n- Community - Gelato\n- Deployment - Cloud, on-premise, hybrid (Docker, ...)\n- Documentation - Gelato\n- Load management - Traffic Control (Rate Limiting,...)\n- Monetization - ?\n- Sandboxing - ?\n- Security - Security (ACL, CORS,...)\n- Transformation - Request, Response transformations and Correlation ID", 
-            "title": "Features"
-        }, 
-        {
-            "location": "/research/Audit API design and management tools/#licensing-openness_2", 
-            "text": "Apache License 2.0", 
-            "title": "Licensing &amp; Openness"
-        }, 
-        {
-            "location": "/research/Audit API design and management tools/#community-involvement", 
-            "text": "Kong has  multiple channels for community engagement . In addition, there are many  community resources and tools", 
-            "title": "Community involvement"
-        }, 
-        {
-            "location": "/research/Audit API design and management tools/#type-of-product_1", 
-            "text": "API Proxy", 
+            "location": "/research/api-management-tools/_audit-template/#type-of-product", 
+            "text": "Is the product a proxy, agent or a hybrid? What can you find about the technology behind the manager?", 
             "title": "Type of product"
         }, 
         {
-            "location": "/research/Audit API design and management tools/#lifecycle-management_2", 
-            "text": "Designed as a proxy for existing API backends. Offers tools for the management lifecycle stage.", 
+            "location": "/research/api-management-tools/_audit-template/#lifecycle-management", 
+            "text": "Is the tool only a manager or does it have features that cater for other parts of API lifecycle. How does it work? What other features does it have?", 
             "title": "Lifecycle management"
         }, 
         {
-            "location": "/research/Audit API design and management tools/#programming-languages-technologies_1", 
-            "text": "Lua language sourcecode", 
-            "title": "Programming languages / technologies"
-        }, 
-        {
-            "location": "/research/Audit API design and management tools/#ui_2", 
-            "text": "https://www.mashape.com/assets/images/home/galileo/screenshot-1x.png  3rd party packages https://github.com/PGBI/kong-dashboard\nhttps://raw.githubusercontent.com/PGBI/kong-dashboard/master/screenshots/apis_list.jpg", 
-            "title": "UI"
-        }, 
-        {
-            "location": "/research/Audit API design and management tools/#strengths_2", 
-            "text": "Plugin architecture", 
-            "title": "Strengths"
-        }, 
-        {
-            "location": "/research/Audit API design and management tools/#weaknesses_2", 
-            "text": "Not fully open source, some plugins are commercial. E.g. visual analytics requires commercial subscription.", 
-            "title": "Weaknesses"
-        }, 
-        {
-            "location": "/research/Audit API design and management tools/#mulesoft-anypoint", 
-            "text": "", 
-            "title": "MuleSoft Anypoint"
-        }, 
-        {
-            "location": "/research/Audit API design and management tools/#overview_3", 
-            "text": "Mulesofts product Anypoint offers a manager that enables to manage users, traffic, SLAs, and secure the APIs.", 
-            "title": "Overview"
-        }, 
-        {
-            "location": "/research/Audit API design and management tools/#licensing-openness_3", 
-            "text": "Commercial. Target audience enterprises.", 
-            "title": "Licensing &amp; Openness"
-        }, 
-        {
-            "location": "/research/Audit API design and management tools/#type_1", 
-            "text": "", 
-            "title": "Type"
-        }, 
-        {
-            "location": "/research/Audit API design and management tools/#lifecycle-management_3", 
-            "text": "", 
-            "title": "Lifecycle management"
-        }, 
-        {
-            "location": "/research/Audit API design and management tools/#programming-languages-technologies_2", 
-            "text": "", 
-            "title": "Programming languages / technologies"
-        }, 
-        {
-            "location": "/research/Audit API design and management tools/#ui_3", 
-            "text": "", 
-            "title": "UI"
-        }, 
-        {
-            "location": "/research/Audit API design and management tools/#strengths_3", 
-            "text": "", 
-            "title": "Strengths"
-        }, 
-        {
-            "location": "/research/Audit API design and management tools/#weaknesses_3", 
-            "text": "", 
-            "title": "Weaknesses"
-        }, 
-        {
-            "location": "/research/Audit API design and management tools/#ibm-api-management", 
-            "text": "", 
-            "title": "IBM API Management"
-        }, 
-        {
-            "location": "/research/Audit API design and management tools/#openrepose", 
-            "text": "Website", 
-            "title": "OpenRepose"
-        }, 
-        {
-            "location": "/research/Audit API design and management tools/#oracle-soa", 
-            "text": "", 
-            "title": "Oracle SOA"
-        }, 
-        {
-            "location": "/research/Audit API design and management tools/#mashery-api-management", 
-            "text": "http://www.mashery.com/api-management", 
-            "title": "Mashery API Management"
-        }, 
-        {
-            "location": "/research/Audit API design and management tools/#overview_4", 
-            "text": "The complete SaaS-based API Management solution deployed any way you want it: in the cloud, on-premise or hybrid.\nMashery is based in the US.\nTibco and Mashery merged recently.", 
-            "title": "Overview"
-        }, 
-        {
-            "location": "/research/Audit API design and management tools/#features_1", 
-            "text": "Determine whether a given solution supports common features, such as:   Analytics - API Analytics  Availability - API Traffic  Community - API Portal  Deployment - Cloud and Local  Documentation - API Portal  Load management - API Traffic  Monetization - ?  Sandboxing - API Packager  Security - API Security  Transformation - ?", 
-            "title": "Features"
-        }, 
-        {
-            "location": "/research/Audit API design and management tools/#licensing-openness_4", 
-            "text": "Commercial license costs 99$/m (difficult to find price model)  No open source offering.  Community involvement\nhttp://developer.mashery.com/\nThe Mashery API Network allows you to register once and gain access to 40+ Mashery-powered APIs with a single sign-on.", 
-            "title": "Licensing &amp; Openness"
-        }, 
-        {
-            "location": "/research/Audit API design and management tools/#type-of-product_2", 
-            "text": "Proxy\nhttp://www.developereconomics.com/api-management-tools-how-to-find-the-one-for-you/", 
-            "title": "Type of product"
-        }, 
-        {
-            "location": "/research/Audit API design and management tools/#lifecycle-management_4", 
-            "text": "Is  the tool only a manager or does it have features that cater for other  parts of API lifecycle. How does it work? What other features does it  have?", 
-            "title": "Lifecycle management"
-        }, 
-        {
-            "location": "/research/Audit API design and management tools/#programming-languages-technologies_3", 
+            "location": "/research/api-management-tools/_audit-template/#programming-languages-technologies", 
             "text": "Which programming language(s) / technologies  does the product base on?", 
             "title": "Programming languages / technologies"
         }, 
         {
-            "location": "/research/Audit API design and management tools/#ui_4", 
-            "text": "http://support.mashery.com/files/method_drill_down_screenshot.jpg", 
+            "location": "/research/api-management-tools/_audit-template/#ui", 
+            "text": "If possible provide a screenshot of the UI and some additional information about usability and design.", 
             "title": "UI"
         }, 
         {
-            "location": "/research/Audit API design and management tools/#strengths_4", 
-            "text": "Inventor of API Management  First cloud-based   multitenant  Full deployment flexibility  First PCI-compliant platform", 
+            "location": "/research/api-management-tools/_audit-template/#strengths", 
+            "text": "What are the strengths of this particular product? What can we learn from this product?", 
             "title": "Strengths"
         }, 
         {
-            "location": "/research/Audit API design and management tools/#weaknesses_4", 
+            "location": "/research/api-management-tools/_audit-template/#weaknesses", 
+            "text": "What features were not so good in the product?", 
+            "title": "Weaknesses"
+        }, 
+        {
+            "location": "/research/api-management-tools/akana/", 
+            "text": "Akana", 
+            "title": "Akana"
+        }, 
+        {
+            "location": "/research/api-management-tools/akana/#akana", 
+            "text": "", 
+            "title": "Akana"
+        }, 
+        {
+            "location": "/research/api-management-tools/api-axle/", 
+            "text": "ApiAxle\n\n\nWebsite\n\n\nDocumentation\n\n\nSourcecode", 
+            "title": "Api axle"
+        }, 
+        {
+            "location": "/research/api-management-tools/api-axle/#apiaxle", 
+            "text": "Website  Documentation  Sourcecode", 
+            "title": "ApiAxle"
+        }, 
+        {
+            "location": "/research/api-management-tools/api-blueprint/", 
+            "text": "API Blueprint\n\n\nFormat/specification and tools for API design, documentation, and development.\n\n\nWebsite", 
+            "title": "Api blueprint"
+        }, 
+        {
+            "location": "/research/api-management-tools/api-blueprint/#api-blueprint", 
+            "text": "Format/specification and tools for API design, documentation, and development.  Website", 
+            "title": "API Blueprint"
+        }, 
+        {
+            "location": "/research/api-management-tools/apiary/", 
+            "text": "Apiary\n\n\n\n\nWebsite\n\n\nopen-source\n\n\n\n\nApiary is an API design tool, that places design before development (design-first). It uses a human readable description format, called API Blueprint, which the company maintains as an open-source project.\n\n\nIt is possible up a simple mock-server, based on the API description file. Collaborators can view the description file on Github, provide feedback, and participate in the design before committing to full-scale development.\n\n\nApiary also maintain several command line tools for API testing and validation.\n\n\nCommon features\n\n\nApiary platform supposts, at least, the following features.\n\n\n\n\nCommunity - Apiary features center around Github, which allows social interaction around the API design process\n\n\nDocumentation - Apiary designed and maintained their own API documentation specification: API Blueprint\n\n\nSandboxing - Apiary provides a basic mock-server scaffold\n\n\nTesting - Apiary has a traffic inspector tool that can be used for testing/debugging. They also provide a open-source tools for testing and validating API structure and responses.\n\n\n\n\nLicensing \n Openness\n\n\nThe primary Apiary platform is proprietary. However, Apiary does maintain an assortment of open-source utilities related to API design and testing.\n\n\nType of product\n\n\nApiary is primarily a design tool, with some basic testing functionality.\n\n\nLifecycle management\n\n\nThe Apiary tool would be primarily relevant in the discovery, design, and revision stages of the API lifecycle.\n\n\nProgramming languages / technologies\n\n\nIt is difficult to say what the proprietary components of Apiary consist of. However, the open-source tools seem to be based around CoffeeScript, YAML, and C++.\n\n\nUI\n\n\n\n\nStrengths\n\n\nSimple, human-focused design tool. Community oriented.\n\n\nWeaknesses\n\n\n\n\nProprietary platform.\n\n\nDesigned own API description format.", 
+            "title": "Apiary"
+        }, 
+        {
+            "location": "/research/api-management-tools/apiary/#apiary", 
+            "text": "Website  open-source   Apiary is an API design tool, that places design before development (design-first). It uses a human readable description format, called API Blueprint, which the company maintains as an open-source project.  It is possible up a simple mock-server, based on the API description file. Collaborators can view the description file on Github, provide feedback, and participate in the design before committing to full-scale development.  Apiary also maintain several command line tools for API testing and validation.", 
+            "title": "Apiary"
+        }, 
+        {
+            "location": "/research/api-management-tools/apiary/#common-features", 
+            "text": "Apiary platform supposts, at least, the following features.   Community - Apiary features center around Github, which allows social interaction around the API design process  Documentation - Apiary designed and maintained their own API documentation specification: API Blueprint  Sandboxing - Apiary provides a basic mock-server scaffold  Testing - Apiary has a traffic inspector tool that can be used for testing/debugging. They also provide a open-source tools for testing and validating API structure and responses.", 
+            "title": "Common features"
+        }, 
+        {
+            "location": "/research/api-management-tools/apiary/#licensing-openness", 
+            "text": "The primary Apiary platform is proprietary. However, Apiary does maintain an assortment of open-source utilities related to API design and testing.", 
+            "title": "Licensing &amp; Openness"
+        }, 
+        {
+            "location": "/research/api-management-tools/apiary/#type-of-product", 
+            "text": "Apiary is primarily a design tool, with some basic testing functionality.", 
+            "title": "Type of product"
+        }, 
+        {
+            "location": "/research/api-management-tools/apiary/#lifecycle-management", 
+            "text": "The Apiary tool would be primarily relevant in the discovery, design, and revision stages of the API lifecycle.", 
+            "title": "Lifecycle management"
+        }, 
+        {
+            "location": "/research/api-management-tools/apiary/#programming-languages-technologies", 
+            "text": "It is difficult to say what the proprietary components of Apiary consist of. However, the open-source tools seem to be based around CoffeeScript, YAML, and C++.", 
+            "title": "Programming languages / technologies"
+        }, 
+        {
+            "location": "/research/api-management-tools/apiary/#ui", 
+            "text": "", 
+            "title": "UI"
+        }, 
+        {
+            "location": "/research/api-management-tools/apiary/#strengths", 
+            "text": "Simple, human-focused design tool. Community oriented.", 
+            "title": "Strengths"
+        }, 
+        {
+            "location": "/research/api-management-tools/apiary/#weaknesses", 
+            "text": "Proprietary platform.  Designed own API description format.", 
+            "title": "Weaknesses"
+        }, 
+        {
+            "location": "/research/api-management-tools/apigee/", 
+            "text": "Apigee\n\n\nOverview\n\n\nApigee is one of the most popular API platforms used currently. Apigee provides the free Developer environment (\ndeveloper.apigee.com\n )  and then the commercial environment. The differences can be found on the \nfeature comparison list\nhttp://apigee.com/docs/developer-vs-edge\n\n\nLicensing \n Openness\n\n\nMostly commercial, partially open. According to developers.apigee.com  \"\nApigee contributes several open source projects and tools including  apigee-127, Volos NPMs, Apache Usergrid, SDKs, and many other tools and utilities for API deployment and documentation\n. \"\n\n\nType\n\n\nApigee provides a proxy environment.\n\n\nLifecycle management\n\n\nLanguage\n\n\nI couldn't find what programming language Apigee bases on.\n\n\nUI\n\n\nScreenshot of their dashboard and the traffic statistics.\n\n\n\nStrengths\n\n\n\n\nApigee's monitoring tools are really powerful and well made.\n\n\n\n\nWeaknesses\n\n\n\n\nVery unclear technical documentation. Pricing is also very unclear.", 
+            "title": "Apigee"
+        }, 
+        {
+            "location": "/research/api-management-tools/apigee/#apigee", 
+            "text": "", 
+            "title": "Apigee"
+        }, 
+        {
+            "location": "/research/api-management-tools/apigee/#overview", 
+            "text": "Apigee is one of the most popular API platforms used currently. Apigee provides the free Developer environment ( developer.apigee.com  )  and then the commercial environment. The differences can be found on the  feature comparison list http://apigee.com/docs/developer-vs-edge", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/research/api-management-tools/apigee/#licensing-openness", 
+            "text": "Mostly commercial, partially open. According to developers.apigee.com  \" Apigee contributes several open source projects and tools including  apigee-127, Volos NPMs, Apache Usergrid, SDKs, and many other tools and utilities for API deployment and documentation . \"", 
+            "title": "Licensing &amp; Openness"
+        }, 
+        {
+            "location": "/research/api-management-tools/apigee/#type", 
+            "text": "Apigee provides a proxy environment.", 
+            "title": "Type"
+        }, 
+        {
+            "location": "/research/api-management-tools/apigee/#lifecycle-management", 
+            "text": "", 
+            "title": "Lifecycle management"
+        }, 
+        {
+            "location": "/research/api-management-tools/apigee/#language", 
+            "text": "I couldn't find what programming language Apigee bases on.", 
+            "title": "Language"
+        }, 
+        {
+            "location": "/research/api-management-tools/apigee/#ui", 
+            "text": "Screenshot of their dashboard and the traffic statistics.", 
+            "title": "UI"
+        }, 
+        {
+            "location": "/research/api-management-tools/apigee/#strengths", 
+            "text": "Apigee's monitoring tools are really powerful and well made.", 
+            "title": "Strengths"
+        }, 
+        {
+            "location": "/research/api-management-tools/apigee/#weaknesses", 
+            "text": "Very unclear technical documentation. Pricing is also very unclear.", 
+            "title": "Weaknesses"
+        }, 
+        {
+            "location": "/research/api-management-tools/axway/", 
+            "text": "Axway\n\n\nProprietery engagement platform with \nAPI Management\n component.", 
+            "title": "Axway"
+        }, 
+        {
+            "location": "/research/api-management-tools/axway/#axway", 
+            "text": "Proprietery engagement platform with  API Management  component.", 
+            "title": "Axway"
+        }, 
+        {
+            "location": "/research/api-management-tools/ca-layer-7/", 
+            "text": "CA Layer7", 
+            "title": "Ca layer 7"
+        }, 
+        {
+            "location": "/research/api-management-tools/ca-layer-7/#ca-layer7", 
+            "text": "", 
+            "title": "CA Layer7"
+        }, 
+        {
+            "location": "/research/api-management-tools/ibm-api-management/", 
+            "text": "IBM API Management", 
+            "title": "Ibm api management"
+        }, 
+        {
+            "location": "/research/api-management-tools/ibm-api-management/#ibm-api-management", 
+            "text": "", 
+            "title": "IBM API Management"
+        }, 
+        {
+            "location": "/research/api-management-tools/kong/", 
+            "text": "Kong (Mashape)\n\n\n\n\nWebsite\n\n\nSourcecode\n\n\n\n\nOverview\n\n\n\n\nSecure, Manage \n Extend your APIs and Microservices. The open-source management layer for APIs, delivering high performance and reliability.\n\n\n\n\n\n\nFeatures\n\n\nPlugin architecture\n\n\n\n\nAnalytics - Plugins (Galileo), Logging, visualizations via proprietary tools\n\n\nAvailability - Failure Detection \n Recovery\n\n\nCommunity - Gelato\n\n\nDeployment - Cloud, on-premise, hybrid (Docker, ...)\n\n\nDocumentation - Gelato\n\n\nLoad management - Traffic Control (Rate Limiting,...)\n\n\nSecurity - Security (ACL, CORS,...)\n\n\nTransformation - Request, Response transformations and Correlation ID\n\n\n\n\nLicensing \n Openness\n\n\n\n\nOpen source components released under Apache License 2.0\n\n\nSome proprietary components include visual analytics\n\n\n\n\nCommunity involvement\n\n\nKong has \nmultiple channels for community engagement\n. In addition, there are many \ncommunity resources and tools\n\n\nType of product\n\n\nAPI Proxy\n\n\nLifecycle management\n\n\nDesigned as a proxy for existing API backends. Offers tools for the management lifecycle stage.\n\n\nProgramming languages / technologies\n\n\n\n\nLua language sourcecode\n\n\n\n\nUI\n\n\n\n\n3rd party packages\n\n\nKong dashboard\n\n\n\n\nStrengths\n\n\n\n\nPlugin architecture\n\n\nmostly open-source\n\n\n\n\nWeaknesses\n\n\nNot fully open source, some plugins are commercial. E.g. visual analytics requires commercial subscription.", 
+            "title": "Kong"
+        }, 
+        {
+            "location": "/research/api-management-tools/kong/#kong-mashape", 
+            "text": "Website  Sourcecode", 
+            "title": "Kong (Mashape)"
+        }, 
+        {
+            "location": "/research/api-management-tools/kong/#overview", 
+            "text": "Secure, Manage   Extend your APIs and Microservices. The open-source management layer for APIs, delivering high performance and reliability.", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/research/api-management-tools/kong/#features", 
+            "text": "Plugin architecture   Analytics - Plugins (Galileo), Logging, visualizations via proprietary tools  Availability - Failure Detection   Recovery  Community - Gelato  Deployment - Cloud, on-premise, hybrid (Docker, ...)  Documentation - Gelato  Load management - Traffic Control (Rate Limiting,...)  Security - Security (ACL, CORS,...)  Transformation - Request, Response transformations and Correlation ID", 
+            "title": "Features"
+        }, 
+        {
+            "location": "/research/api-management-tools/kong/#licensing-openness", 
+            "text": "Open source components released under Apache License 2.0  Some proprietary components include visual analytics", 
+            "title": "Licensing &amp; Openness"
+        }, 
+        {
+            "location": "/research/api-management-tools/kong/#community-involvement", 
+            "text": "Kong has  multiple channels for community engagement . In addition, there are many  community resources and tools", 
+            "title": "Community involvement"
+        }, 
+        {
+            "location": "/research/api-management-tools/kong/#type-of-product", 
+            "text": "API Proxy", 
+            "title": "Type of product"
+        }, 
+        {
+            "location": "/research/api-management-tools/kong/#lifecycle-management", 
+            "text": "Designed as a proxy for existing API backends. Offers tools for the management lifecycle stage.", 
+            "title": "Lifecycle management"
+        }, 
+        {
+            "location": "/research/api-management-tools/kong/#programming-languages-technologies", 
+            "text": "Lua language sourcecode", 
+            "title": "Programming languages / technologies"
+        }, 
+        {
+            "location": "/research/api-management-tools/kong/#ui", 
+            "text": "", 
+            "title": "UI"
+        }, 
+        {
+            "location": "/research/api-management-tools/kong/#3rd-party-packages", 
+            "text": "Kong dashboard", 
+            "title": "3rd party packages"
+        }, 
+        {
+            "location": "/research/api-management-tools/kong/#strengths", 
+            "text": "Plugin architecture  mostly open-source", 
+            "title": "Strengths"
+        }, 
+        {
+            "location": "/research/api-management-tools/kong/#weaknesses", 
+            "text": "Not fully open source, some plugins are commercial. E.g. visual analytics requires commercial subscription.", 
+            "title": "Weaknesses"
+        }, 
+        {
+            "location": "/research/api-management-tools/mashery/", 
+            "text": "Mashery API Management\n\n\nhttp://www.mashery.com/api-management\n\n\nOverview\n\n\n\n\nThe complete SaaS-based API Management solution deployed any way you want it: in the cloud, on-premise or hybrid.\n\n\n\n\nNote:\n Tibco and Mashery merged recently.\n\n\nFeatures\n\n\nDetermine whether a given solution supports common features, such as:\n\n\n\n\nAnalytics - API Analytics\n\n\nAvailability - API Traffic\n\n\nCommunity - API Portal\n\n\nDeployment - Cloud and Local\n\n\nDocumentation - API Portal\n\n\nLoad management - API Traffic\n\n\nMonetization - ?\n\n\nSandboxing - API Packager\n\n\nSecurity - API Security\n\n\nTransformation - ?\n\n\n\n\nLicensing \n Openness\n\n\n\n\n\n\nCommercial license costs 99$/m (difficult to find price model)\n\n\n\n\n\n\n\nNo open source offering.\n\n\n\n\n\n\nCommunity involvement\n\n\nhttp://developer.mashery.com/\nThe Mashery API Network allows you to register once and gain access to 40+ Mashery-powered APIs with a single sign-on.\n\n\nType of product\n\n\nProxy\nhttp://www.developereconomics.com/api-management-tools-how-to-find-the-one-for-you/\n\n\nLifecycle\n\n\nProgramming languages / technologies\n\n\nWhich programming language(s) / technologies  does the product base on?\n\n\nUI\n\n\n\n\nStrengths\n\n\n\n\n\"Inventor of API Management\"\n\n\n\"First cloud-based \n multitenant\"\n\n\nFull deployment flexibility\n\n\n\"First PCI-compliant platform\"\n\n\n\n\nWeaknesses\n\n\nDifficult to find out the Unique Selling Proposition (i.e. what they offer).\nNo screenshots. No clear pricing model.\n\n\nMashery API Power Tools\n\n\n\n\nOpen-source documentation and SDK generator\n\n\nAPI Catalog", 
+            "title": "Mashery"
+        }, 
+        {
+            "location": "/research/api-management-tools/mashery/#mashery-api-management", 
+            "text": "http://www.mashery.com/api-management", 
+            "title": "Mashery API Management"
+        }, 
+        {
+            "location": "/research/api-management-tools/mashery/#overview", 
+            "text": "The complete SaaS-based API Management solution deployed any way you want it: in the cloud, on-premise or hybrid.   Note:  Tibco and Mashery merged recently.", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/research/api-management-tools/mashery/#features", 
+            "text": "Determine whether a given solution supports common features, such as:   Analytics - API Analytics  Availability - API Traffic  Community - API Portal  Deployment - Cloud and Local  Documentation - API Portal  Load management - API Traffic  Monetization - ?  Sandboxing - API Packager  Security - API Security  Transformation - ?", 
+            "title": "Features"
+        }, 
+        {
+            "location": "/research/api-management-tools/mashery/#licensing-openness", 
+            "text": "Commercial license costs 99$/m (difficult to find price model)    No open source offering.", 
+            "title": "Licensing &amp; Openness"
+        }, 
+        {
+            "location": "/research/api-management-tools/mashery/#community-involvement", 
+            "text": "http://developer.mashery.com/\nThe Mashery API Network allows you to register once and gain access to 40+ Mashery-powered APIs with a single sign-on.", 
+            "title": "Community involvement"
+        }, 
+        {
+            "location": "/research/api-management-tools/mashery/#type-of-product", 
+            "text": "Proxy\nhttp://www.developereconomics.com/api-management-tools-how-to-find-the-one-for-you/", 
+            "title": "Type of product"
+        }, 
+        {
+            "location": "/research/api-management-tools/mashery/#lifecycle", 
+            "text": "", 
+            "title": "Lifecycle"
+        }, 
+        {
+            "location": "/research/api-management-tools/mashery/#programming-languages-technologies", 
+            "text": "Which programming language(s) / technologies  does the product base on?", 
+            "title": "Programming languages / technologies"
+        }, 
+        {
+            "location": "/research/api-management-tools/mashery/#ui", 
+            "text": "", 
+            "title": "UI"
+        }, 
+        {
+            "location": "/research/api-management-tools/mashery/#strengths", 
+            "text": "\"Inventor of API Management\"  \"First cloud-based   multitenant\"  Full deployment flexibility  \"First PCI-compliant platform\"", 
+            "title": "Strengths"
+        }, 
+        {
+            "location": "/research/api-management-tools/mashery/#weaknesses", 
             "text": "Difficult to find out the Unique Selling Proposition (i.e. what they offer).\nNo screenshots. No clear pricing model.", 
             "title": "Weaknesses"
         }, 
         {
-            "location": "/research/Audit API design and management tools/#mashery-api-power-tools", 
+            "location": "/research/api-management-tools/mashery/#mashery-api-power-tools", 
             "text": "Open-source documentation and SDK generator  API Catalog", 
             "title": "Mashery API Power Tools"
         }, 
         {
-            "location": "/research/Audit API design and management tools/#microsofts-azure-api-management", 
+            "location": "/research/api-management-tools/microsoft-azure-api-management/", 
+            "text": "Microsoft\u2019s Azure API Management", 
+            "title": "Microsoft azure api management"
+        }, 
+        {
+            "location": "/research/api-management-tools/microsoft-azure-api-management/#microsofts-azure-api-management", 
             "text": "", 
             "title": "Microsoft\u2019s Azure API Management"
         }, 
         {
-            "location": "/research/Audit API design and management tools/#wso2", 
-            "text": "", 
-            "title": "WSO2"
+            "location": "/research/api-management-tools/mulesoft-anypoint/", 
+            "text": "MuleSoft Anypoint\n\n\nOverview\n\n\nMulesofts product Anypoint offers a manager that enables to manage users, traffic, SLAs, and secure the APIs.\n\n\nLicensing \n Openness\n\n\nCommercial. Target audience enterprises.\n\n\nType\n\n\nLifecycle management\n\n\nProgramming languages / technologies\n\n\nUI\n\n\n\n\nStrengths\n\n\nWeaknesses", 
+            "title": "Mulesoft anypoint"
         }, 
         {
-            "location": "/research/Audit API design and management tools/#overview_5", 
-            "text": "http://wso2.com/cloud/api-cloud/\nhttp://wso2.com/products/api-manager/  Offers a portfolio of products around API management, analytics, IoT, machine learning, etc. sourcecode      The platform is made up of over 20 products covering all major  categories from integration and API management to identity and  analytics.", 
+            "location": "/research/api-management-tools/mulesoft-anypoint/#mulesoft-anypoint", 
+            "text": "", 
+            "title": "MuleSoft Anypoint"
+        }, 
+        {
+            "location": "/research/api-management-tools/mulesoft-anypoint/#overview", 
+            "text": "Mulesofts product Anypoint offers a manager that enables to manage users, traffic, SLAs, and secure the APIs.", 
             "title": "Overview"
         }, 
         {
-            "location": "/research/Audit API design and management tools/#features_2", 
-            "text": "Determine whether a given solution supports common features, such as:   Analytics - integrates with the WSO2 analytics platform, and provides out of the box reports and alerts, giving you instant insight into APIs behavior.  Availability -   Community - Developer Portal   5,000 questions on Stack Overflow  Deployment -  public, private clouds, and hybrid implementations - Easily Deployable in Your Enterprise  Documentation - APIs can be documented, tagged, categorized, and tested right from the store itself  Load management - Manage and scale API Traffic  Monetization - Monitor and Monetize  Sandboxing - Publish APIs and Govern API Use  Security - Control Access and Enforce Security  Transformation - ?", 
-            "title": "Features"
-        }, 
-        {
-            "location": "/research/Audit API design and management tools/#licensing-openness_5", 
-            "text": "100% open source\nApache License 2.0  Community involvement\nhttps://docs.wso2.com/display/AM1100/Getting+Started  Open Process\nhttps://github.com/wso2/product-apim/tree/master/design-docs  SaaS offering\nFrom 100$ (starter) to 10 000$ (extra-large)", 
+            "location": "/research/api-management-tools/mulesoft-anypoint/#licensing-openness", 
+            "text": "Commercial. Target audience enterprises.", 
             "title": "Licensing &amp; Openness"
         }, 
         {
-            "location": "/research/Audit API design and management tools/#type-of-product_3", 
-            "text": "?\nProbably proxy or hybrid", 
-            "title": "Type of product"
+            "location": "/research/api-management-tools/mulesoft-anypoint/#type", 
+            "text": "", 
+            "title": "Type"
         }, 
         {
-            "location": "/research/Audit API design and management tools/#lifecycle-management_5", 
-            "text": "Design and Prototype APIs\nImport Swagger 2.0 definition", 
+            "location": "/research/api-management-tools/mulesoft-anypoint/#lifecycle-management", 
+            "text": "", 
             "title": "Lifecycle management"
         }, 
         {
-            "location": "/research/Audit API design and management tools/#programming-languages-technologies_4", 
-            "text": "Java based.", 
+            "location": "/research/api-management-tools/mulesoft-anypoint/#programming-languages-technologies", 
+            "text": "", 
             "title": "Programming languages / technologies"
         }, 
         {
-            "location": "/research/Audit API design and management tools/#ui_5", 
-            "text": "Pluggable, Extensible, and Themeable", 
+            "location": "/research/api-management-tools/mulesoft-anypoint/#ui", 
+            "text": "", 
             "title": "UI"
         }, 
         {
-            "location": "/research/Audit API design and management tools/#strengths_5", 
-            "text": "Full open source, open development.\nBig community, mature company backing the product.", 
+            "location": "/research/api-management-tools/mulesoft-anypoint/#strengths", 
+            "text": "", 
             "title": "Strengths"
         }, 
         {
-            "location": "/research/Audit API design and management tools/#weaknesses_5", 
-            "text": "Analytics are fragmented across multiple screens.\nJava.  Located in US\nDocker image\nhttp://wso2.com/products/api-manager/\nhttps://github.com/wso2/product-apim", 
+            "location": "/research/api-management-tools/mulesoft-anypoint/#weaknesses", 
+            "text": "", 
             "title": "Weaknesses"
         }, 
         {
-            "location": "/research/Audit API design and management tools/#node-red", 
+            "location": "/research/api-management-tools/node-red/", 
+            "text": "Node Red\n\n\nGraphical data-flow modeler.\n\n\nWebsite", 
+            "title": "Node red"
+        }, 
+        {
+            "location": "/research/api-management-tools/node-red/#node-red", 
             "text": "Graphical data-flow modeler.  Website", 
             "title": "Node Red"
         }, 
         {
-            "location": "/research/Audit API design and management tools/#resources", 
-            "text": "http://www.apiacademy.co/\nhttp://apigee.com/about/resources", 
-            "title": "Resources"
+            "location": "/research/api-management-tools/open-repose/", 
+            "text": "OpenRepose\n\n\nWebsite", 
+            "title": "Open repose"
         }, 
         {
-            "location": "/research/Audit API design and management tools/#references", 
-            "text": "API Management Tools: How to find the right one for you  How does Mashery make money? - Quora", 
-            "title": "References"
+            "location": "/research/api-management-tools/open-repose/#openrepose", 
+            "text": "Website", 
+            "title": "OpenRepose"
         }, 
         {
-            "location": "/research/Invitation to join APIOps - APItalist network/", 
-            "text": "Invitation to join APIOps \n APItalist network\n\n\nMcKinsey Global Institute  estimates the potential economic impact of the Internet of Things to be  $2.7 trillion to $6.2 trillion per year by 2025.  The GSM Association  predicts that by 2020, there will be 24 billion connected devices, while  Cisco\u2019s Internet of Everything prediction is 50 billion \u201cintelligent  things,\u201d such as cars,  appliances, smartphones, tablets, monitoring  sensors and more, connected  to the Internet. The rise of IoT depends on  a whole host of enabling technologies like  RFID, IPv6, Big Data, and  Application Programming Interfaces (APIs). \n\n\nWeb APIs, or more  specifically REST APIs, are key for connecting devices to the Internet. Companies focusing on enabling fast API development together with customers and nearby interest groups will rule the IoT.\n\n\nTogether APIOps and APItalist are winning combination\n\n\nJust  like DevOps can be seen as offspring  or spinoff of Agile thinking,  APIOps can be seen to extend DevOps to  fulfil the needs of Application  Interface and Internet of Things  development (IoT).  Therefore we - APIOps community - foresee clear need for APIOps, a new  breed of DevOps to support creation and maintenance of IoT driven  ecosystem. APIOps alone does not do the trick. They are highly talented and trained API tech experts. They need the help of APItalist - the talent to create business plans and API-strategies. APItalist is the engine to create value. \n\n\nImmediate  traction\n\n\nWe have kickstarted the APIOps network in Tampere, Finland just recently with first in the world APIOps Meetup. The meetup caught the attention of the biggest API -management company 3Scale.com. We were also invited to present the concept to API Strategy \n Practice Conference in Austin Texas November 18-20, 2015. After that we have been contacted by several companies. All this  clearly indicates that APIOps \n APItalist  concept fills in a hole. \n\n\nNew groups supported\n\n\nNew groups are spawning also in Helsinki, Switzerland, Estonia and New Zealand. Our intention is to grow the network to contain activities in all continents. For those interested to initiate APIOps meetup in local city, we offer the following support: \n\n\n\n\n6 months Meetup.com service payments \n\n\nOnline tutoring before the first meetup (skype, hangout)\n\n\ncommunity support  from experienced community managers and meetup organizers\n\n\nReady-made  presentations to use as inspiration\n\n\nTop class developer friendly API -management environment\n\n\n\n\nWe are also in the middle of creating  three short 1-2 minutes long animations about the following topics:\n\n\n\n\nWhat is APIops?\n\n\nWhat is APItalist? \n\n\nWhy APIOps and APItalist is winning combination?\n\n\n\n\nCertificates for APIOps and APItalist\n\n\nIf you became interested, contact us, details are below. We can promise you the ride of your life to API world! Read more from\n apiops.net \n \n\n\nJarkko Moilanen, APItalist\n\n\nTwitter: @kyyberi \n\n\nEmail: jarkko . moilanen (\u00e4t) ossoil . com", 
-            "title": "Invitation to join APIOps   APItalist network"
+            "location": "/research/api-management-tools/oracle-soa/", 
+            "text": "Oracle SOA", 
+            "title": "Oracle soa"
         }, 
         {
-            "location": "/research/Invitation to join APIOps - APItalist network/#invitation-to-join-apiops-apitalist-network", 
-            "text": "McKinsey Global Institute  estimates the potential economic impact of the Internet of Things to be  $2.7 trillion to $6.2 trillion per year by 2025.  The GSM Association  predicts that by 2020, there will be 24 billion connected devices, while  Cisco\u2019s Internet of Everything prediction is 50 billion \u201cintelligent  things,\u201d such as cars,  appliances, smartphones, tablets, monitoring  sensors and more, connected  to the Internet. The rise of IoT depends on  a whole host of enabling technologies like  RFID, IPv6, Big Data, and  Application Programming Interfaces (APIs).   Web APIs, or more  specifically REST APIs, are key for connecting devices to the Internet. Companies focusing on enabling fast API development together with customers and nearby interest groups will rule the IoT.  Together APIOps and APItalist are winning combination  Just  like DevOps can be seen as offspring  or spinoff of Agile thinking,  APIOps can be seen to extend DevOps to  fulfil the needs of Application  Interface and Internet of Things  development (IoT).  Therefore we - APIOps community - foresee clear need for APIOps, a new  breed of DevOps to support creation and maintenance of IoT driven  ecosystem. APIOps alone does not do the trick. They are highly talented and trained API tech experts. They need the help of APItalist - the talent to create business plans and API-strategies. APItalist is the engine to create value.   Immediate  traction  We have kickstarted the APIOps network in Tampere, Finland just recently with first in the world APIOps Meetup. The meetup caught the attention of the biggest API -management company 3Scale.com. We were also invited to present the concept to API Strategy   Practice Conference in Austin Texas November 18-20, 2015. After that we have been contacted by several companies. All this  clearly indicates that APIOps   APItalist  concept fills in a hole.   New groups supported  New groups are spawning also in Helsinki, Switzerland, Estonia and New Zealand. Our intention is to grow the network to contain activities in all continents. For those interested to initiate APIOps meetup in local city, we offer the following support:    6 months Meetup.com service payments   Online tutoring before the first meetup (skype, hangout)  community support  from experienced community managers and meetup organizers  Ready-made  presentations to use as inspiration  Top class developer friendly API -management environment   We are also in the middle of creating  three short 1-2 minutes long animations about the following topics:   What is APIops?  What is APItalist?   Why APIOps and APItalist is winning combination?   Certificates for APIOps and APItalist  If you became interested, contact us, details are below. We can promise you the ride of your life to API world! Read more from  apiops.net     Jarkko Moilanen, APItalist  Twitter: @kyyberi   Email: jarkko . moilanen (\u00e4t) ossoil . com", 
-            "title": "Invitation to join APIOps &amp; APItalist network"
+            "location": "/research/api-management-tools/oracle-soa/#oracle-soa", 
+            "text": "", 
+            "title": "Oracle SOA"
         }, 
         {
-            "location": "/research/apiops - apitalist training university/", 
-            "text": "apiops \n apitalist training university\n\n\nHas to be practical\n\n\nAPIOPS\n\n\n\n\nWhat are APIs? History of APIs briefly\n\n\nWhat are description languages such as RAML, API Blueprint\n\n\n\n\nAPITALIST", 
-            "title": "Apiops   apitalist training university"
+            "location": "/research/api-management-tools/wso2/", 
+            "text": "WSO2\n\n\nOverview\n\n\nhttp://wso2.com/cloud/api-cloud/\nhttp://wso2.com/products/api-manager/\n\n\nOffers a portfolio of products around API management, analytics, IoT, machine learning, etc.\n\nsourcecode\n  \n\n\n\n\nThe platform is made up of over 20 products covering all major  categories from integration and API management to identity and  analytics.\n\n\n\n\nFeatures\n\n\nDetermine whether a given solution supports common features, such as:\n\n\n\n\nAnalytics - integrates with the WSO2 analytics platform, and provides out of the box reports and alerts, giving you instant insight into APIs behavior.\n\n\nAvailability -\n\n\nCommunity - Developer Portal\n\n\n 5,000 questions on Stack Overflow\n\n\nDeployment -  public, private clouds, and hybrid implementations - Easily Deployable in Your Enterprise\n\n\nDocumentation - APIs can be documented, tagged, categorized, and tested right from the store itself\n\n\nLoad management - Manage and scale API Traffic\n\n\nMonetization - Monitor and Monetize\n\n\nSandboxing - Publish APIs and Govern API Use\n\n\nSecurity - Control Access and Enforce Security\n\n\nTransformation - ?\n\n\n\n\nLicensing \n Openness\n\n\n100% open source\nApache License 2.0\n\n\nCommunity involvement\nhttps://docs.wso2.com/display/AM1100/Getting+Started\n\n\nOpen Process\nhttps://github.com/wso2/product-apim/tree/master/design-docs\n\n\nSaaS offering\nFrom 100$ (starter) to 10 000$ (extra-large)\n\n\nType of product\n\n\n?\nProbably proxy or hybrid\n\n\nLifecycle management\n\n\nDesign and Prototype APIs\nImport Swagger 2.0 definition\n\n\nProgramming languages / technologies\n\n\nJava based.\n\n\nUI\n\n\n\nPluggable, Extensible, and Themeable\n\n\nStrengths\n\n\nFull open source, open development.\nBig community, mature company backing the product.\n\n\nWeaknesses\n\n\nAnalytics are fragmented across multiple screens.\nJava.\n\n\nLocated in US\nDocker image\nhttp://wso2.com/products/api-manager/\nhttps://github.com/wso2/product-apim", 
+            "title": "Wso2"
         }, 
         {
-            "location": "/research/apiops - apitalist training university/#apiops-apitalist-training-university", 
-            "text": "Has to be practical  APIOPS   What are APIs? History of APIs briefly  What are description languages such as RAML, API Blueprint   APITALIST", 
-            "title": "apiops &amp; apitalist training university"
+            "location": "/research/api-management-tools/wso2/#wso2", 
+            "text": "", 
+            "title": "WSO2"
         }, 
         {
-            "location": "/research/op/", 
-            "text": "op\n\n\nToimitamme esityksen miten t\u00e4ss\u00e4 voisi edet\u00e4\n\n\nStrategian design yhdess\u00e4\n\n\nPilotti\n\n\nHackathon palveluv\u00e4yl\u00e4ss\u00e4\n\n\n\n\nVRK/VM tarvitsee ja hakee t\u00e4llaista\n\n\nVaatii ett\u00e4 on joku rajapinta tai muutama jotka vied\u00e4\u00e4n kehitysymp\u00e4rist\u00f6\u00f6n\n*", 
-            "title": "Op"
+            "location": "/research/api-management-tools/wso2/#overview", 
+            "text": "http://wso2.com/cloud/api-cloud/\nhttp://wso2.com/products/api-manager/  Offers a portfolio of products around API management, analytics, IoT, machine learning, etc. sourcecode      The platform is made up of over 20 products covering all major  categories from integration and API management to identity and  analytics.", 
+            "title": "Overview"
         }, 
         {
-            "location": "/research/op/#op", 
-            "text": "Toimitamme esityksen miten t\u00e4ss\u00e4 voisi edet\u00e4  Strategian design yhdess\u00e4  Pilotti  Hackathon palveluv\u00e4yl\u00e4ss\u00e4   VRK/VM tarvitsee ja hakee t\u00e4llaista  Vaatii ett\u00e4 on joku rajapinta tai muutama jotka vied\u00e4\u00e4n kehitysymp\u00e4rist\u00f6\u00f6n\n*", 
-            "title": "op"
+            "location": "/research/api-management-tools/wso2/#features", 
+            "text": "Determine whether a given solution supports common features, such as:   Analytics - integrates with the WSO2 analytics platform, and provides out of the box reports and alerts, giving you instant insight into APIs behavior.  Availability -  Community - Developer Portal   5,000 questions on Stack Overflow  Deployment -  public, private clouds, and hybrid implementations - Easily Deployable in Your Enterprise  Documentation - APIs can be documented, tagged, categorized, and tested right from the store itself  Load management - Manage and scale API Traffic  Monetization - Monitor and Monetize  Sandboxing - Publish APIs and Govern API Use  Security - Control Access and Enforce Security  Transformation - ?", 
+            "title": "Features"
+        }, 
+        {
+            "location": "/research/api-management-tools/wso2/#licensing-openness", 
+            "text": "100% open source\nApache License 2.0  Community involvement\nhttps://docs.wso2.com/display/AM1100/Getting+Started  Open Process\nhttps://github.com/wso2/product-apim/tree/master/design-docs  SaaS offering\nFrom 100$ (starter) to 10 000$ (extra-large)", 
+            "title": "Licensing &amp; Openness"
+        }, 
+        {
+            "location": "/research/api-management-tools/wso2/#type-of-product", 
+            "text": "?\nProbably proxy or hybrid", 
+            "title": "Type of product"
+        }, 
+        {
+            "location": "/research/api-management-tools/wso2/#lifecycle-management", 
+            "text": "Design and Prototype APIs\nImport Swagger 2.0 definition", 
+            "title": "Lifecycle management"
+        }, 
+        {
+            "location": "/research/api-management-tools/wso2/#programming-languages-technologies", 
+            "text": "Java based.", 
+            "title": "Programming languages / technologies"
+        }, 
+        {
+            "location": "/research/api-management-tools/wso2/#ui", 
+            "text": "Pluggable, Extensible, and Themeable", 
+            "title": "UI"
+        }, 
+        {
+            "location": "/research/api-management-tools/wso2/#strengths", 
+            "text": "Full open source, open development.\nBig community, mature company backing the product.", 
+            "title": "Strengths"
+        }, 
+        {
+            "location": "/research/api-management-tools/wso2/#weaknesses", 
+            "text": "Analytics are fragmented across multiple screens.\nJava.  Located in US\nDocker image\nhttp://wso2.com/products/api-manager/\nhttps://github.com/wso2/product-apim", 
+            "title": "Weaknesses"
         }, 
         {
             "location": "/support/Adding-SOAP-API/", 

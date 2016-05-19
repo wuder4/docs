@@ -30,12 +30,6 @@
     </url>
         
     <url>
-     <loc>None/design/Demonstration-Catalogue-View-for-APIs/</loc>
-     <lastmod>2016-05-19</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
      <loc>None/design/Material-Design/</loc>
      <lastmod>2016-05-19</lastmod>
      <changefreq>daily</changefreq>
@@ -104,6 +98,40 @@
     
         
     <url>
+     <loc>None/ideas/APIOps_-_Builder_Backbone_of_Internet_of_Things/</loc>
+     <lastmod>2016-05-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/ideas/APIOps_-_builder_backbone_of_IoT/</loc>
+     <lastmod>2016-05-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/ideas/Invitation_to_join_APIOps_-_APItalist_network/</loc>
+     <lastmod>2016-05-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/ideas/apiops_-_apitalist_training_university/</loc>
+     <lastmod>2016-05-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/ideas/op/</loc>
+     <lastmod>2016-05-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
      <loc>None/organization/communications-plan/</loc>
      <lastmod>2016-05-19</lastmod>
      <changefreq>daily</changefreq>
@@ -132,56 +160,38 @@
     
         
     <url>
-     <loc>None/research/API Community Resources/</loc>
+     <loc>None/research/API_Community_Resources/</loc>
      <lastmod>2016-05-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/research/API Lifecycle/</loc>
+     <loc>None/research/API_Lifecycle/</loc>
      <lastmod>2016-05-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/research/API Metadata Standards/</loc>
+     <loc>None/research/API_Metadata_Standards/</loc>
      <lastmod>2016-05-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/research/APIOps - Builder Backbone of Internet of Things/</loc>
+     <loc>None/research/resources/</loc>
      <lastmod>2016-05-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/research/APIOps - builder backbone of IoT/</loc>
-     <lastmod>2016-05-19</lastmod>
+     <loc>None</loc>
+     <lastmod></lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/research/Audit API design and management tools/</loc>
-     <lastmod>2016-05-19</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/research/Invitation to join APIOps - APItalist network/</loc>
-     <lastmod>2016-05-19</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/research/apiops - apitalist training university/</loc>
-     <lastmod>2016-05-19</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/research/op/</loc>
-     <lastmod>2016-05-19</lastmod>
+     <loc>None</loc>
+     <lastmod></lastmod>
      <changefreq>daily</changefreq>
     </url>
         
