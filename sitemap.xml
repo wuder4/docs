@@ -4,7 +4,15 @@
     
     <url>
      <loc>None/</loc>
-     <lastmod>2016-05-19</lastmod>
+     <lastmod>2016-06-09</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/design/</loc>
+     <lastmod>2016-06-09</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -12,32 +20,48 @@
     
         
     <url>
+     <loc>None/UX/APINF-Catalogue-Heuristic-Evaluation-Report/</loc>
+     <lastmod>2016-06-09</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/UX/Heuristics/</loc>
+     <lastmod>2016-06-09</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
      <loc>None/design/API-Status-Notification/</loc>
-     <lastmod>2016-05-19</lastmod>
+     <lastmod>2016-06-09</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/design/APInf-MVP-UI-Specification/</loc>
-     <lastmod>2016-05-19</lastmod>
+     <lastmod>2016-06-09</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/design/Boilerplate-UI-Color-Schemas/</loc>
-     <lastmod>2016-05-19</lastmod>
+     <lastmod>2016-06-09</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/design/Material-Design/</loc>
-     <lastmod>2016-05-19</lastmod>
+     <lastmod>2016-06-09</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/design/User-Profile-Redesign/</loc>
-     <lastmod>2016-05-19</lastmod>
+     <lastmod>2016-06-09</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -46,26 +70,32 @@
     
         
     <url>
-     <loc>None/develop/Code-Styleguide/</loc>
-     <lastmod>2016-05-19</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
      <loc>None/develop/Release-Versioning/</loc>
-     <lastmod>2016-05-19</lastmod>
+     <lastmod>2016-06-09</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/develop/Roadmap/</loc>
-     <lastmod>2016-05-19</lastmod>
+     <lastmod>2016-06-09</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/develop/api-design/</loc>
+     <lastmod>2016-06-09</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/develop/code-styleguide/</loc>
+     <lastmod>2016-06-09</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/develop/contributing/</loc>
-     <lastmod>2016-05-19</lastmod>
+     <lastmod>2016-06-09</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -99,31 +129,37 @@
         
     <url>
      <loc>None/ideas/APIOps_-_Builder_Backbone_of_Internet_of_Things/</loc>
-     <lastmod>2016-05-19</lastmod>
+     <lastmod>2016-06-09</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ideas/APIOps_-_builder_backbone_of_IoT/</loc>
-     <lastmod>2016-05-19</lastmod>
+     <lastmod>2016-06-09</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ideas/Invitation_to_join_APIOps_-_APItalist_network/</loc>
-     <lastmod>2016-05-19</lastmod>
+     <lastmod>2016-06-09</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ideas/apiops_-_apitalist_training_university/</loc>
-     <lastmod>2016-05-19</lastmod>
+     <lastmod>2016-06-09</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ideas/op/</loc>
-     <lastmod>2016-05-19</lastmod>
+     <lastmod>2016-06-09</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/ideas/showing-api-quality-and-reliability/</loc>
+     <lastmod>2016-06-09</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -133,7 +169,7 @@
         
     <url>
      <loc>None/organization/communications-plan/</loc>
-     <lastmod>2016-05-19</lastmod>
+     <lastmod>2016-06-09</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -161,25 +197,37 @@
         
     <url>
      <loc>None/research/API_Community_Resources/</loc>
-     <lastmod>2016-05-19</lastmod>
+     <lastmod>2016-06-09</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/research/API_Lifecycle/</loc>
-     <lastmod>2016-05-19</lastmod>
+     <lastmod>2016-06-09</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/research/API_Metadata_Standards/</loc>
-     <lastmod>2016-05-19</lastmod>
+     <lastmod>2016-06-09</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/research/API_Monitoring_Service/</loc>
+     <lastmod>2016-06-09</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/research/resources/</loc>
-     <lastmod>2016-05-19</lastmod>
+     <lastmod>2016-06-09</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None</loc>
+     <lastmod></lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -201,7 +249,7 @@
         
     <url>
      <loc>None/support/Adding-SOAP-API/</loc>
-     <lastmod>2016-05-19</lastmod>
+     <lastmod>2016-06-09</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
