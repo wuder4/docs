@@ -16,44 +16,119 @@
             "title": "Getting started"
         }, 
         {
-            "location": "/design/", 
-            "text": "Icons\n\n\nPackage\nhttps://atmospherejs.com/dapearce/material-icons\n\n\nMaterial Design Icons\nhttps://materialdesignicons.com/\n\n\nUsage\n\n\ni class=\nmdi mdi-icon-name\n/i", 
-            "title": "Design"
+            "location": "/UserInstructions/", 
+            "text": "Welcome\n\n\nWelcome!\nThank you very much for your interest to APINF.\nTo make your explorations in the API portal simple and easy, we present a small instructions on how to register to APINF and use it's feature.\nPlease leave you feedback and comments about difficulties you faced during APINF use.\nThey are valuable information to as, as you continue to improve our performance and usability.\n\n\nRegistering to APINF\n\n\n1. Go to https://nightly2.apinf.io/\n2. Click on \"Sign Up\" on right corner of topbar.\n3. You can register with your Github account or manually enter Username, Email and Password\n4. Clicking on register will navigate your directly to our Landing page.\n\n\n\nLanding page\n\n\nLanding page give you options to search for an API of your choice, to look in details to the APIs most recently added and discover your opportunities to contribute as an API Ownner or Consumer.\n1. CLick on \"Dashboard\" (topbar) to see general statistics of API you added.\n2. With recently added APIs, you can learn more about its features, documentation, etc. by clicking on \"More Info\"\n3. down to the page, there is information about what features you can access and use through APINF.\n\n\n\nDashboard\n\n\n1. from Dashboard, you will get access to additional navigations to API Backends and Catalogues.\n2. Initially, there is no analytics to appear as you haven't yet added any API of your own. To add an API,  (from top bar)go to API Backend -\n Add API Backend\n3. To browse the existing list of APIs hosted in APINF, go to Catalogue.\n4. After you have added your API and attached it to a proxy, you'd be able to see analytics data about your API Usage.\n5. Currently, we offer charts for viewing \"API Requests\" \"HTTP STatus code\" for the responses and average \"API Response time\".\nThe chart values can be updated by making changing to the timeline menu. You can see information about hourly, daily, weekly and monthly usage of your API.\n6. You can get overview information about \"No of Requests\" made to your API, \"Average Response Time\", \"Response Rate\" and no. of \"Unique Users\" using your API. The information gets updated as you make changes to the usage timeline\n6. The charts are interactve with each other - meaning manually changing value in one chart will affect values dispalyed in another two.\n7. A table in the bottom of the page gives detail information about your API usage (i.e. time of a request, country of origin, path to the method the request was made, IP address originating the request, response time and HTTP status code) based on the timeline selected.\n\n\n\nAPI Catalogue\n\n\n1. Existing set of public APIs are available for browsing through Catalogue menu\n2. You can view the list either in \"card view\" or \"list view\"\n3. The APIs can be sorted by Name, Number of Bookmarks, Average Rating and Creation Date.\n4. Once you have added your own APIs here, you can further filter the list as \"ALL\", \"My APIs\" and \"My Bookmarks\".\n5. From to card/list view, you can directly go to the API profile, see its status (red/yellow/green circle at top left corner) or give a star rate to it based on your experience with this API.\n\n\n\nAdd API Backend\n\n\n1. From this option, you can publish your own API in the APINF platform for mass viewing. \n2. To add an API:\n    2.1 Fill the information in \"Base Information\", \"Backend\" and \"Matching URL Prefixes\" subsections. You can get helpful information about each field under \"info\" button.\n    2.2 Click Publish API. You'll be redirected to the API's profile page. Now you can customize your API using various options in the profile page.\n    2.3 You need to attach your API to a proxy in order to get analytics data about your API usage. Currently we are supporting API Umbrella.\n    2.4 On catalogue view you will be able to see your API listed. Catalgue feature is available even if you don't attach your API to a proxy.", 
+            "title": "UserInstructions"
         }, 
         {
-            "location": "/design/#icons", 
-            "text": "Package\nhttps://atmospherejs.com/dapearce/material-icons  Material Design Icons\nhttps://materialdesignicons.com/  Usage  i class= mdi mdi-icon-name /i", 
-            "title": "Icons"
+            "location": "/UserInstructions/#welcome", 
+            "text": "Welcome!\nThank you very much for your interest to APINF.\nTo make your explorations in the API portal simple and easy, we present a small instructions on how to register to APINF and use it's feature.\nPlease leave you feedback and comments about difficulties you faced during APINF use.\nThey are valuable information to as, as you continue to improve our performance and usability.", 
+            "title": "Welcome"
         }, 
         {
-            "location": "/UX/APINF-Catalogue-Heuristic-Evaluation-Report/", 
-            "text": "APINF Catelogue Heuristic Evaluation Report\n\n\n\n\n\n\nformat:\n    \n \n [violated heuristic(s)][Severity Rating]\n    \n\n    \n\n\n\n\n\n\nWhen user is logged in, s/he needs to navigate to Catalogue via dashboard page. There is no way to navigate there directly. [2,3][2]\n\n\n\n\nuser can't directly access to catelogue via top menu or any other button/link in the main page view when logged in. With unanonymous view, a link to catelgue appears at top right menu\n\n\nProvide link to catelogue when user is logged in; keep a button \"Browse APIs\" below search field in Landing page [ref. https://market.mashape.com/]\n\n\n\n\n\n\n\n\nOn landing page, there is no way to Add new API [2,3]2]\n\n\n\n\nWhen user is logged in, in the landing page, there is no direct way to add new API. User has to do it either by first time registering or navigating via dashboard -\n API Backend -\n Add API Backend\n\n\nAdd a button in the landing page \"Add new API\" below the search field. [ref. https://market.mashape.com/]\n\n\n\n\n\n\n\n\nThere is no way to change language setting other than Landing page[2,3][2]\n\n\n\n\nUser can't change language from dashboard.\n\n\nProvide option to change language at all location of the site.\n\n\n\n\n\n\n\n\nNo Card view of the catelogue to show brief view about APIs [1,5][3]\n\n\n\n\nOnly tabular view is avaulable where information is not layered in an efficient way\n\n\nNew card view of APIs, option to toggle between tabular and card view, no page load should be used for toggling [ref: https://market.mashape.com/explore]\n\n\n\n\n\n\n\n\nUser is not aware of his location in the site unless s/he manually checks it. [5,6][2]\n\n\n\n\nonly way to know the location is via URL or clicking menu within the user dashboard/ hovering on the left menu icons when collapsed.\n\n\nprovide breadcrums to show the location\n\n\n\n\n\n\n\n\nTabular view of API: can be sorted only by alphabetically ascending/descending order on Name and API backend column. Also on first glance, sorting order is no visible/understandable. [1, 3][3]\n\n\n\n\nThere is no way to make the APIs available as most popular, most recently added, most reliable, etc.\n\n\nOther sorting order should be added for the API list appearance: Most Recent, Most Popular, Most Reliable, Uptime, Alpha, Relevent (if category is implemented), My APIs (bookmarked and or added), Depricated, etc.\n\n\nref: Research docs for IBM, Marketmashup and programmable Web\n\n\n\n\n\n\n\n\nTabular View: How Searching works is not visible/ understandable. [3][3]\n\n\n\n\nIt is not clear how the seach result is returned. There is no way to customize searching outcome\n\n\nAdd menu/ visible options for renderin searching result: All, Most Recent, Most Popular, Most Reliable, Uptime, Alpha, Relevency (category/keyword), Depreicated, My APIs (bookmaked/added)\n\n\nFor quantifiable rendering options, add asc/des. orders.\n\n\n\n\n\n\n\n\nTabular view: Current columns take too much space for appearance, there is no way to incorporate other necessary information. [1,5][3]\n\n\n\n\nThere is no provision to show additional information like Developers, Uptime, Category, free/paid, etc.\n\n\nColumnns in table can be reshaped and rearranged to add other necessary information. Information can be shown as icons with details appearing on mouse hover\n\n\n\n\n\n\n\n\ntabular view: columns to show API details and bookmarks take too much space. [9][3]\n\n\n\n\nShowing options to to navigate to API page is redundant. bookmarking the API takes too much space.\n\n\nNavigation should be possible by clicking on the API Name. To show brief overview, can use IBM style: details pane on clicking info icon [ref:https://developer.ibm.com/api/list/layout-list:sort-created:direction-DESC:lang-en_US ]\n\n\nBookmark option can be shown as bookmark icon/star (my favorite). The funtionality can be shown on mouse hover/info icon.\n\n\n\n\n\n\n\n\nNo help text/guiding instructions are present in th catelogue page to guide the user on how to interact with the API catelogue. [8][2]\n\n\n\n\nUser may get confused on how to use the catalogue page as there is no guidance provided for it.\n\n\nTutorial/Summary guidance on top of page with info icons/info icon at different places giving information about relevant functionalities.\n\n\n\n\n\n\n\n\nAPIs can only be seen/recognized with their names. There is no logo to represent them. [1][1]\n\n\n\n\nPeople might not remember what an API does by only seeing their name. Currently, there is no way to show categories of API.\n\n\nGive provision to upload API logo. Show them in tabular view and (if implemented) card view. [ref: https://developer.ibm.com/api/list] [ref: https://market.mashape.com/explore]\n\n\n\n\n\n\n\n\nThere is no way to categorize APIs based on their type [1][3]\n\n\n\n\nIt is difficult to tell what an API does by only looking at the tabular information. User needs to visit the details page to know its purpose and often deetails are not given.\n\n\nCategory tags [reference: https://market.mashape.com/explore]; Provision to select multiple catalogues for one API\n\n\n\n\n\n\n\n\nThere is no way to filter APIs. [1,3][3]\n\n\n\n\nUser can't restrict search results by narrowing down APIs of his/her interest. \n\n\nFiltering menu: By categories; by Protocols; by stage: Preview, Beta, Live (ref: IBM); Updated; Recent; Bookmarked; Most Popular (how to determine it? by counting star numbers?); My APIS;\n\n\nMulti selection filter\n\n\nexplaination text about specific filtering options.\n-clear all filter option\n\n\n\n\n\n\n\n\nWhen user is logged in, rating an API only shows the user's current rating. Information about people who rated it disappears. [1][2]\n\n\n\n\nInformation about who previously rated it no longer appears when a logged in user rates an API\n\n\nshow user rating in the main view; show no. of people rating the APi and average rating in an expanded menu\n\n\n\n\n\n\n\n\nAlert text while rating API without logging in is not relevant to the context. [6][2]\n\n\n\n\n\n\nChange the text as: \"Please sign in or register for rating an API\"; Disable the rating option when user is not logged in\n\n\n\n\n\n\n\n\nBookmark option appears enable when catalogue is browsed without logging in. Also Bookmark option doesn't use apropriate metaphore. [6][2]\n    -\n\n\n\n\nDisable the rating option when user is not logged in/ Add S-alert: \"Please sign in or register for bookmarking an API\"; use star or bookmark icon for representing the function. [ref: IBM, Marketmashup]\n\n\n\n\n\n\n\n\nPagination appears only in the bottom of the page. [2][1]\n\n\n\n\nuser needs to browse down the view to go to the next page of API catalogue\n\n\nshow pagination option in both top and bottom side of the webpage. \n\n\n\n\n\n\n\n\nNo. of entries to show in each page in tabular view should be changed. [1][1]\n\n\n\n\n\n\n50, 100, all, etc./ will depend on how much API is going to be hosted.\n\n\n\n\n\n\n\n\nWhen user is logged in, if s/he changes API sorting order on tabular view and revisits the page, the previously set sorting order is not maintained. [6,7][2]\n\n\n\n\nuser may wish to remember how he sorted out the available list on returning back to API page after other navigation. The current functionality prevents this.\n\n\nshould maintain user's sortiing order when logged in.\n\n\nis also applicable (if implemented) filtering option is used (unless clear filer is performed).\n\n\n\n\n\n\n\n\nOn landing page search, suggestions not relevant to APIs also appear. [6][2]\n        - Now on typing something in search field, autofilled data appears as suggestion even though they are not related to any API\n        - When user is typing keywords, suggestions related to APIs should only appear. Not auto filled irrelevalent data of users or previous search queries", 
-            "title": "APINF Catalogue Heuristic Evaluation Report"
+            "location": "/UserInstructions/#registering-to-apinf", 
+            "text": "1. Go to https://nightly2.apinf.io/\n2. Click on \"Sign Up\" on right corner of topbar.\n3. You can register with your Github account or manually enter Username, Email and Password\n4. Clicking on register will navigate your directly to our Landing page.", 
+            "title": "Registering to APINF"
         }, 
         {
-            "location": "/UX/APINF-Catalogue-Heuristic-Evaluation-Report/#apinf-catelogue-heuristic-evaluation-report", 
-            "text": "format:\n        [violated heuristic(s)][Severity Rating]\n     \n        When user is logged in, s/he needs to navigate to Catalogue via dashboard page. There is no way to navigate there directly. [2,3][2]   user can't directly access to catelogue via top menu or any other button/link in the main page view when logged in. With unanonymous view, a link to catelgue appears at top right menu  Provide link to catelogue when user is logged in; keep a button \"Browse APIs\" below search field in Landing page [ref. https://market.mashape.com/]     On landing page, there is no way to Add new API [2,3]2]   When user is logged in, in the landing page, there is no direct way to add new API. User has to do it either by first time registering or navigating via dashboard -  API Backend -  Add API Backend  Add a button in the landing page \"Add new API\" below the search field. [ref. https://market.mashape.com/]     There is no way to change language setting other than Landing page[2,3][2]   User can't change language from dashboard.  Provide option to change language at all location of the site.     No Card view of the catelogue to show brief view about APIs [1,5][3]   Only tabular view is avaulable where information is not layered in an efficient way  New card view of APIs, option to toggle between tabular and card view, no page load should be used for toggling [ref: https://market.mashape.com/explore]     User is not aware of his location in the site unless s/he manually checks it. [5,6][2]   only way to know the location is via URL or clicking menu within the user dashboard/ hovering on the left menu icons when collapsed.  provide breadcrums to show the location     Tabular view of API: can be sorted only by alphabetically ascending/descending order on Name and API backend column. Also on first glance, sorting order is no visible/understandable. [1, 3][3]   There is no way to make the APIs available as most popular, most recently added, most reliable, etc.  Other sorting order should be added for the API list appearance: Most Recent, Most Popular, Most Reliable, Uptime, Alpha, Relevent (if category is implemented), My APIs (bookmarked and or added), Depricated, etc.  ref: Research docs for IBM, Marketmashup and programmable Web     Tabular View: How Searching works is not visible/ understandable. [3][3]   It is not clear how the seach result is returned. There is no way to customize searching outcome  Add menu/ visible options for renderin searching result: All, Most Recent, Most Popular, Most Reliable, Uptime, Alpha, Relevency (category/keyword), Depreicated, My APIs (bookmaked/added)  For quantifiable rendering options, add asc/des. orders.     Tabular view: Current columns take too much space for appearance, there is no way to incorporate other necessary information. [1,5][3]   There is no provision to show additional information like Developers, Uptime, Category, free/paid, etc.  Columnns in table can be reshaped and rearranged to add other necessary information. Information can be shown as icons with details appearing on mouse hover     tabular view: columns to show API details and bookmarks take too much space. [9][3]   Showing options to to navigate to API page is redundant. bookmarking the API takes too much space.  Navigation should be possible by clicking on the API Name. To show brief overview, can use IBM style: details pane on clicking info icon [ref:https://developer.ibm.com/api/list/layout-list:sort-created:direction-DESC:lang-en_US ]  Bookmark option can be shown as bookmark icon/star (my favorite). The funtionality can be shown on mouse hover/info icon.     No help text/guiding instructions are present in th catelogue page to guide the user on how to interact with the API catelogue. [8][2]   User may get confused on how to use the catalogue page as there is no guidance provided for it.  Tutorial/Summary guidance on top of page with info icons/info icon at different places giving information about relevant functionalities.     APIs can only be seen/recognized with their names. There is no logo to represent them. [1][1]   People might not remember what an API does by only seeing their name. Currently, there is no way to show categories of API.  Give provision to upload API logo. Show them in tabular view and (if implemented) card view. [ref: https://developer.ibm.com/api/list] [ref: https://market.mashape.com/explore]     There is no way to categorize APIs based on their type [1][3]   It is difficult to tell what an API does by only looking at the tabular information. User needs to visit the details page to know its purpose and often deetails are not given.  Category tags [reference: https://market.mashape.com/explore]; Provision to select multiple catalogues for one API     There is no way to filter APIs. [1,3][3]   User can't restrict search results by narrowing down APIs of his/her interest.   Filtering menu: By categories; by Protocols; by stage: Preview, Beta, Live (ref: IBM); Updated; Recent; Bookmarked; Most Popular (how to determine it? by counting star numbers?); My APIS;  Multi selection filter  explaination text about specific filtering options.\n-clear all filter option     When user is logged in, rating an API only shows the user's current rating. Information about people who rated it disappears. [1][2]   Information about who previously rated it no longer appears when a logged in user rates an API  show user rating in the main view; show no. of people rating the APi and average rating in an expanded menu     Alert text while rating API without logging in is not relevant to the context. [6][2]    Change the text as: \"Please sign in or register for rating an API\"; Disable the rating option when user is not logged in     Bookmark option appears enable when catalogue is browsed without logging in. Also Bookmark option doesn't use apropriate metaphore. [6][2]\n    -   Disable the rating option when user is not logged in/ Add S-alert: \"Please sign in or register for bookmarking an API\"; use star or bookmark icon for representing the function. [ref: IBM, Marketmashup]     Pagination appears only in the bottom of the page. [2][1]   user needs to browse down the view to go to the next page of API catalogue  show pagination option in both top and bottom side of the webpage.      No. of entries to show in each page in tabular view should be changed. [1][1]    50, 100, all, etc./ will depend on how much API is going to be hosted.     When user is logged in, if s/he changes API sorting order on tabular view and revisits the page, the previously set sorting order is not maintained. [6,7][2]   user may wish to remember how he sorted out the available list on returning back to API page after other navigation. The current functionality prevents this.  should maintain user's sortiing order when logged in.  is also applicable (if implemented) filtering option is used (unless clear filer is performed).     On landing page search, suggestions not relevant to APIs also appear. [6][2]\n        - Now on typing something in search field, autofilled data appears as suggestion even though they are not related to any API\n        - When user is typing keywords, suggestions related to APIs should only appear. Not auto filled irrelevalent data of users or previous search queries", 
-            "title": "APINF Catelogue Heuristic Evaluation Report"
+            "location": "/UserInstructions/#landing-page", 
+            "text": "Landing page give you options to search for an API of your choice, to look in details to the APIs most recently added and discover your opportunities to contribute as an API Ownner or Consumer.\n1. CLick on \"Dashboard\" (topbar) to see general statistics of API you added.\n2. With recently added APIs, you can learn more about its features, documentation, etc. by clicking on \"More Info\"\n3. down to the page, there is information about what features you can access and use through APINF.", 
+            "title": "Landing page"
         }, 
         {
-            "location": "/UX/Heuristics/", 
-            "text": "Heuristics and Severity Rating for conducting Usability Tests\n\n\nForsell, C., \n Johansson, J. (2010, May). An heuristic set for evaluation in information visualization. In Proceedings of the International Conference on Advanced Visual Interfaces (pp. 199-206). ACM.\n\n\nHeuristics\n\n\n\n\n\n\n\n\nInformation coding\n\n\nPerception of information is directly dependent on the mapping of data elements to visual objects (graphing techniques, color, type and meaning of symbols,\n    shading, transparency, etc). This can be enhanced by using realistic characteristics/techniques or the use of additional symbols (legends, scales, drop lines, grid\n    lines). Is the mapping correct? Is it appropriate for the task at hand, does it support user\u2019s perceptual capabilities?\n\n    Another important aspect is the use of alternative visual attributes or objects to represent information derived from the data like groups of elements in clusteredrepresentations. \n\n\n\n\n\n\n\n\n\n\nMinimal actions \n        - Concerns workload with respect to the number of actions (sets of inputs) necessary to accomplish a goal or a task. \n      The more numerous and complex the actions necessary are the more workload will increase. \n      It is here a matter of limiting/minimizing as much as possible the steps users must go through. \n\n\n\n\n\n\n\n\n\n\nFlexibility \n        -Refers to the means available to the users to customize the interface in order to take into account their working strategies and/or their habits, and the task\n        requirements. Flexibility is reflected in the number of possible ways of achieving a given goal. In other words, it is the capacity of the interface to adapt to the\n        users\u2019 particular needs. Example: permit users to control display configuration, to define, change or remove default values etc. \n\n\n\n\n\n\n\n\n\n\nOrientation and help\n        -Functions like support for the user to control levels of details, redo/undo of user actions and representing additional information (for example the path a user\n        followed while navigating in a complex data structure) define help and user orientation features. \n\n\n\n\n\n\n\n\n\n\nSpatial organization\n        -Concerns user\u2019s orientation and awareness of location in the information space, the distribution of elements in the layout, precision and legibility, efficiency in\n        space usage and distortion of visual elements. Is related to the overall layout of a visual representation and comprises analyzing how easy it is to locate and see an\n        information element in a display (objects location) and to be aware of the own orientation in the information space, and the overall distribution of information\n        elements in the representation (spatial orientation). Locating and analyzing an information element can be hard if some objects are occluded by others or if the\n        layout does not follow a logical organization. \n        Spatial orientation which contributes for the user being aware of the distribution of information elements is dependent on the display of the reference context\n        while showing a specific element in detail. Concerns the possibility and easiness of specifying what information should be displayed in the context area vs the\n        detailed area, can the user control them separately or does selection in one area affect the other. \n\n\n\n\n\n\n\n\n\n\nConsistency\n        -Refers to the way interface design choices (codes, naming, formats, procedures, etc.) are maintained in similar contexts, and are different when applied to\n        different contexts. The design choices will be better recalled, located and recognized if they are stable within the system (e.g. between screens or sessions). This \n        way the system will be more predictable, learning and generalization are facilitated and errors are reduced.  \n\n\n\n\n\n\n\n\n\n\nRecognition rather than recall \n        -Minimize the user's memory load by making objects, actions, and options visible. The user should not have to remember information from one part of the dialogue\n        to another. Instructions for use of the system should be visible or easily retrievable whenever appropriate. Accelerators -- unseen by the novice user -- may often\n        speed up the interaction for the expert user such that the system can cater to both inexperienced and experienced users. Allow users to use shortcuts or tailor\n        frequent actions for their own needs. (Focused on allowing the user additional options to sidestep regular interaction techniques). \n\n\n\n\n\n\n\n\n\n\nPrompting\n        -Means available to guide the user towards making specific actions whether these be data entry or other tasks. Refers to all means that help to know all\n        alternatives when several actions are possible depending on the contexts. Concerns: status information, that is, information about actual state or context of the\n        system, information about help facilities and their accessibility.\n\n\n\n\n\n\n\n\n\n\nRemove the extraneous\n        -Concerns whether any extra information can be a distraction and take the eye away from seeing the data or making comparisons. Present the largest amount of\n        data with the least amount of ink. This involves judging whether any extraneous information is a distraction and/or slow-down.  Extra ink can be a distraction and \n        take the eye away from seeing the data or making comparisons. But removing too much can hinder the perception instead.\n\n\n\n\n\n\n\n\n\n\nData set reduction \n        -Concerns provided features for reducing a data set, their efficiency and ease of use. Filtering allows reduction of information shown at a certain moment, leading \n    more rapidly to adjustment of the focus of interest, and clustering allows representing a subset of data elements by means of special symbols, while pruning\n    simply cuts off information irrelevant for the understanding of a visual representation.\n\n\n\n\n\n\n\n\nSeverity ratings of the findings (Nielsen 1995)\n\n\n- 0 = I do not agree that this is a usability problem at all\n- 1 = Cosmetic problem only: need not be fixed unless extra time is available on project\n- 2 = Minor usability problem: fixing this should be given low priority\n- 3 = Major usability problem: important to fix, so should be given high  priority \n- 4 = Usability catastrophe: imperative to fix this before product can be  released", 
-            "title": "Heuristics"
+            "location": "/UserInstructions/#dashboard", 
+            "text": "1. from Dashboard, you will get access to additional navigations to API Backends and Catalogues.\n2. Initially, there is no analytics to appear as you haven't yet added any API of your own. To add an API,  (from top bar)go to API Backend -  Add API Backend\n3. To browse the existing list of APIs hosted in APINF, go to Catalogue.\n4. After you have added your API and attached it to a proxy, you'd be able to see analytics data about your API Usage.\n5. Currently, we offer charts for viewing \"API Requests\" \"HTTP STatus code\" for the responses and average \"API Response time\".\nThe chart values can be updated by making changing to the timeline menu. You can see information about hourly, daily, weekly and monthly usage of your API.\n6. You can get overview information about \"No of Requests\" made to your API, \"Average Response Time\", \"Response Rate\" and no. of \"Unique Users\" using your API. The information gets updated as you make changes to the usage timeline\n6. The charts are interactve with each other - meaning manually changing value in one chart will affect values dispalyed in another two.\n7. A table in the bottom of the page gives detail information about your API usage (i.e. time of a request, country of origin, path to the method the request was made, IP address originating the request, response time and HTTP status code) based on the timeline selected.", 
+            "title": "Dashboard"
         }, 
         {
-            "location": "/UX/Heuristics/#heuristics-and-severity-rating-for-conducting-usability-tests", 
-            "text": "Forsell, C.,   Johansson, J. (2010, May). An heuristic set for evaluation in information visualization. In Proceedings of the International Conference on Advanced Visual Interfaces (pp. 199-206). ACM.", 
-            "title": "Heuristics and Severity Rating for conducting Usability Tests"
+            "location": "/UserInstructions/#api-catalogue", 
+            "text": "1. Existing set of public APIs are available for browsing through Catalogue menu\n2. You can view the list either in \"card view\" or \"list view\"\n3. The APIs can be sorted by Name, Number of Bookmarks, Average Rating and Creation Date.\n4. Once you have added your own APIs here, you can further filter the list as \"ALL\", \"My APIs\" and \"My Bookmarks\".\n5. From to card/list view, you can directly go to the API profile, see its status (red/yellow/green circle at top left corner) or give a star rate to it based on your experience with this API.", 
+            "title": "API Catalogue"
         }, 
         {
-            "location": "/UX/Heuristics/#heuristics", 
-            "text": "Information coding  Perception of information is directly dependent on the mapping of data elements to visual objects (graphing techniques, color, type and meaning of symbols,\n    shading, transparency, etc). This can be enhanced by using realistic characteristics/techniques or the use of additional symbols (legends, scales, drop lines, grid\n    lines). Is the mapping correct? Is it appropriate for the task at hand, does it support user\u2019s perceptual capabilities? \n    Another important aspect is the use of alternative visual attributes or objects to represent information derived from the data like groups of elements in clusteredrepresentations.       Minimal actions \n        - Concerns workload with respect to the number of actions (sets of inputs) necessary to accomplish a goal or a task. \n      The more numerous and complex the actions necessary are the more workload will increase. \n      It is here a matter of limiting/minimizing as much as possible the steps users must go through.       Flexibility \n        -Refers to the means available to the users to customize the interface in order to take into account their working strategies and/or their habits, and the task\n        requirements. Flexibility is reflected in the number of possible ways of achieving a given goal. In other words, it is the capacity of the interface to adapt to the\n        users\u2019 particular needs. Example: permit users to control display configuration, to define, change or remove default values etc.       Orientation and help\n        -Functions like support for the user to control levels of details, redo/undo of user actions and representing additional information (for example the path a user\n        followed while navigating in a complex data structure) define help and user orientation features.       Spatial organization\n        -Concerns user\u2019s orientation and awareness of location in the information space, the distribution of elements in the layout, precision and legibility, efficiency in\n        space usage and distortion of visual elements. Is related to the overall layout of a visual representation and comprises analyzing how easy it is to locate and see an\n        information element in a display (objects location) and to be aware of the own orientation in the information space, and the overall distribution of information\n        elements in the representation (spatial orientation). Locating and analyzing an information element can be hard if some objects are occluded by others or if the\n        layout does not follow a logical organization. \n        Spatial orientation which contributes for the user being aware of the distribution of information elements is dependent on the display of the reference context\n        while showing a specific element in detail. Concerns the possibility and easiness of specifying what information should be displayed in the context area vs the\n        detailed area, can the user control them separately or does selection in one area affect the other.       Consistency\n        -Refers to the way interface design choices (codes, naming, formats, procedures, etc.) are maintained in similar contexts, and are different when applied to\n        different contexts. The design choices will be better recalled, located and recognized if they are stable within the system (e.g. between screens or sessions). This \n        way the system will be more predictable, learning and generalization are facilitated and errors are reduced.        Recognition rather than recall \n        -Minimize the user's memory load by making objects, actions, and options visible. The user should not have to remember information from one part of the dialogue\n        to another. Instructions for use of the system should be visible or easily retrievable whenever appropriate. Accelerators -- unseen by the novice user -- may often\n        speed up the interaction for the expert user such that the system can cater to both inexperienced and experienced users. Allow users to use shortcuts or tailor\n        frequent actions for their own needs. (Focused on allowing the user additional options to sidestep regular interaction techniques).       Prompting\n        -Means available to guide the user towards making specific actions whether these be data entry or other tasks. Refers to all means that help to know all\n        alternatives when several actions are possible depending on the contexts. Concerns: status information, that is, information about actual state or context of the\n        system, information about help facilities and their accessibility.      Remove the extraneous\n        -Concerns whether any extra information can be a distraction and take the eye away from seeing the data or making comparisons. Present the largest amount of\n        data with the least amount of ink. This involves judging whether any extraneous information is a distraction and/or slow-down.  Extra ink can be a distraction and \n        take the eye away from seeing the data or making comparisons. But removing too much can hinder the perception instead.      Data set reduction \n        -Concerns provided features for reducing a data set, their efficiency and ease of use. Filtering allows reduction of information shown at a certain moment, leading \n    more rapidly to adjustment of the focus of interest, and clustering allows representing a subset of data elements by means of special symbols, while pruning\n    simply cuts off information irrelevant for the understanding of a visual representation.", 
-            "title": "Heuristics"
+            "location": "/UserInstructions/#add-api-backend", 
+            "text": "1. From this option, you can publish your own API in the APINF platform for mass viewing. \n2. To add an API:\n    2.1 Fill the information in \"Base Information\", \"Backend\" and \"Matching URL Prefixes\" subsections. You can get helpful information about each field under \"info\" button.\n    2.2 Click Publish API. You'll be redirected to the API's profile page. Now you can customize your API using various options in the profile page.\n    2.3 You need to attach your API to a proxy in order to get analytics data about your API usage. Currently we are supporting API Umbrella.\n    2.4 On catalogue view you will be able to see your API listed. Catalgue feature is available even if you don't attach your API to a proxy.", 
+            "title": "Add API Backend"
         }, 
         {
-            "location": "/UX/Heuristics/#severity-ratings-of-the-findings-nielsen-1995", 
-            "text": "- 0 = I do not agree that this is a usability problem at all\n- 1 = Cosmetic problem only: need not be fixed unless extra time is available on project\n- 2 = Minor usability problem: fixing this should be given low priority\n- 3 = Major usability problem: important to fix, so should be given high  priority \n- 4 = Usability catastrophe: imperative to fix this before product can be  released", 
-            "title": "Severity ratings of the findings (Nielsen 1995)"
+            "location": "/UX/API Usage Questions/", 
+            "text": "API Usage Questions\n\n\n\n\nNeeds for API Usage:\n\n\nWhen do they feel the need to look for a new API or to consider writing one from scratch\n\n\nDo you directly start developing one? Or you search for it in web to see if something similar exists which would aid you?\n\n\nHow do you typically look for an API? (API needed for application development)? If there are several alternative APIs he could use, how do you select one?\n\n\nWhat are some limitations do you currently face when looking for an API?\n\n\n\n\nHow does categorization help you to look for specific APIs that you need?\n\n\n\n\n\n\nAPI Key\n\n\n\n\n\n\nHow do you prefer to use API Keys?\n\n\n\n\nOne API key for all APIs that you use (provided by the hosting platform)\n\n\nOne Key per API\n\n\n\n\n\n\n\n\nAPI Catalogue\n\n\n\n\nIn API catalgue what information you are usually looking for about an API? how (text, icons, etc.)\n\n\nDO you prefer to have actionable items in API catalogue? (e.g. bookmark/subscribe, rating, etc.)\n\n\n\n\nWhat is your preference about grid and tabular view?\n\n\n\n\n\n\nFree/Payable API:\n\n\n\n\nDo you use private/paid API? If so how you follow up the usage?\n\n\nWhen you are developing an API, do you usually make all the usage options available for free? or keep some features free and some payable?\n\n\n\n\nFor free APIs, what policy do you use for consumers to limit the number of calls they can make?\n\n\n\n\n\n\nAPI Analytics\n\n\n\n\nWhat statistical information about API usage is most important to you and Why? (e.g. No. of requests, response time, response rate, unique users, subscriptions,Last Access Time, usage by Resource (methods), usage by destination, Usage by users, Fault reports (in request calls) etc.)\n\n\n(as an API owner) which of the above information do you think should be available to API consumers?\n\n\n\n\nDo you want to see aggregrated information? or separate information for each API presented side by side?\n\n\n\n\n\n\nAPI Lifecycle Management\n\n\n\n\nWhat lifecycle phases do you usually use in your prototype management\n\n\nhow do you wish to make 2 versions of an API in the API catalogue? Or you simply update the first version and make it available for consumers?\n\n\n\n\nWhat support do you usually provide for oldder versions of an API?\n\n\n\n\n\n\nAPI Dashboard\n\n\n\n\nWhat information would you like to see as overview about your API? Would you like some comparison to see how the usage has changed?\n\n\nwhat is the timeframe they are normally looking at when interested in APi usage per time? For one year? For one week? Differences in consumption in different parts of the day (day vs night)?\n\n\nHow you determine if an API is up or not? Do you have any standard?\n\n\nHow would you determine a poor performing API? (downtime 50%?)? Does Response time also count?\n\n\n\n\n\n\nHow important it is to have a heatmap to see from which part of the world or which part of a country an API request has been generated?\n\n\n\n\n\n\n\n\nAPI Profile\n\n\n\n\nWhat information should an API include in its own profile page? (overview, feedback, owner \n organization, documentation, statistics, history, backlog, etc.)\n\n\n\n\nWhat type of details do you wish to see for API usage?\n\n\n\n\n\n\nAPI Documentation and Editor\n\n\n\n\nHow do you look for API documentation? how you use the documentation after you use an appropriate one (e.g. directly making API calls from the documentation viewer)\n\n\nImagine that you have uploaded a Swagger file to this platform. Where and how would you prefer to make changes to it?\n\n\n\n\nWould you find it valuable if you can download SDK / code snippets for an API? Which programming languages?\n\n\n\n\n\n\nSQA Engineer Testing an API?\n\n\n\n\nWhat aspects of an API do you usually test?\n\n\nHow you determine if an API is up or not? Do you have any standard?\n\n\nHow do you ensure the reliability of an API?\n\n\n\n\nAPI Documentation: Do you try to edit it? or see how the API behaves with uploading new documentation files? \n\n\n\n\n\n\nSharing your Feedback\n\n\n\n\nHow do you think your APIs will be discovered? Would promotion in social media help?\n\n\nWhich is more preferable to you? sharing your API in a social media platform or in a developer/consumer forum for feedback and custom generated contents?", 
+            "title": "API Usage Questions"
+        }, 
+        {
+            "location": "/UX/API Usage Questions/#api-usage-questions", 
+            "text": "Needs for API Usage:  When do they feel the need to look for a new API or to consider writing one from scratch  Do you directly start developing one? Or you search for it in web to see if something similar exists which would aid you?  How do you typically look for an API? (API needed for application development)? If there are several alternative APIs he could use, how do you select one?  What are some limitations do you currently face when looking for an API?   How does categorization help you to look for specific APIs that you need?    API Key    How do you prefer to use API Keys?   One API key for all APIs that you use (provided by the hosting platform)  One Key per API     API Catalogue   In API catalgue what information you are usually looking for about an API? how (text, icons, etc.)  DO you prefer to have actionable items in API catalogue? (e.g. bookmark/subscribe, rating, etc.)   What is your preference about grid and tabular view?    Free/Payable API:   Do you use private/paid API? If so how you follow up the usage?  When you are developing an API, do you usually make all the usage options available for free? or keep some features free and some payable?   For free APIs, what policy do you use for consumers to limit the number of calls they can make?    API Analytics   What statistical information about API usage is most important to you and Why? (e.g. No. of requests, response time, response rate, unique users, subscriptions,Last Access Time, usage by Resource (methods), usage by destination, Usage by users, Fault reports (in request calls) etc.)  (as an API owner) which of the above information do you think should be available to API consumers?   Do you want to see aggregrated information? or separate information for each API presented side by side?    API Lifecycle Management   What lifecycle phases do you usually use in your prototype management  how do you wish to make 2 versions of an API in the API catalogue? Or you simply update the first version and make it available for consumers?   What support do you usually provide for oldder versions of an API?    API Dashboard   What information would you like to see as overview about your API? Would you like some comparison to see how the usage has changed?  what is the timeframe they are normally looking at when interested in APi usage per time? For one year? For one week? Differences in consumption in different parts of the day (day vs night)?  How you determine if an API is up or not? Do you have any standard?  How would you determine a poor performing API? (downtime 50%?)? Does Response time also count?    How important it is to have a heatmap to see from which part of the world or which part of a country an API request has been generated?     API Profile   What information should an API include in its own profile page? (overview, feedback, owner   organization, documentation, statistics, history, backlog, etc.)   What type of details do you wish to see for API usage?    API Documentation and Editor   How do you look for API documentation? how you use the documentation after you use an appropriate one (e.g. directly making API calls from the documentation viewer)  Imagine that you have uploaded a Swagger file to this platform. Where and how would you prefer to make changes to it?   Would you find it valuable if you can download SDK / code snippets for an API? Which programming languages?    SQA Engineer Testing an API?   What aspects of an API do you usually test?  How you determine if an API is up or not? Do you have any standard?  How do you ensure the reliability of an API?   API Documentation: Do you try to edit it? or see how the API behaves with uploading new documentation files?     Sharing your Feedback   How do you think your APIs will be discovered? Would promotion in social media help?  Which is more preferable to you? sharing your API in a social media platform or in a developer/consumer forum for feedback and custom generated contents?", 
+            "title": "API Usage Questions"
+        }, 
+        {
+            "location": "/UX/Dashboard-UserInterview/", 
+            "text": "User Interview about Dashbaoard and Analytics Usage\n\n\nUser: TH\nDate: 20.06.2016\n\n* High Priority Requirements:\n    * List of APIs owned\n    * Status of API: Good, Alert, Bad [Green, Yellow, Red]\n    * No. of errors associatesd (if any) --\n as Overview information\n    * Some comparison of usage from previous times: (last day, same day of last week, same day of last month, same day of last year, etc)\n    * Overview Information: Amount of Usage, Average Response Time, Errors (percentage of the overall requests), Unique Users\n    * User Information: URL (Referrer header, source header)L if not available: IP address\n    * Context Awareness: API name is enough\n    * HTTP Status: how many are 200 and how many are 400\n    * Minimum unit of time: hours, with individual intervals\n    * Default Analytics View: Weekly (negotiable)\n    * Timeline as line plot\n    * Timeline is more important than heatmap\n    * Meaningful Timestamps\n\n* Good To have:\n    * Chart: Aggregrated Overview, individual API Overview\n    * Aggregrated information of usage about a single API key\n    * Date picker for manual time range entry\n    * Link to details about Unique Users and Average Response Times\n    * individual control at timeline, table and heatmap to affect each other\n    * Specific information about a single API User.", 
+            "title": "Dashboard UserInterview"
+        }, 
+        {
+            "location": "/UX/Dashboard-UserInterview/#user-interview-about-dashbaoard-and-analytics-usage", 
+            "text": "User: TH\nDate: 20.06.2016\n\n* High Priority Requirements:\n    * List of APIs owned\n    * Status of API: Good, Alert, Bad [Green, Yellow, Red]\n    * No. of errors associatesd (if any) --  as Overview information\n    * Some comparison of usage from previous times: (last day, same day of last week, same day of last month, same day of last year, etc)\n    * Overview Information: Amount of Usage, Average Response Time, Errors (percentage of the overall requests), Unique Users\n    * User Information: URL (Referrer header, source header)L if not available: IP address\n    * Context Awareness: API name is enough\n    * HTTP Status: how many are 200 and how many are 400\n    * Minimum unit of time: hours, with individual intervals\n    * Default Analytics View: Weekly (negotiable)\n    * Timeline as line plot\n    * Timeline is more important than heatmap\n    * Meaningful Timestamps\n\n* Good To have:\n    * Chart: Aggregrated Overview, individual API Overview\n    * Aggregrated information of usage about a single API key\n    * Date picker for manual time range entry\n    * Link to details about Unique Users and Average Response Times\n    * individual control at timeline, table and heatmap to affect each other\n    * Specific information about a single API User.", 
+            "title": "User Interview about Dashbaoard and Analytics Usage"
+        }, 
+        {
+            "location": "/UX/UserInterview/EHR/", 
+            "text": "User Interview\n\n\n\n\nSS\n\n\n09.08.2016\n\n\n\n\nFeedbacks", 
+            "title": "EHR"
+        }, 
+        {
+            "location": "/UX/UserInterview/EHR/#user-interview", 
+            "text": "SS  09.08.2016", 
+            "title": "User Interview"
+        }, 
+        {
+            "location": "/UX/UserInterview/EHR/#feedbacks", 
+            "text": "", 
+            "title": "Feedbacks"
+        }, 
+        {
+            "location": "/UX/UserInterview/RC/", 
+            "text": "User Interview\n\n\n\n\nSS\n\n\n09.08.2016\n\n\n\n\nFeedbacks", 
+            "title": "RC"
+        }, 
+        {
+            "location": "/UX/UserInterview/RC/#user-interview", 
+            "text": "SS  09.08.2016", 
+            "title": "User Interview"
+        }, 
+        {
+            "location": "/UX/UserInterview/RC/#feedbacks", 
+            "text": "", 
+            "title": "Feedbacks"
+        }, 
+        {
+            "location": "/UX/UserInterview/SMA/", 
+            "text": "User Interview\n\n\n\n\nSS\n\n\n09.08.2016\n\n\n\n\nFeedbacks", 
+            "title": "SMA"
+        }, 
+        {
+            "location": "/UX/UserInterview/SMA/#user-interview", 
+            "text": "SS  09.08.2016", 
+            "title": "User Interview"
+        }, 
+        {
+            "location": "/UX/UserInterview/SMA/#feedbacks", 
+            "text": "", 
+            "title": "Feedbacks"
+        }, 
+        {
+            "location": "/UX/UserInterview/SS/", 
+            "text": "User Interview\n\n\n\n\nSS\n\n\n09.08.2016\n\n\n\n\nFeedbacks", 
+            "title": "SS"
+        }, 
+        {
+            "location": "/UX/UserInterview/SS/#user-interview", 
+            "text": "SS  09.08.2016", 
+            "title": "User Interview"
+        }, 
+        {
+            "location": "/UX/UserInterview/SS/#feedbacks", 
+            "text": "", 
+            "title": "Feedbacks"
         }, 
         {
             "location": "/design/API-Status-Notification/", 
@@ -136,6 +211,21 @@
             "title": "Design"
         }, 
         {
+            "location": "/develop/Code-Styleguide/", 
+            "text": "Code styleguide\n\n\nStandards for developing Apinf code.\n\n\nCSS styleguide\n\n\nFile structure:\n\n\n\n\nEach template - own style file\n\n\nEach style file - overriding section, function section\n\n\nEverything global - global.less file", 
+            "title": "Code Styleguide"
+        }, 
+        {
+            "location": "/develop/Code-Styleguide/#code-styleguide", 
+            "text": "Standards for developing Apinf code.", 
+            "title": "Code styleguide"
+        }, 
+        {
+            "location": "/develop/Code-Styleguide/#css-styleguide", 
+            "text": "File structure:   Each template - own style file  Each style file - overriding section, function section  Everything global - global.less file", 
+            "title": "CSS styleguide"
+        }, 
+        {
             "location": "/develop/Release-Versioning/", 
             "text": "Apinf versioning scheme\n\n\n\n\nWe are using standard semantic versioning in the Apinf project:\n\n\nVersion numbers refer to Major.Minor.Patch, use numerals without leading zeros\n\n\nAlpha and beta spelled out for clarity, e.g. 1.0.0-alpha.\n\n\nRc should be used for release candidates, e.g.1.0.0-rc1\n\n\nFirst release will be 0.1.0\n\n\nFor any milestone, we shall make a stable release.\n\n\nThere will be at least one pre-release for every sprint:\n\n\nTo be made on Mondays prior to new sprint planning\n\n\nRotating release task responsibility, working with project owner\n\n\nNightly builds made from development branch and not tied to official releases.\n\n\n0.1.0 to be made from master, requires pulling from the dev branch.\n\n\nEach time we make a release, we need to decide whether it\u2019s a minor version or a patch.", 
             "title": "Release Versioning"
@@ -164,66 +254,6 @@
             "location": "/develop/Roadmap/#roadmap_1", 
             "text": "This section contains features that have been identified, but are not part of MVP.  Interface/content customization  Users should be able to customize the following aspects of our platform:   Dashboard layout  Dashboard content  Landing page (customization) for companies  Possibility for creating custom widgets (i.e. widget sharing community)  Upload own logo  Choose own colors  As API creator predefine dashboard layout for API users   Import/Export   RAML or Swagger support   Authentication   SSO as separate service   Integration   apis.io search, or strategic partnership   Features for API consumers   Custom API's  Create a contact or message form for feedback to API administrators  Code examples  API sandbox functionality   API usage control   Define limits to API usage by user, by location, by time   API lifecycle management   Features or parts of lifecycle to be defined", 
             "title": "Roadmap"
-        }, 
-        {
-            "location": "/develop/api-design/", 
-            "text": "Apinf API Design\n\n\nThis document contains the design overview for the Apinf Administrative API.\n\n\nURL Route\n\n\nThe Apinf Administrative API will be designated by the \n/api/\n URL route:\n\n\nhttps://example.com/api/.../\n\n\n\n\nVersioning\n\n\nThe Apinf API will change over time. As such, we will use a numbered versioning scheme. Versions will be indicated by integers, starting with \n1\n. Version numbers will be located in the project URL, such as:\n\n\nhttps://example.com/api/v1/.../\n\n\n\n\nAPI Documentation\n\n\nInitially, the Apinf Administrative API will be documented in \nSwagger format\n. Swagger is chosen as it is open-source, vender-neutral, and supported by the Apinf platform itself.\n\n\nSystem Model\n\n\nThe Apinf system model contains several related data collections. Each collection will be represented by an unique endpoint, with the ability to perform traversals to related data sets.\n\n\nUsers\n\n\nApinf users will be available via the \n/users/\n endpoint.\n\n\nIndividual Users\n\n\nIndividual users will be available via \n/users/\nuserId\n\n\nAPI Backends\n\n\nAPI Backends will be available via the \n/backends/\n endpoint.", 
-            "title": "Api design"
-        }, 
-        {
-            "location": "/develop/api-design/#apinf-api-design", 
-            "text": "This document contains the design overview for the Apinf Administrative API.", 
-            "title": "Apinf API Design"
-        }, 
-        {
-            "location": "/develop/api-design/#url-route", 
-            "text": "The Apinf Administrative API will be designated by the  /api/  URL route:  https://example.com/api/.../", 
-            "title": "URL Route"
-        }, 
-        {
-            "location": "/develop/api-design/#versioning", 
-            "text": "The Apinf API will change over time. As such, we will use a numbered versioning scheme. Versions will be indicated by integers, starting with  1 . Version numbers will be located in the project URL, such as:  https://example.com/api/v1/.../", 
-            "title": "Versioning"
-        }, 
-        {
-            "location": "/develop/api-design/#api-documentation", 
-            "text": "Initially, the Apinf Administrative API will be documented in  Swagger format . Swagger is chosen as it is open-source, vender-neutral, and supported by the Apinf platform itself.", 
-            "title": "API Documentation"
-        }, 
-        {
-            "location": "/develop/api-design/#system-model", 
-            "text": "The Apinf system model contains several related data collections. Each collection will be represented by an unique endpoint, with the ability to perform traversals to related data sets.", 
-            "title": "System Model"
-        }, 
-        {
-            "location": "/develop/api-design/#users", 
-            "text": "Apinf users will be available via the  /users/  endpoint.", 
-            "title": "Users"
-        }, 
-        {
-            "location": "/develop/api-design/#individual-users", 
-            "text": "Individual users will be available via  /users/ userId", 
-            "title": "Individual Users"
-        }, 
-        {
-            "location": "/develop/api-design/#api-backends", 
-            "text": "API Backends will be available via the  /backends/  endpoint.", 
-            "title": "API Backends"
-        }, 
-        {
-            "location": "/develop/code-styleguide/", 
-            "text": "Code styleguide\n\n\nStandards for developing Apinf code.\n\n\nCSS styleguide\n\n\nFile structure:\n\n\n\n\nEach template - own style file\n\n\nEach style file - overriding section, function section\n\n\nEverything global - global.less file", 
-            "title": "Code styleguide"
-        }, 
-        {
-            "location": "/develop/code-styleguide/#code-styleguide", 
-            "text": "Standards for developing Apinf code.", 
-            "title": "Code styleguide"
-        }, 
-        {
-            "location": "/develop/code-styleguide/#css-styleguide", 
-            "text": "File structure:   Each template - own style file  Each style file - overriding section, function section  Everything global - global.less file", 
-            "title": "CSS styleguide"
         }, 
         {
             "location": "/develop/contributing/", 
@@ -499,66 +529,6 @@
             "location": "/ideas/op/#op", 
             "text": "Toimitamme esityksen miten t\u00e4ss\u00e4 voisi edet\u00e4  Strategian design yhdess\u00e4  Pilotti  Hackathon palveluv\u00e4yl\u00e4ss\u00e4   VRK/VM tarvitsee ja hakee t\u00e4llaista  Vaatii ett\u00e4 on joku rajapinta tai muutama jotka vied\u00e4\u00e4n kehitysymp\u00e4rist\u00f6\u00f6n\n*", 
             "title": "op"
-        }, 
-        {
-            "location": "/ideas/showing-api-quality-and-reliability/", 
-            "text": "Ideas for API quality and reliabity in Apinf\n\n\nThis document contains ideas from a workshop that was held in order to improve the user experience of Apinf platform related to API quality, reliability. If the Apinf catalog contains a large amount of apis that do not work at all, but the owners have neglected to remove them from the catalog, the users may get a bad impression of Apinf platform itself. The same also applies if the catalog includes a lot of testing apis, but users have no way of knowing that they have been created only for testing purposes. \n\n\nIdeas for improving the platform\n\n\nFront page\n\n\n\n\nFront page could contain popular APIs instead of newest APIs\n\n\n\n\nCatalog\n\n\n\n\nCatalog could be the first page to be shown instead of dashboard (which does not contain any data for a first time user). Or showing either catalog or dashboard could be conditional?\n\n\nIf apis are sorted by popularity, how can you mitigate \"gaming\" the rankings?\n\n\nSorting order for apis in catalog: could there be several options for sorting the apis: popularity, recency, stability, bookmarked apis\n\n\nHow to show the organizations responsible for the apis?\n\n\nShould we have API categories? Tags (free or predefined) or a menu of categories?\n\n\nCould we use crowdsourcing for some of the catalog features like flagging apis (inappropriate for work, dead/defunct), tagging apis?\n\n\n\n\nUser profile\n\n\n\n\nIf we want to enable crowdsourcing in the platform, it becomes necessary to improve the user profile. For instance, it is not acceptable to show user emails to other users, so we should have user names / nicks for all. Other ideas\n\n\nstatus badges by activity\n\n\npoints/credits\n\n\navatars / gravatars\n\n\n\n\nIdeas for showing and improving API quality and reliability\n\n\nAPI visibility\n\n\n\n\nThere could be a setting for API visibility for API owners, which they need to set when adding the API. Options: public, private, testing. \n\n\nDefault option should be public.\n\n\nIf the owner sets the api as public, do they need to be notified that the api is added to catalog?\n\n\nIf it is a private api, who should be able to see that? Do we need additional settings for this?\n\n\nIt also needs to be possible to adjust the visibility later.\n\n\n\n\nApi lifecycle\n\n\n\n\nShould we have labels for API lifecycle?\n\n\nWhat would be the labels: testing, production, deprecated???\n\n\nDo we show all of these in catalog?\n\n\nShould be clear that testing APIs are only for testing. So that a developer visiting Apinf won't get impression of service, where nothing really works.\n\n\nWhen API owner adds an API and adds a 'production' label, should indicate to API owner clearly, what is expected from production API. Some level SLA, response time for error. \n\n\n\n\nMonitoring\n\n\n\n\nthreshold, trigger, action/notification\n\n\nhow do you determine when an api can be considered dead? Is it necessary to do this automatically or can we rely on other features that this becomes unnecessary? E.g. sorting apis by popularity moves dead apis to the end of catalog? Or crowdsourcing makes this unnecessary?\n\n\n\n\nAPI profile\n\n\n\n\nWe could have completeness rate for API \"profile\"\n\n\nFor instance, you could get 25 points for completing metadata\n\n\n30 points for ping quality\n\n\n30 points for star rating\n\n\nWe could also inform the user in the same way as e.g. LinkedIn does that by adding e.g. contact person you will reach a certain completeness rate\n\n\nAPI owner's response time for problems or questions could be there also?\n\n\n\n\nDocumentation and API testing / sandboxing\n\n\n\n\nIt must be easy to find the API documentation\n\n\nTo get a better understanding of the API, developers want to be able to try it. Open item: real calls or sandboxing. (What does sandboxing require? Where does the data come from?)\n\n\nCould there be separate consoles for making actual API calls directly from API and for sandboxing it?", 
-            "title": "Showing api quality and reliability"
-        }, 
-        {
-            "location": "/ideas/showing-api-quality-and-reliability/#ideas-for-api-quality-and-reliabity-in-apinf", 
-            "text": "This document contains ideas from a workshop that was held in order to improve the user experience of Apinf platform related to API quality, reliability. If the Apinf catalog contains a large amount of apis that do not work at all, but the owners have neglected to remove them from the catalog, the users may get a bad impression of Apinf platform itself. The same also applies if the catalog includes a lot of testing apis, but users have no way of knowing that they have been created only for testing purposes.", 
-            "title": "Ideas for API quality and reliabity in Apinf"
-        }, 
-        {
-            "location": "/ideas/showing-api-quality-and-reliability/#ideas-for-improving-the-platform", 
-            "text": "", 
-            "title": "Ideas for improving the platform"
-        }, 
-        {
-            "location": "/ideas/showing-api-quality-and-reliability/#front-page", 
-            "text": "Front page could contain popular APIs instead of newest APIs", 
-            "title": "Front page"
-        }, 
-        {
-            "location": "/ideas/showing-api-quality-and-reliability/#catalog", 
-            "text": "Catalog could be the first page to be shown instead of dashboard (which does not contain any data for a first time user). Or showing either catalog or dashboard could be conditional?  If apis are sorted by popularity, how can you mitigate \"gaming\" the rankings?  Sorting order for apis in catalog: could there be several options for sorting the apis: popularity, recency, stability, bookmarked apis  How to show the organizations responsible for the apis?  Should we have API categories? Tags (free or predefined) or a menu of categories?  Could we use crowdsourcing for some of the catalog features like flagging apis (inappropriate for work, dead/defunct), tagging apis?", 
-            "title": "Catalog"
-        }, 
-        {
-            "location": "/ideas/showing-api-quality-and-reliability/#user-profile", 
-            "text": "If we want to enable crowdsourcing in the platform, it becomes necessary to improve the user profile. For instance, it is not acceptable to show user emails to other users, so we should have user names / nicks for all. Other ideas  status badges by activity  points/credits  avatars / gravatars", 
-            "title": "User profile"
-        }, 
-        {
-            "location": "/ideas/showing-api-quality-and-reliability/#ideas-for-showing-and-improving-api-quality-and-reliability", 
-            "text": "", 
-            "title": "Ideas for showing and improving API quality and reliability"
-        }, 
-        {
-            "location": "/ideas/showing-api-quality-and-reliability/#api-visibility", 
-            "text": "There could be a setting for API visibility for API owners, which they need to set when adding the API. Options: public, private, testing.   Default option should be public.  If the owner sets the api as public, do they need to be notified that the api is added to catalog?  If it is a private api, who should be able to see that? Do we need additional settings for this?  It also needs to be possible to adjust the visibility later.", 
-            "title": "API visibility"
-        }, 
-        {
-            "location": "/ideas/showing-api-quality-and-reliability/#api-lifecycle", 
-            "text": "Should we have labels for API lifecycle?  What would be the labels: testing, production, deprecated???  Do we show all of these in catalog?  Should be clear that testing APIs are only for testing. So that a developer visiting Apinf won't get impression of service, where nothing really works.  When API owner adds an API and adds a 'production' label, should indicate to API owner clearly, what is expected from production API. Some level SLA, response time for error.", 
-            "title": "Api lifecycle"
-        }, 
-        {
-            "location": "/ideas/showing-api-quality-and-reliability/#monitoring", 
-            "text": "threshold, trigger, action/notification  how do you determine when an api can be considered dead? Is it necessary to do this automatically or can we rely on other features that this becomes unnecessary? E.g. sorting apis by popularity moves dead apis to the end of catalog? Or crowdsourcing makes this unnecessary?", 
-            "title": "Monitoring"
-        }, 
-        {
-            "location": "/ideas/showing-api-quality-and-reliability/#api-profile", 
-            "text": "We could have completeness rate for API \"profile\"  For instance, you could get 25 points for completing metadata  30 points for ping quality  30 points for star rating  We could also inform the user in the same way as e.g. LinkedIn does that by adding e.g. contact person you will reach a certain completeness rate  API owner's response time for problems or questions could be there also?", 
-            "title": "API profile"
-        }, 
-        {
-            "location": "/ideas/showing-api-quality-and-reliability/#documentation-and-api-testing-sandboxing", 
-            "text": "It must be easy to find the API documentation  To get a better understanding of the API, developers want to be able to try it. Open item: real calls or sandboxing. (What does sandboxing require? Where does the data come from?)  Could there be separate consoles for making actual API calls directly from API and for sandboxing it?", 
-            "title": "Documentation and API testing / sandboxing"
         }, 
         {
             "location": "/organization/communications-plan/", 
@@ -2786,126 +2756,6 @@
             "title": "816 (Define date format in setting &amp; user locale) CreatedPR #872."
         }, 
         {
-            "location": "/organization/minutes/2016-05-23-Sprint-23-Planning/", 
-            "text": "Sprint 23 planning meeting minutes 2016-05-23\n\n\nPresent\n\n\n\n\nTaija\n\n\nVesa\n\n\nVille\n\n\nNazia\n\n\nBrylie\n\n\n\n\nAssigned tasks and estimations\n\n\nVille (@jykae)\n\n\n\n\n\n\n938  Design and implement upload documentation functionality to Documentation tab - 20h\n\n\n\n\n\n\n523  Validate Swagger files when they are uploaded - 13h\n\n\n\n\n\n\n622  Ensure api managers can disable API key check on Backends - 20h\n\n\n\n\n\n\nBrylie (@brylie)\n\n\n\n\n\n\n937  Conduct a manual test session for Meteor update - 8h\n\n\n\n\n\n\n847  Research alternatives to Swagger UI - 5h\n\n\n\n\n\n\n933  Create a Node-RED demonstration of real-time data from HSL - 13h\n\n\n\n\n\n\n950  Research generating code snippets from API documentation - 2h\n\n\n\n\n\n\n648  Create document comparing API Umbrella and Kong Documentation - 5h\n\n\n\n\n\n\nTaija (@bajiat)\n\n\n\n\n\n\n934  Start backlog grooming - 20h\n\n\n\n\n\n\n931  Audit UI texts for i18n 'completeness' - 5h\n\n\n\n\n\n\n947  Create an audit document for ApiConnect (IBM) - 3h\n\n\n\n\n\n\nVesa (@preriasusi)\n\n\n\n\n\n\n932  Plan meeting for API service level quality feature(s)\n\n\n\n\n\n\nDamir (@frenchbread)\n\n\n\n\n\n\n939  API Backend Feedback form not submitting (after 1.3 upgrade) API Backend - 8h\n\n\n\n\n\n\n927  Dashboard getChartData method fails when Elastic settings not available - 13h\n\n\n\n\n\n\n949  Resolve Elastic-REST error after Meteor 1.3 upgrade - 8h", 
-            "title": "2016 05 23 Sprint 23 Planning"
-        }, 
-        {
-            "location": "/organization/minutes/2016-05-23-Sprint-23-Planning/#sprint-23-planning-meeting-minutes-2016-05-23", 
-            "text": "", 
-            "title": "Sprint 23 planning meeting minutes 2016-05-23"
-        }, 
-        {
-            "location": "/organization/minutes/2016-05-23-Sprint-23-Planning/#present", 
-            "text": "Taija  Vesa  Ville  Nazia  Brylie", 
-            "title": "Present"
-        }, 
-        {
-            "location": "/organization/minutes/2016-05-23-Sprint-23-Planning/#assigned-tasks-and-estimations", 
-            "text": "", 
-            "title": "Assigned tasks and estimations"
-        }, 
-        {
-            "location": "/organization/minutes/2016-05-23-Sprint-23-Planning/#ville-jykae", 
-            "text": "", 
-            "title": "Ville (@jykae)"
-        }, 
-        {
-            "location": "/organization/minutes/2016-05-23-Sprint-23-Planning/#938-design-and-implement-upload-documentation-functionality-to-documentation-tab-20h", 
-            "text": "", 
-            "title": "938  Design and implement upload documentation functionality to Documentation tab - 20h"
-        }, 
-        {
-            "location": "/organization/minutes/2016-05-23-Sprint-23-Planning/#523-validate-swagger-files-when-they-are-uploaded-13h", 
-            "text": "", 
-            "title": "523  Validate Swagger files when they are uploaded - 13h"
-        }, 
-        {
-            "location": "/organization/minutes/2016-05-23-Sprint-23-Planning/#622-ensure-api-managers-can-disable-api-key-check-on-backends-20h", 
-            "text": "", 
-            "title": "622  Ensure api managers can disable API key check on Backends - 20h"
-        }, 
-        {
-            "location": "/organization/minutes/2016-05-23-Sprint-23-Planning/#brylie-brylie", 
-            "text": "", 
-            "title": "Brylie (@brylie)"
-        }, 
-        {
-            "location": "/organization/minutes/2016-05-23-Sprint-23-Planning/#937-conduct-a-manual-test-session-for-meteor-update-8h", 
-            "text": "", 
-            "title": "937  Conduct a manual test session for Meteor update - 8h"
-        }, 
-        {
-            "location": "/organization/minutes/2016-05-23-Sprint-23-Planning/#847-research-alternatives-to-swagger-ui-5h", 
-            "text": "", 
-            "title": "847  Research alternatives to Swagger UI - 5h"
-        }, 
-        {
-            "location": "/organization/minutes/2016-05-23-Sprint-23-Planning/#933-create-a-node-red-demonstration-of-real-time-data-from-hsl-13h", 
-            "text": "", 
-            "title": "933  Create a Node-RED demonstration of real-time data from HSL - 13h"
-        }, 
-        {
-            "location": "/organization/minutes/2016-05-23-Sprint-23-Planning/#950-research-generating-code-snippets-from-api-documentation-2h", 
-            "text": "", 
-            "title": "950  Research generating code snippets from API documentation - 2h"
-        }, 
-        {
-            "location": "/organization/minutes/2016-05-23-Sprint-23-Planning/#648-create-document-comparing-api-umbrella-and-kong-documentation-5h", 
-            "text": "", 
-            "title": "648  Create document comparing API Umbrella and Kong Documentation - 5h"
-        }, 
-        {
-            "location": "/organization/minutes/2016-05-23-Sprint-23-Planning/#taija-bajiat", 
-            "text": "", 
-            "title": "Taija (@bajiat)"
-        }, 
-        {
-            "location": "/organization/minutes/2016-05-23-Sprint-23-Planning/#934-start-backlog-grooming-20h", 
-            "text": "", 
-            "title": "934  Start backlog grooming - 20h"
-        }, 
-        {
-            "location": "/organization/minutes/2016-05-23-Sprint-23-Planning/#931-audit-ui-texts-for-i18n-completeness-5h", 
-            "text": "", 
-            "title": "931  Audit UI texts for i18n 'completeness' - 5h"
-        }, 
-        {
-            "location": "/organization/minutes/2016-05-23-Sprint-23-Planning/#947-create-an-audit-document-for-apiconnect-ibm-3h", 
-            "text": "", 
-            "title": "947  Create an audit document for ApiConnect (IBM) - 3h"
-        }, 
-        {
-            "location": "/organization/minutes/2016-05-23-Sprint-23-Planning/#vesa-preriasusi", 
-            "text": "", 
-            "title": "Vesa (@preriasusi)"
-        }, 
-        {
-            "location": "/organization/minutes/2016-05-23-Sprint-23-Planning/#932-plan-meeting-for-api-service-level-quality-features", 
-            "text": "", 
-            "title": "932  Plan meeting for API service level quality feature(s)"
-        }, 
-        {
-            "location": "/organization/minutes/2016-05-23-Sprint-23-Planning/#damir-frenchbread", 
-            "text": "", 
-            "title": "Damir (@frenchbread)"
-        }, 
-        {
-            "location": "/organization/minutes/2016-05-23-Sprint-23-Planning/#939-api-backend-feedback-form-not-submitting-after-13-upgrade-api-backend-8h", 
-            "text": "", 
-            "title": "939  API Backend Feedback form not submitting (after 1.3 upgrade) API Backend - 8h"
-        }, 
-        {
-            "location": "/organization/minutes/2016-05-23-Sprint-23-Planning/#927-dashboard-getchartdata-method-fails-when-elastic-settings-not-available-13h", 
-            "text": "", 
-            "title": "927  Dashboard getChartData method fails when Elastic settings not available - 13h"
-        }, 
-        {
-            "location": "/organization/minutes/2016-05-23-Sprint-23-Planning/#949-resolve-elastic-rest-error-after-meteor-13-upgrade-8h", 
-            "text": "", 
-            "title": "949  Resolve Elastic-REST error after Meteor 1.3 upgrade - 8h"
-        }, 
-        {
             "location": "/organization/minutes/2016-06-03-Sprint-23-Review/", 
             "text": "2016-06-03 Meeting minutes: Sprint 23 review\n\n\nPresent:\n\n\n\n\nBrylie Oxley\n\n\nTaija Bj\u00f6rklund\n\n\nIllya Nizyev\n\n\nVille Jyrkk\u00e4\n\n\nDamir Mustafin\n\n\nNazia Hasan\n\n\n\n\nIlya\n\n\n\n\nIssue #929 - documentation upload functionality\n\n\nWorking demo:\n\n\nAdd link to documentation\n\n\nUpload documentation file\n\n\nRemove documentation file\n\n\nFields help text\n\n\n\n\n\n\nMissing:\n\n\nConfirmation window for file remove\n\n\n\n\n\n\nTodo\n\n\nValidation (file type, format, etc.)\n\n\n\n\n\n\nIssue #622\n\n\n\n\nDamir\n\n\n\n\nIssue #960 - cleanup config file \n feedback for submit fix\n\n\nIssue #1080 - dynatable i18n text duplication\n\n\n\n\nBrylie\n\n\n\n\nTODO: Issue #648\n\n\nIssue #847 - Swagger UI alternatives research\n\n\nReDoc\n\n\nIssue #933 - Node-Red\n\n\n\n\n937 Manual test session\n\n\n\n\n\n\n950 Research generating code snippers from API documentation\n\n\n\n\nMonitoring service's status tools\n\n\n\n\nVille\n\n\n\n\nFile Upload feature\n\n\nDocker\n\n\nDeployment\n\n\n\n\nNazia\n\n\n\n\nIssue #977 - Catalog research\n\n\nLink to API catalog page placement: link does not show up when user is authenticated\n\n\nDisable bookmarking options if not authenticated\n\n\nCatalog search\n\n\nFiltering by format/protocol\n\n\nIssue #978 - Heuristic Evaluation\n\n\nReport: https://github.com/apinf/api-umbrella-dashboard/blob/develop/docs/UX/APINF-Catalogue-Heuristic-Evaluation-Report", 
             "title": "2016 06 03 Sprint 23 Review"
@@ -2954,6 +2804,201 @@
             "location": "/organization/minutes/2016-06-03-Sprint-23-Review/#nazia", 
             "text": "Issue #977 - Catalog research  Link to API catalog page placement: link does not show up when user is authenticated  Disable bookmarking options if not authenticated  Catalog search  Filtering by format/protocol  Issue #978 - Heuristic Evaluation  Report: https://github.com/apinf/api-umbrella-dashboard/blob/develop/docs/UX/APINF-Catalogue-Heuristic-Evaluation-Report", 
             "title": "Nazia"
+        }, 
+        {
+            "location": "/organization/minutes/2016-07-14-Sprint-26-Review/", 
+            "text": "Sprint 26 Review Meeting\n\n\n\n\n15/07/2016 13:00 - 14:00\n\n\nParticipants: Damir, Ilya, Nazia\n\n\n\n\nTask Review\n\n\n\n\n\n\nDamir: \n\n\n\n\nIssue #1009: Selecting analytics timeframe\n\n\nIssue #999: Allow owner to select the API they are viewing the analytics for\n\n\nIssue #556: Design Elastic query for single API backend analytics\n\n\nIssue #1300: Show API Status in Analytics when it is selected\n\n\n\n\n\n\n\n\nIlya:\n\n\n\n\nIssue #1311: Being owner of API backend unable to add metadata,documentation and backlog in 'API backend view' \n\n\nIssue #1310: Edit API backend as owner displays message 'Not Authorized'\n\n\nIssue #1295: Navigation menu search bar jumps to new line when translation strings change\n\n\nIssue #1252: Select sorting order and toggle to 'bookmarks' view shows empty page \n\n\nIssue #674: No user guidelines for chart analysis\n\n\nIssue #1260: Finalize admin view for dashboard\n\n\n\n\n\n\n\n\nNazia\n\n\n\n\nIssue #1315: HiFi Wireframe for API Uptime\n\n\nIssue #1284: Wireframe for showing context awareness\n\n\nIssue #1321: Hi-Fi Wireframe for Advanced query filtering of API Drilldown\n\n\nIssue #1307: heuristic Evaluation of API Profile Page", 
+            "title": "2016 07 14 Sprint 26 Review"
+        }, 
+        {
+            "location": "/organization/minutes/2016-07-14-Sprint-26-Review/#sprint-26-review-meeting", 
+            "text": "15/07/2016 13:00 - 14:00  Participants: Damir, Ilya, Nazia", 
+            "title": "Sprint 26 Review Meeting"
+        }, 
+        {
+            "location": "/organization/minutes/2016-07-14-Sprint-26-Review/#task-review", 
+            "text": "Damir:    Issue #1009: Selecting analytics timeframe  Issue #999: Allow owner to select the API they are viewing the analytics for  Issue #556: Design Elastic query for single API backend analytics  Issue #1300: Show API Status in Analytics when it is selected     Ilya:   Issue #1311: Being owner of API backend unable to add metadata,documentation and backlog in 'API backend view'   Issue #1310: Edit API backend as owner displays message 'Not Authorized'  Issue #1295: Navigation menu search bar jumps to new line when translation strings change  Issue #1252: Select sorting order and toggle to 'bookmarks' view shows empty page   Issue #674: No user guidelines for chart analysis  Issue #1260: Finalize admin view for dashboard     Nazia   Issue #1315: HiFi Wireframe for API Uptime  Issue #1284: Wireframe for showing context awareness  Issue #1321: Hi-Fi Wireframe for Advanced query filtering of API Drilldown  Issue #1307: heuristic Evaluation of API Profile Page", 
+            "title": "Task Review"
+        }, 
+        {
+            "location": "/organization/minutes/2016-07-18-Sprint-27-Planning/", 
+            "text": "Sprint 27 Planning\n\n\n\n\nDate: 18.07.2016 10:00-10.30\n\n\nParticipants: Ilya, Damir, Sandhya, Nazia\n\n\n\n\nTask Assignment\n\n\n\n\n622 - Ensure api managers can disable API key check on Backends - Ilya\n\n\n1190 - Ensure that rate limiting setting works - Proposed for Ville\n\n\n1200 - Allow only unique API backend URL's - Ilya\n\n\n1203 - UI improvements to single API view (API profile) - Ilya\n\n\n1020 - Setting for API visibility - Proposed for Ville\n\n\n1248 - Unsuccessful in editing API backend - shows \"Cannot read property 'length' of null\" - Ilya\n\n\n1196 - Add infinite scrolling or pagination to Catalog view - Damir\n\n\n1332 - HiFi Wireframe for API Profile Default Page - Nazia\n\n\n1333 - Add Alert message to notify users about unique API backend - Nazia", 
+            "title": "2016 07 18 Sprint 27 Planning"
+        }, 
+        {
+            "location": "/organization/minutes/2016-07-18-Sprint-27-Planning/#sprint-27-planning", 
+            "text": "Date: 18.07.2016 10:00-10.30  Participants: Ilya, Damir, Sandhya, Nazia", 
+            "title": "Sprint 27 Planning"
+        }, 
+        {
+            "location": "/organization/minutes/2016-07-18-Sprint-27-Planning/#task-assignment", 
+            "text": "622 - Ensure api managers can disable API key check on Backends - Ilya  1190 - Ensure that rate limiting setting works - Proposed for Ville  1200 - Allow only unique API backend URL's - Ilya  1203 - UI improvements to single API view (API profile) - Ilya  1020 - Setting for API visibility - Proposed for Ville  1248 - Unsuccessful in editing API backend - shows \"Cannot read property 'length' of null\" - Ilya  1196 - Add infinite scrolling or pagination to Catalog view - Damir  1332 - HiFi Wireframe for API Profile Default Page - Nazia  1333 - Add Alert message to notify users about unique API backend - Nazia", 
+            "title": "Task Assignment"
+        }, 
+        {
+            "location": "/organization/minutes/2016-07-29-Sprint-27-Review/", 
+            "text": "Sprint 27 Review Meeting\n\n\n\n\n29/07/2016 13:00 - 14:00\n\n\nParticipants: Damir, Ilya, Nazia, Philippe\n\n\n\n\nTask Review\n\n\n\n\nDamir: \n\n\n\n\nClosed\n\n\n\n\nIssue #1196: Add infinite scrolling or pagination to Catalog view\n\n\nadd an enhancement issue about adding record information\n\n\n\n\n\n\n\n\nIlya:\n\n\n\n\n\n\nClosed\n\n\n\n\nIssue #622: Ensure api managers can disable API key check on Backends \n\n\nneed to create an issue about API Key enable/disable feature\n\n\nIssue #1151: Delay and error message when uploading swagger.json\n\n\nIssue #1156: Upload swagger.yaml delayed with error message \n\n\nOpen\n\n\nIssue #1318: Update Meteor to the latest version\n\n\nIssue #1203: UI improvements to single API view (API profile)\n\n\nIssue #1200: Allow only unique API backend URL's\n\n\n\n\n\n\n\n\nNazia\n\n\n\n\nIssue #1332: HiFi Wireframe for API Profile Default Page\n\n\nIssue #1307: heuristic Evaluation of API Profile Page", 
+            "title": "2016 07 29 Sprint 27 Review"
+        }, 
+        {
+            "location": "/organization/minutes/2016-07-29-Sprint-27-Review/#sprint-27-review-meeting", 
+            "text": "29/07/2016 13:00 - 14:00  Participants: Damir, Ilya, Nazia, Philippe", 
+            "title": "Sprint 27 Review Meeting"
+        }, 
+        {
+            "location": "/organization/minutes/2016-07-29-Sprint-27-Review/#task-review", 
+            "text": "Damir:    Closed   Issue #1196: Add infinite scrolling or pagination to Catalog view  add an enhancement issue about adding record information     Ilya:    Closed   Issue #622: Ensure api managers can disable API key check on Backends   need to create an issue about API Key enable/disable feature  Issue #1151: Delay and error message when uploading swagger.json  Issue #1156: Upload swagger.yaml delayed with error message   Open  Issue #1318: Update Meteor to the latest version  Issue #1203: UI improvements to single API view (API profile)  Issue #1200: Allow only unique API backend URL's     Nazia   Issue #1332: HiFi Wireframe for API Profile Default Page  Issue #1307: heuristic Evaluation of API Profile Page", 
+            "title": "Task Review"
+        }, 
+        {
+            "location": "/organization/minutes/2016-08-01-Sprint-28-Planning/", 
+            "text": "Sprint 28 Planning\n\n\n\n\nDate: 01.08.2016 10:00-11.30\n\n\nParticipants: Ilya, Damir, Taija, Nazia\n\n\n\n\nTask Assignment\n\n\n\n\n1340 - Dashboard performance improvements - Damir - 3\n\n\n1220 - Update API Umbrella settings so that base URL does not need '/api-umbrella/' suffix\n\n\n1207 - Separate API details editing from editing proxy settings - Ilya - 5\n\n\n1021 - Show statistics for API failures/uptime - Ilya - 5\n\n\n1022 - Show APU uptime in API Catalogue -   - 2\n\n\n1091 - Design API backend schema\n\n\n1233 - Refactor API Umbrella configuration", 
+            "title": "2016 08 01 Sprint 28 Planning"
+        }, 
+        {
+            "location": "/organization/minutes/2016-08-01-Sprint-28-Planning/#sprint-28-planning", 
+            "text": "Date: 01.08.2016 10:00-11.30  Participants: Ilya, Damir, Taija, Nazia", 
+            "title": "Sprint 28 Planning"
+        }, 
+        {
+            "location": "/organization/minutes/2016-08-01-Sprint-28-Planning/#task-assignment", 
+            "text": "1340 - Dashboard performance improvements - Damir - 3  1220 - Update API Umbrella settings so that base URL does not need '/api-umbrella/' suffix  1207 - Separate API details editing from editing proxy settings - Ilya - 5  1021 - Show statistics for API failures/uptime - Ilya - 5  1022 - Show APU uptime in API Catalogue -   - 2  1091 - Design API backend schema  1233 - Refactor API Umbrella configuration", 
+            "title": "Task Assignment"
+        }, 
+        {
+            "location": "/organization/minutes/2016-08-26-Sprint-29-Review/", 
+            "text": "Sprint 29 Review Meeting\n\n\nParticipants\n\n\n\n\nBrylie\n\n\nNazia\n\n\nSandhya\n\n\nVille\n\n\nTaija\n\n\n\n\nTask Review\n\n\nBrylie\n\n\n\n\n\n\n1020 Setting for API visibility API Backend\n\n\n\n\nFinalizing the task: fixing console errors, ironing edge cases like visibility for bookmarked APIs\n\n\n\n\n1091 Design API backend schema, #1379 Update Add API wizard\n\n\n\n\nAdd API wizard removed, API added to Catalog with a small form\n\n\nAll proxy backend related settings removed collection, schema and API settings tab\n\n\nAPIs cannot be connected to APIs at the moment\n\n\nWorked also on reorganizing project structure\n\n\n\n\nDasha\n\n\n\n\n\n\nIntegrate SDK download to Documentation tab: ongoing\n\n\n\n\n\n\nNazia\n\n\n\n\n\n\n1393 Wireframe for API Proxy Add \n Edit UI\n\n\n\n\nWireframe for SDK download\n\n\n\n\nDamir\n\n\n\n\n\n\n1378 Design Proxies collection and schema, #1383 UI for adding or editing API proxy\n\n\n\n\nSidebar added for different settings, new view added for Proxies, only API Umbrella supported\n\n\n\n\nVille\n\n\n\n\n\n\n1388 Plan \n test MongoDB database migration from 2.x to 3.x\n\n\n\n\nNightly upgraded to 3.x, WiredTiger engine\n\n\nUpdate scripts shared to Shaliko\n\n\n\n\n1375 Data migration strategy\n\n\n\n\nBased on the investigation, percolate:migrations selected as package for database migrations\n\n\n\n\n1406 Test database migration with percolate:migrations\n\n\n\n\nSample migration done for isPublic field, closed without merging due to multiproxy changes to collections\n\n\n\n\n1378, #1383: Finalising Damir's tasks on Proxies\n\n\n\n\nInvestigating Swagger authentication case", 
+            "title": "2016 08 26 Sprint 29 Review"
+        }, 
+        {
+            "location": "/organization/minutes/2016-08-26-Sprint-29-Review/#sprint-29-review-meeting", 
+            "text": "", 
+            "title": "Sprint 29 Review Meeting"
+        }, 
+        {
+            "location": "/organization/minutes/2016-08-26-Sprint-29-Review/#participants", 
+            "text": "Brylie  Nazia  Sandhya  Ville  Taija", 
+            "title": "Participants"
+        }, 
+        {
+            "location": "/organization/minutes/2016-08-26-Sprint-29-Review/#task-review", 
+            "text": "", 
+            "title": "Task Review"
+        }, 
+        {
+            "location": "/organization/minutes/2016-08-26-Sprint-29-Review/#brylie", 
+            "text": "", 
+            "title": "Brylie"
+        }, 
+        {
+            "location": "/organization/minutes/2016-08-26-Sprint-29-Review/#1020-setting-for-api-visibility-api-backend", 
+            "text": "Finalizing the task: fixing console errors, ironing edge cases like visibility for bookmarked APIs", 
+            "title": "1020 Setting for API visibility API Backend"
+        }, 
+        {
+            "location": "/organization/minutes/2016-08-26-Sprint-29-Review/#1091-design-api-backend-schema-1379-update-add-api-wizard", 
+            "text": "Add API wizard removed, API added to Catalog with a small form  All proxy backend related settings removed collection, schema and API settings tab  APIs cannot be connected to APIs at the moment  Worked also on reorganizing project structure", 
+            "title": "1091 Design API backend schema, #1379 Update Add API wizard"
+        }, 
+        {
+            "location": "/organization/minutes/2016-08-26-Sprint-29-Review/#dasha", 
+            "text": "", 
+            "title": "Dasha"
+        }, 
+        {
+            "location": "/organization/minutes/2016-08-26-Sprint-29-Review/#integrate-sdk-download-to-documentation-tab-ongoing", 
+            "text": "", 
+            "title": "Integrate SDK download to Documentation tab: ongoing"
+        }, 
+        {
+            "location": "/organization/minutes/2016-08-26-Sprint-29-Review/#nazia", 
+            "text": "", 
+            "title": "Nazia"
+        }, 
+        {
+            "location": "/organization/minutes/2016-08-26-Sprint-29-Review/#1393-wireframe-for-api-proxy-add-edit-ui", 
+            "text": "Wireframe for SDK download", 
+            "title": "1393 Wireframe for API Proxy Add &amp; Edit UI"
+        }, 
+        {
+            "location": "/organization/minutes/2016-08-26-Sprint-29-Review/#damir", 
+            "text": "", 
+            "title": "Damir"
+        }, 
+        {
+            "location": "/organization/minutes/2016-08-26-Sprint-29-Review/#1378-design-proxies-collection-and-schema-1383-ui-for-adding-or-editing-api-proxy", 
+            "text": "Sidebar added for different settings, new view added for Proxies, only API Umbrella supported", 
+            "title": "1378 Design Proxies collection and schema, #1383 UI for adding or editing API proxy"
+        }, 
+        {
+            "location": "/organization/minutes/2016-08-26-Sprint-29-Review/#ville", 
+            "text": "", 
+            "title": "Ville"
+        }, 
+        {
+            "location": "/organization/minutes/2016-08-26-Sprint-29-Review/#1388-plan-test-mongodb-database-migration-from-2x-to-3x", 
+            "text": "Nightly upgraded to 3.x, WiredTiger engine  Update scripts shared to Shaliko", 
+            "title": "1388 Plan &amp; test MongoDB database migration from 2.x to 3.x"
+        }, 
+        {
+            "location": "/organization/minutes/2016-08-26-Sprint-29-Review/#1375-data-migration-strategy", 
+            "text": "Based on the investigation, percolate:migrations selected as package for database migrations", 
+            "title": "1375 Data migration strategy"
+        }, 
+        {
+            "location": "/organization/minutes/2016-08-26-Sprint-29-Review/#1406-test-database-migration-with-percolatemigrations", 
+            "text": "Sample migration done for isPublic field, closed without merging due to multiproxy changes to collections", 
+            "title": "1406 Test database migration with percolate:migrations"
+        }, 
+        {
+            "location": "/organization/minutes/2016-08-26-Sprint-29-Review/#1378-1383-finalising-damirs-tasks-on-proxies", 
+            "text": "Investigating Swagger authentication case", 
+            "title": "1378, #1383: Finalising Damir's tasks on Proxies"
+        }, 
+        {
+            "location": "/organization/minutes/2016-08-29-Sprint-30-Planning-Minutes/", 
+            "text": "Sprint 30 Planning\n\n\n* Participants: Brylie, Nazia, Sandhya, Taija\n* Date: 29.08.2016 10:00 - 11:00\n\n\n\nAssigned Tasks\n\n\n* 1233 - Create proxy backend collection and UI for mandatory fields - 5 - Brylie\n* 1381 - Update API details tab - 1 - Brylie\n* 1382 - Update dashboard analytics URL and user notification - 5 - Damir\n* 1394 - If no proxy selected for platform, dashboard should not be available - 2 - Damir\n* 1384 - Get API key button to API profile page - 3 - Ville\n* 622 - Ensure API managers can disable API key check on backend - 2 - \n* 1190 - Add and test rate limiting field to proxy backend collection - 3 - Ville\n* 1385 - Change API settings export to match collection change - 1 - \n* 1446 - Fix API Backlog add/edit/delete forms and deprecate the afModals - - \n* 1444 - Refactor project router files for consistency - Ville\n* 1443 - Refactor all  collection files to use same structure - 1 - Brylie\n* 1445 - Directing usee to proxy settings after adding an API - 2 - Nazia\n* 1387 - Usage scenarios or usage instructions to Api details page - \n* 1448 - Swutcg the home page to use master layout - \n* 1428 - CLick on 'Copy API Key' in Profile view  displays successful dialog twice - Ville\n* 1409 - Nightly2: Documentation viewer showing link to Petstore Swagger instead of proper Swagger file -   -\n* 1455 - wireframe to Usage scenarios or usage instructions to Api details page - 2 - Nazia\n* 1449 - wireframe to Get API key button to API profile page - 1 - Nazia\n* 1450 - wireframe to Add and test rate limiting field to Proxy backend collection - 1 - Nazia\n* 1451 - wireframe to Create Proxy backend collection and UI for mandatory fields - 1 - Nazia\n* 1452 - wireframe to Update dashboard analytics URL and user notifications - 1 - Nazia\n* 1453 - wireframe to Ensure api managers can disable API key check on Backends - 1 - Nazia\n* 1454 - wireframe to Directing user to proxy settings after adding an API - 1 - Nazia", 
+            "title": "2016 08 29 Sprint 30 Planning Minutes"
+        }, 
+        {
+            "location": "/organization/minutes/2016-08-29-Sprint-30-Planning-Minutes/#sprint-30-planning", 
+            "text": "* Participants: Brylie, Nazia, Sandhya, Taija\n* Date: 29.08.2016 10:00 - 11:00", 
+            "title": "Sprint 30 Planning"
+        }, 
+        {
+            "location": "/organization/minutes/2016-08-29-Sprint-30-Planning-Minutes/#assigned-tasks", 
+            "text": "* 1233 - Create proxy backend collection and UI for mandatory fields - 5 - Brylie\n* 1381 - Update API details tab - 1 - Brylie\n* 1382 - Update dashboard analytics URL and user notification - 5 - Damir\n* 1394 - If no proxy selected for platform, dashboard should not be available - 2 - Damir\n* 1384 - Get API key button to API profile page - 3 - Ville\n* 622 - Ensure API managers can disable API key check on backend - 2 - \n* 1190 - Add and test rate limiting field to proxy backend collection - 3 - Ville\n* 1385 - Change API settings export to match collection change - 1 - \n* 1446 - Fix API Backlog add/edit/delete forms and deprecate the afModals - - \n* 1444 - Refactor project router files for consistency - Ville\n* 1443 - Refactor all  collection files to use same structure - 1 - Brylie\n* 1445 - Directing usee to proxy settings after adding an API - 2 - Nazia\n* 1387 - Usage scenarios or usage instructions to Api details page - \n* 1448 - Swutcg the home page to use master layout - \n* 1428 - CLick on 'Copy API Key' in Profile view  displays successful dialog twice - Ville\n* 1409 - Nightly2: Documentation viewer showing link to Petstore Swagger instead of proper Swagger file -   -\n* 1455 - wireframe to Usage scenarios or usage instructions to Api details page - 2 - Nazia\n* 1449 - wireframe to Get API key button to API profile page - 1 - Nazia\n* 1450 - wireframe to Add and test rate limiting field to Proxy backend collection - 1 - Nazia\n* 1451 - wireframe to Create Proxy backend collection and UI for mandatory fields - 1 - Nazia\n* 1452 - wireframe to Update dashboard analytics URL and user notifications - 1 - Nazia\n* 1453 - wireframe to Ensure api managers can disable API key check on Backends - 1 - Nazia\n* 1454 - wireframe to Directing user to proxy settings after adding an API - 1 - Nazia", 
+            "title": "Assigned Tasks"
+        }, 
+        {
+            "location": "/organization/minutes/2016-09-12-Sprint-31-Planning-Meeting-Minutes/", 
+            "text": "Sprint 31 Planning\n\n\n* Date: 12.09.2016 10.00 - 11.00\n* Participants: Taija, Vesa, Brylie, Nazia, Laura, Ville, Damir\n\n\n\nTask Assignments\n\n\n* 1540 - Wireframe for \"API owner to be able to control 'Try it out!' button\" - Nazia - 1\n* 1450 - wireframe to Add and test rate limiting field to Proxy backend collection - Nazia - 1\n* 1532 - Edit proxy fom not showing existing proxy values - Brylie - 1\n* 1493 - Store Proxy backend collection data in API Umbrella - Brylie - 5\n* 1509 - Delete Proxy backend from API Umbrella - Ville - 3\n* 1510 - Edit Proxy backend and store changes in API Umbrella - \n* 1479 - Update Dashboard Select API List - Damir - 2\n* 1484 - Disable Add proxy button if one proxy exists - Damir - 1\n* 1190 - Add and test limiting field to Proxy backend collection - Nazia (wireframing) - 1\n* 1436 - Multi-proxy data migration - Ville - 5\n* 1445 - Instruct user about proxy settings after adding an API - Brylie - 2\n* 1200 - Allow only unique backend base paths -  - 1\n* 1535 - Determine how to handle API Umbrella base URL consistently in project - Brylie - 1\n* 1533 - SyncApiUmbrellaBackends method: how to store API URL? - Brylie - 2\n* 1123 - Veryfy emails after sign up - Ville - 3\n* 1504 - Localize avaiilable UI texts - Vesa \n Taija \n Nazia\n* 1477 - Delete API not responding - Brylie\n* 1472 - Visibility of API: Selector is shown for annonymous - Brylie\n* 1525 - Feedback form not working properly - Damir \n* 1514 - Add a setting for SMTP configuration - Ville - 2\n* 1507 - Unable to edit \"Username\" in \"Profile\" view -", 
+            "title": "2016 09 12 Sprint 31 Planning Meeting Minutes"
+        }, 
+        {
+            "location": "/organization/minutes/2016-09-12-Sprint-31-Planning-Meeting-Minutes/#sprint-31-planning", 
+            "text": "* Date: 12.09.2016 10.00 - 11.00\n* Participants: Taija, Vesa, Brylie, Nazia, Laura, Ville, Damir", 
+            "title": "Sprint 31 Planning"
+        }, 
+        {
+            "location": "/organization/minutes/2016-09-12-Sprint-31-Planning-Meeting-Minutes/#task-assignments", 
+            "text": "* 1540 - Wireframe for \"API owner to be able to control 'Try it out!' button\" - Nazia - 1\n* 1450 - wireframe to Add and test rate limiting field to Proxy backend collection - Nazia - 1\n* 1532 - Edit proxy fom not showing existing proxy values - Brylie - 1\n* 1493 - Store Proxy backend collection data in API Umbrella - Brylie - 5\n* 1509 - Delete Proxy backend from API Umbrella - Ville - 3\n* 1510 - Edit Proxy backend and store changes in API Umbrella - \n* 1479 - Update Dashboard Select API List - Damir - 2\n* 1484 - Disable Add proxy button if one proxy exists - Damir - 1\n* 1190 - Add and test limiting field to Proxy backend collection - Nazia (wireframing) - 1\n* 1436 - Multi-proxy data migration - Ville - 5\n* 1445 - Instruct user about proxy settings after adding an API - Brylie - 2\n* 1200 - Allow only unique backend base paths -  - 1\n* 1535 - Determine how to handle API Umbrella base URL consistently in project - Brylie - 1\n* 1533 - SyncApiUmbrellaBackends method: how to store API URL? - Brylie - 2\n* 1123 - Veryfy emails after sign up - Ville - 3\n* 1504 - Localize avaiilable UI texts - Vesa   Taija   Nazia\n* 1477 - Delete API not responding - Brylie\n* 1472 - Visibility of API: Selector is shown for annonymous - Brylie\n* 1525 - Feedback form not working properly - Damir \n* 1514 - Add a setting for SMTP configuration - Ville - 2\n* 1507 - Unable to edit \"Username\" in \"Profile\" view -", 
+            "title": "Task Assignments"
+        }, 
+        {
+            "location": "/organization/minutes/2018-08-15-Sprint-29-Planning-Meeting-Minutes/", 
+            "text": "Sprint 29 Planning\n\n\n\n\nDate: 15.08.2016 10:00-11.00\n\n\nParticipants: Brylie, Damir,  Nazia, Sandhya, Taija, Ville\n\n\n\n\nTask Assignment\n\n\n\n\n1091 - Design API Backend Schema - Brylie - 1\n\n\n1233 - Create Proxy API Backend Collection - Brylie - 5\n\n\n1378 - Design Proxies Collection and Schema - Damir - 3\n\n\n1190 - Ensure that rate limiting setting works - Brylie - 1\n\n\n1375 - Data Migration Strategy - Ville - 3\n\n\n1379 - Update Add API Wizard - Ville - 5\n\n\n1381 - Update API Details Tab  - Brylie - 1\n\n\n1383 - UI for adding or eediting API Proxy - Damir - 1\n\n\n1200 - Allow only unique API backend URLs - Ville - 1\n\n\n1372 - Feature/API visibility - Damir", 
+            "title": "2018 08 15 Sprint 29 Planning Meeting Minutes"
+        }, 
+        {
+            "location": "/organization/minutes/2018-08-15-Sprint-29-Planning-Meeting-Minutes/#sprint-29-planning", 
+            "text": "Date: 15.08.2016 10:00-11.00  Participants: Brylie, Damir,  Nazia, Sandhya, Taija, Ville", 
+            "title": "Sprint 29 Planning"
+        }, 
+        {
+            "location": "/organization/minutes/2018-08-15-Sprint-29-Planning-Meeting-Minutes/#task-assignment", 
+            "text": "1091 - Design API Backend Schema - Brylie - 1  1233 - Create Proxy API Backend Collection - Brylie - 5  1378 - Design Proxies Collection and Schema - Damir - 3  1190 - Ensure that rate limiting setting works - Brylie - 1  1375 - Data Migration Strategy - Ville - 3  1379 - Update Add API Wizard - Ville - 5  1381 - Update API Details Tab  - Brylie - 1  1383 - UI for adding or eediting API Proxy - Damir - 1  1200 - Allow only unique API backend URLs - Ville - 1  1372 - Feature/API visibility - Damir", 
+            "title": "Task Assignment"
         }, 
         {
             "location": "/organization/minutes/Rotation/", 
@@ -3172,7 +3217,7 @@
         }, 
         {
             "location": "/research/API_Lifecycle/", 
-            "text": "API Lifecycle\n\n\nThis document describes common ideas and stages related to API Lifecycle Management.\n\n\nSee also: \nAPIOps\n \n\n\nLifecycle Stages\n\n\nDesign\n\n\nIn design stage, the API Owner and Developer consider the overall structure of the API. What information will be accessible? What access control will be provided? The design process also includes initial documentation, in standard formats.\n\nTasks and deliverables\n\n\n\n\nAPI description\n\n\nAPI diagram\n\n\nAPI business case\n\n\nStakeholder communication plan\n\n\n\n\nTools and Resources\n\n\nA Product Managers Guide to Cloud Integrations\n \n\n\nDesigning a Great Web API\n \n\n\nAPI Design Tools List\n \n\n\nDevelop\n\n\nThe development stage involves programming or extending software platforms to provide access to the application data. This can be done in any platform, programming language, etc., and is dependent on existing infrastructure.  The development process also includes revising of design documentation, to match the constraints of development.\n\nTasks and deliverables\n\n\n\n\nAPI specification document in machine format (e.g. RAML)\n\n\nAPI documentation file (e.g. Swagger)\n\n\nCustom software development \n\n\n\n\nDeploy\n\n\nDeployment inolves making the API accessible to the general public. This often falls under the jurisprudence of \nAPI Ops\n  professionals, who manage the infrastructure to ensure functionality, uptime, etc.\n\nTasks and deliverables\n\n\n\n\nAPI load balancer configuration\n\n\nProxy deployment and configuration\n\n\nAnalytics configuration (e.g. reporting)\n\n\n\n\nRevision\n\n\nAs new business and customer needs emerge, or as the data takes shape, it is often necessary to change the original design. This can be done in such a way that minimises disruption to existing customers, such as API versioning, deprecation notices, and backwards compatibility.\n\nTasks and deliverables\n\n\n\n\nUser needs assessment\n\n\nData service audit\n\n\nAPI revision planning\n\n\nUser notification\n\n\n\n\nRetire\n\n\nOnce the API has served its functional lifespan, it is time for it to be retired. This includes issuing retirement notices to existing customers, re-purposing infrastructure, and planning new business strategy.\n\nTasks and deliverables\n\n\n\n\nBusiness model document\n\n\nStakeholder communication document\n\n\n\n\nReferences\n\n\n\n\n3scale - \nPractical Advice For The Stages Of The API Lifecycle\n \n\n\nAkana Lifecycle Manager overview\n \n\n\napigee - \nAPI development lifecycle\n \n\n\nAPI Lifecycle is Critical for API Management Solutions\n \n\n\nDell Boomi \nAPI Management\n \n\n\nCA Technologies - \nAPI Lifecycle Management\n \n\n\nNordic APIs - \nThe Entire API Lifecycle\n \n\n\nWSO2 - \nManaging an API Lifecycle", 
+            "text": "API Lifecycle\n\n\nThis document describes common ideas and stages related to API Lifecycle Management.\n\n\nSee also: \nAPIOps\n \n\n\nLifecycle Stages\n\n\nDesign\n\n\nIn design stage, the API Owner and Developer consider the overall structure of the API. What information will be accessible? What access control will be provided? The design process also includes initial documentation, in standard formats.\n\nTasks and deliverables\n\n\n\n\nAPI description\n\n\nAPI diagram\n\n\nAPI business case\n\n\nStakeholder communication plan\n\n\n\n\nTools and Resources\n\n\nA Product Managers Guide to Cloud Integrations\n \n\n\nDesigning a Great Web API\n \n\n\nAPI Design Tools List\n \n\n\nDevelop\n\n\nThe development stage involves programming or extending software platforms to provide access to the application data. This can be done in any platform, programming language, etc., and is dependent on existing infrastructure.  The development process also includes revising of design documentation, to match the constraints of development.\n\nTasks and deliverables\n\n\n\n\nAPI specification document in machine format (e.g. RAML)\n\n\nAPI documentation file (e.g. Swagger)\n\n\nCustom software development \n\n\n\n\nDeploy\n\n\nDeployment inolves making the API accessible to the general public. This often falls under the jurisprudence of \nAPI Ops\n  professionals, who manage the infrastructure to ensure functionality, uptime, etc.\n\nTasks and deliverables\n\n\n\n\nAPI load balancer configuration\n\n\nProxy deployment and configuration\n\n\nAnalytics configuration (e.g. reporting)\n\n\n\n\nRevision\n\n\nAs new business and customer needs emerge, or as the data takes shape, it is often necessary to change the original design. This can be done in such a way that minimises disruption to existing customers, such as API versioning, deprecation notices, and backwards compatibility.\n\nTasks and deliverables\n\n\n\n\nUser needs assessment\n\n\nData service audit\n\n\nAPI revision planning\n\n\nUser notification\n\n\n\n\nRetire\n\n\nOnce the API has served its functional lifespan, it is time for it to be retired. This includes issuing retirement notices to existing customers, re-purposing infrastructure, and planning new business strategy.\n\nTasks and deliverables\n\n\n\n\nBusiness model document\n\n\nStakeholder communication document\n\n\n\n\nReferences\n\n\n\n\n3scale - \nPractical Advice For The Stages Of The API Lifecycle\n \n\n\nAkana Lifecycle Manager overview\n \n\n\napigee - \nAPI development lifecycle\n \n\n\nAPI Lifecycle is Critical for API Management Solutions\n \n\n\nDell Boomi \nAPI Management\n \n\n\nCA Technologies - \nAPI Lifecycle Management\n \n\n\nNordic APIs - \nThe Entire API Lifecycle\n \n\n\nWSO2 - \nManaging an API Lifecycle\n \n\n\n\n\nIBM Phases\n\n\n\n\nPreview\n\n\nBeta\n\n\nLive", 
             "title": "API Lifecycle"
         }, 
         {
@@ -3189,6 +3234,11 @@
             "location": "/research/API_Lifecycle/#references", 
             "text": "3scale -  Practical Advice For The Stages Of The API Lifecycle    Akana Lifecycle Manager overview    apigee -  API development lifecycle    API Lifecycle is Critical for API Management Solutions    Dell Boomi  API Management    CA Technologies -  API Lifecycle Management    Nordic APIs -  The Entire API Lifecycle    WSO2 -  Managing an API Lifecycle", 
             "title": "References"
+        }, 
+        {
+            "location": "/research/API_Lifecycle/#ibm-phases", 
+            "text": "Preview  Beta  Live", 
+            "title": "IBM Phases"
         }, 
         {
             "location": "/research/API_Metadata_Standards/", 
@@ -3274,6 +3324,21 @@
             "location": "/research/API_Monitoring_Service/#cons_1", 
             "text": "Do not have web interface for configuration. But that make easy setup by Chef or Ansible.   Based on pros and cons of both tool and target that was set by story/research  \u201cStudy what monitoring service to be used\u201d , recommendation to use Prometheus as modern tool with good architecture (modules), great performance and  great documentation .  Prometheus is a open source monitoring system that includes built-in and active scraping, storing, querying, graphing, and alerting based on time series data.   Architecture : Prometheus servers run independently of each other and only rely on their local storage for their core functionality: scraping, rule processing, and alerting.  Data model : Most important aspects is its multi-dimensional data model ( OpenTSDB ) along with the accompanying query language. This allows easy filtering, grouping, and matching by these labels via in the query language.  Scalable : Hundreds of thousands of samples per second. Millions of time series. On a single monitoring server (running many servers is easy too).  Storage : Prometheus own database optimized for time series data that can allow work with millions of time series.  Discovery : targets are discovered via service discovery or static configuration (DNS,  consul ,  kubernetes , etc.).  Visualization : multiple modes of graphing and dashboarding support ( Graphana ,  PromDash , etc.).  Alerting : Separated into two parts. Alerting rules in Prometheus servers send alerts to an Alertmanager. The Alertmanager then manages those alerts, including silencing, inhibition, aggregation and sending out notifications via methods such as email, PagerDuty and Slack.  Client libraries : Go, Java, Ruby, Python, Node.js,  etc .", 
             "title": "Cons:"
+        }, 
+        {
+            "location": "/research/DashboardHeuristicsEvaluation/", 
+            "text": "Dashboard Heuristic Evaluation of APINF\n\n\n\n\n\n\nForsell, C., \n Johansson, J. (2010, May). An heuristic set for evaluation in information visualization. In Proceedings of the International Conference on Advanced Visual Interfaces (pp. 199-206). ACM.\n\n\n\n\n\n\nFormat: [number] Problem Description\n\n\n\n\n[violated Heuristic] [Severity]\n\n\n\n\n[Solution]\n\n\n\n\n\n\nDashboard page does not have any Page Title. When user navigates to dashboard from landing page, lack of title can confuse  him/her about the location in the web service.\n    [5, 7][3]\n    Add Page title \"Dashboard\" on the top of the page\n\n\n\n\n\n\nWhen navigated to dashboard, left side menu name appears as \"Analytics\" although user just came to the dashboard page.\n[5, 7][3]\nChange the left side menu option name as Dashboard and add \"Analytics\" as a submenu under Dashboard. When user comes to the page   and expands left side menu, s/he should see both Dashboard and Analytics as focused/hilighted. This would also leave option for   adding new submenus under Dashboard.\n\n\n\n\n\n\nThere is no help text to explain what are the two charts used for in the Analytics page. User might become confused and frustrated if s/he doesn't know how the charts work.\n[8][2]\nAdd info icon beside chart name and give explanation on the opened dialogues about how the charts work.\n\n\n\n\n\n\nBottom chart in the analytics page is named only as \"Chart\". This is not intuitive and user can't understand the purpose of the chart from just a glance at the name or the chart itself.\n[7][3]\nAdd intuitive chart name.\n\n\n\n\n\n\nOn first time logging in to the site, if API ownder doesn't add any API and browses to Dashboard page, the graphs in the analytis appear empty. This might make user confused.\n[8][3]\nBelow the page title or below each individual chart, there should be instructions given to users on how to populate data in both * charts. e.g. \"You have added no API of your own. Please use API Backend to add your API to populate the charts with data.\"        Additional conditions about data appearance can be given via info tip.\n\n\n\n\n\n\nOn clicking API Backend at Side menu, user still remains in the Analytics page (or if clicked from Catalog page). But on clicking other two options user is navigated to the desired page location. This is for the reason of Add API Backend submenu under API Backend.\n[6][3], [2][2]\nDesign the side menu s.t. if there are submenus under any menu option, then on clicking th option, user should be navigated to    the 1st sidemenu page. This also reduces the number of click a user has to make to access sidemenu pages.\n\n\n\n\n\n\nWhen User doesn't have data populated on charts, selecting anything from filter pane (dropmenus, text box) give a browser alertbox with text. The text to some inconsistency in the table and is not written in a user friendly manner. The meaning might be confusing to the user.\n[4][3]\nFix alert text so that it is more intuitive. If possible, try no to show the text in browser alert window.\n\n\n\n\n\n\nNo information or help text is given about how to use the filtering pane in Analytics page.\n[4][3]\nIn Info tip provide instruction texts about what the filter does and how it should be used. added condtitions (if nay) there for  using the filter.\n\n\n\n\n\n\nBoth charts in Analytics have additional portion of their X and Y axises visible when they intersect. Also X axises of both charts break the pane and extends outside.\n[1][3]\nRedraw the axises so that excess portion doesn't appear after intersection between two. Also resize the X axis so that it         doesn't break the pane.\n\n\n\n\n\n\nThe table for monitoring API calls from different countries doesn't have information about how to use it. Also the title is not intuitive.\n[4][2], [7][3]\nChange the table name into somehting that conveys its purpose. Add info tool tip to provide how the table works and how it is (if so) associated with the world Map below.\n\n\n\n\n\n\nWhen no data is available in table, pagination buttons Previous and Next remains below the table, although there is no additional pages to browse.\n[6][2]\nWhen there is no pages to browse the previous and next buttons should not appear.\n\n\n\n\n\n\nWhen the charts are loading for populating data, the \"Loading...\" appears as a text on a table. It is not visible enough.\n[4][2]\nAdd an hourglass with animation to indicate the loading state. This should be all over the website for consistency purpose\n\n\n\n\n\n\nChange the icons for sorting all over the website, they are not intuitive enough.\n[1][1]\nSimply use a up and down arrow. Down means ascending and Up means descending. It would make it easier to show only these 2        arrows in active/inactive state. clicking on 1 arrow would make it active and another one inactive.\n\n\n\n\n\n\nWhen there is no Filtered data, the information on the chart axis doesn't give more context.\n    e.g. Date appear as  Thu04 but does not indicate any month or year. (X axis)\n    Also on Y axis, only number appear. They don't indicate when what are the values for and what is the unit of measurement.\n[1][3]\nAdd axis and chart measurement information on each chart.\n\n\n\n\n\n\nFiltering option is not working at all!!\nSeverity: 4\n\n\n\n\n\n\nWhen curser of hover over data on the chart it changes into hand icon, meaning there can be some action. But on clicking the data, nothing happens.\n[1][2]\nIf charts are supposed to be interactive, then fix the functionality because now nothing happens. If they are not interactive,    then cursor should not change into hand icon on pointing over chart data.\n\n\n\n\n\n\nAdd option on map to zoom in/out using controls aside from mouse. Also navigational control to go north-south-east-west.\n[3][1]\n\n\n\n\n\n\nImprove loading time of Map on zooming in/out. When Map is zoomed in in the depth of seeing street details of a city, the zoomed view takes a lot time to load.\n[3][3]\n\n\n\n\n\n\nWhen Analytic page is browsed from up to down using mouse scroller, when cursor comes over map view, instead of page scrolling, map starts to zoom in/out.\n[3][2]\nWhen mouse hovers map, the mouse scrolling should not zoom in/zoom out the map. It should be possible only when map is selected   by specific click.\n\n\n\n\n\n\nRedesigning the table \n[1][3]\n\n\n\n\n\n\nThe focus finder in the overview chart is not visible. User needs to click around the chart to enable it automatically. Any first time user will never know the existence of the focus finder\n[7][3]\nMake the focus finder visible whenever the page is loaded\n\n\n\n\n\n\nWhen focus is changed in the overview chart, in the main chart, it takes a lot of time for the rendering to take place.\nSeverity: 3\n\n\n\n\n\n\nFocus finder tool in overview chart is very slow to work.\nSeverity: 2\n\n\n\n\n\n\nRemove the background grid from both charts. It clutters the display and makes the charts difficult to understand\n[1][2]", 
+            "title": "DashboardHeuristicsEvaluation"
+        }, 
+        {
+            "location": "/research/DashboardHeuristicsEvaluation/#dashboard-heuristic-evaluation-of-apinf", 
+            "text": "Forsell, C.,   Johansson, J. (2010, May). An heuristic set for evaluation in information visualization. In Proceedings of the International Conference on Advanced Visual Interfaces (pp. 199-206). ACM.    Format: [number] Problem Description   [violated Heuristic] [Severity]   [Solution]    Dashboard page does not have any Page Title. When user navigates to dashboard from landing page, lack of title can confuse  him/her about the location in the web service.\n    [5, 7][3]\n    Add Page title \"Dashboard\" on the top of the page    When navigated to dashboard, left side menu name appears as \"Analytics\" although user just came to the dashboard page.\n[5, 7][3]\nChange the left side menu option name as Dashboard and add \"Analytics\" as a submenu under Dashboard. When user comes to the page   and expands left side menu, s/he should see both Dashboard and Analytics as focused/hilighted. This would also leave option for   adding new submenus under Dashboard.    There is no help text to explain what are the two charts used for in the Analytics page. User might become confused and frustrated if s/he doesn't know how the charts work.\n[8][2]\nAdd info icon beside chart name and give explanation on the opened dialogues about how the charts work.    Bottom chart in the analytics page is named only as \"Chart\". This is not intuitive and user can't understand the purpose of the chart from just a glance at the name or the chart itself.\n[7][3]\nAdd intuitive chart name.    On first time logging in to the site, if API ownder doesn't add any API and browses to Dashboard page, the graphs in the analytis appear empty. This might make user confused.\n[8][3]\nBelow the page title or below each individual chart, there should be instructions given to users on how to populate data in both * charts. e.g. \"You have added no API of your own. Please use API Backend to add your API to populate the charts with data.\"        Additional conditions about data appearance can be given via info tip.    On clicking API Backend at Side menu, user still remains in the Analytics page (or if clicked from Catalog page). But on clicking other two options user is navigated to the desired page location. This is for the reason of Add API Backend submenu under API Backend.\n[6][3], [2][2]\nDesign the side menu s.t. if there are submenus under any menu option, then on clicking th option, user should be navigated to    the 1st sidemenu page. This also reduces the number of click a user has to make to access sidemenu pages.    When User doesn't have data populated on charts, selecting anything from filter pane (dropmenus, text box) give a browser alertbox with text. The text to some inconsistency in the table and is not written in a user friendly manner. The meaning might be confusing to the user.\n[4][3]\nFix alert text so that it is more intuitive. If possible, try no to show the text in browser alert window.    No information or help text is given about how to use the filtering pane in Analytics page.\n[4][3]\nIn Info tip provide instruction texts about what the filter does and how it should be used. added condtitions (if nay) there for  using the filter.    Both charts in Analytics have additional portion of their X and Y axises visible when they intersect. Also X axises of both charts break the pane and extends outside.\n[1][3]\nRedraw the axises so that excess portion doesn't appear after intersection between two. Also resize the X axis so that it         doesn't break the pane.    The table for monitoring API calls from different countries doesn't have information about how to use it. Also the title is not intuitive.\n[4][2], [7][3]\nChange the table name into somehting that conveys its purpose. Add info tool tip to provide how the table works and how it is (if so) associated with the world Map below.    When no data is available in table, pagination buttons Previous and Next remains below the table, although there is no additional pages to browse.\n[6][2]\nWhen there is no pages to browse the previous and next buttons should not appear.    When the charts are loading for populating data, the \"Loading...\" appears as a text on a table. It is not visible enough.\n[4][2]\nAdd an hourglass with animation to indicate the loading state. This should be all over the website for consistency purpose    Change the icons for sorting all over the website, they are not intuitive enough.\n[1][1]\nSimply use a up and down arrow. Down means ascending and Up means descending. It would make it easier to show only these 2        arrows in active/inactive state. clicking on 1 arrow would make it active and another one inactive.    When there is no Filtered data, the information on the chart axis doesn't give more context.\n    e.g. Date appear as  Thu04 but does not indicate any month or year. (X axis)\n    Also on Y axis, only number appear. They don't indicate when what are the values for and what is the unit of measurement.\n[1][3]\nAdd axis and chart measurement information on each chart.    Filtering option is not working at all!!\nSeverity: 4    When curser of hover over data on the chart it changes into hand icon, meaning there can be some action. But on clicking the data, nothing happens.\n[1][2]\nIf charts are supposed to be interactive, then fix the functionality because now nothing happens. If they are not interactive,    then cursor should not change into hand icon on pointing over chart data.    Add option on map to zoom in/out using controls aside from mouse. Also navigational control to go north-south-east-west.\n[3][1]    Improve loading time of Map on zooming in/out. When Map is zoomed in in the depth of seeing street details of a city, the zoomed view takes a lot time to load.\n[3][3]    When Analytic page is browsed from up to down using mouse scroller, when cursor comes over map view, instead of page scrolling, map starts to zoom in/out.\n[3][2]\nWhen mouse hovers map, the mouse scrolling should not zoom in/zoom out the map. It should be possible only when map is selected   by specific click.    Redesigning the table \n[1][3]    The focus finder in the overview chart is not visible. User needs to click around the chart to enable it automatically. Any first time user will never know the existence of the focus finder\n[7][3]\nMake the focus finder visible whenever the page is loaded    When focus is changed in the overview chart, in the main chart, it takes a lot of time for the rendering to take place.\nSeverity: 3    Focus finder tool in overview chart is very slow to work.\nSeverity: 2    Remove the background grid from both charts. It clutters the display and makes the charts difficult to understand\n[1][2]", 
+            "title": "Dashboard Heuristic Evaluation of APINF"
+        }, 
+        {
+            "location": "/research/UITesting/", 
+            "text": "Philippe, Nazia\n23.08.2016 13:30\n\n\npreliminary research --\n how to document use cases for UI testing + getting feedback from users about design + structure\nVery clear use cases that are documented\nhow to achieve something with expected result that contribute to business values\nexpectations: from visual elements and actions\ninstructions: \n  1. scenarios (for major elements \n actions)\n  2. Use cases\nRight Usecases for right audiance:\n\nQuestions:\n  what do you think it actually does?\n  what problems/challenges currentrly you are facing?\n  do you think it helps to solve your problem?", 
+            "title": "UITesting"
         }, 
         {
             "location": "/research/resources/", 
