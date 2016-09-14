@@ -2866,6 +2866,21 @@
             "title": "Task Assignment"
         }, 
         {
+            "location": "/organization/minutes/2016-08-15-Sprint-29-Planning-Meeting-Minutes/", 
+            "text": "Sprint 29 Planning\n\n\n\n\nDate: 15.08.2016 10:00-11.00\n\n\nParticipants: Brylie, Damir,  Nazia, Sandhya, Taija, Ville\n\n\n\n\nTask Assignment\n\n\n\n\n1091 - Design API Backend Schema - Brylie - 1\n\n\n1233 - Create Proxy API Backend Collection - Brylie - 5\n\n\n1378 - Design Proxies Collection and Schema - Damir - 3\n\n\n1190 - Ensure that rate limiting setting works - Brylie - 1\n\n\n1375 - Data Migration Strategy - Ville - 3\n\n\n1379 - Update Add API Wizard - Ville - 5\n\n\n1381 - Update API Details Tab  - Brylie - 1\n\n\n1383 - UI for adding or eediting API Proxy - Damir - 1\n\n\n1200 - Allow only unique API backend URLs - Ville - 1\n\n\n1372 - Feature/API visibility - Damir", 
+            "title": "2016 08 15 Sprint 29 Planning Meeting Minutes"
+        }, 
+        {
+            "location": "/organization/minutes/2016-08-15-Sprint-29-Planning-Meeting-Minutes/#sprint-29-planning", 
+            "text": "Date: 15.08.2016 10:00-11.00  Participants: Brylie, Damir,  Nazia, Sandhya, Taija, Ville", 
+            "title": "Sprint 29 Planning"
+        }, 
+        {
+            "location": "/organization/minutes/2016-08-15-Sprint-29-Planning-Meeting-Minutes/#task-assignment", 
+            "text": "1091 - Design API Backend Schema - Brylie - 1  1233 - Create Proxy API Backend Collection - Brylie - 5  1378 - Design Proxies Collection and Schema - Damir - 3  1190 - Ensure that rate limiting setting works - Brylie - 1  1375 - Data Migration Strategy - Ville - 3  1379 - Update Add API Wizard - Ville - 5  1381 - Update API Details Tab  - Brylie - 1  1383 - UI for adding or eediting API Proxy - Damir - 1  1200 - Allow only unique API backend URLs - Ville - 1  1372 - Feature/API visibility - Damir", 
+            "title": "Task Assignment"
+        }, 
+        {
             "location": "/organization/minutes/2016-08-26-Sprint-29-Review/", 
             "text": "Sprint 29 Review Meeting\n\n\nParticipants\n\n\n\n\nBrylie\n\n\nNazia\n\n\nSandhya\n\n\nVille\n\n\nTaija\n\n\n\n\nTask Review\n\n\nBrylie\n\n\n\n\n\n\n1020 Setting for API visibility API Backend\n\n\n\n\nFinalizing the task: fixing console errors, ironing edge cases like visibility for bookmarked APIs\n\n\n\n\n1091 Design API backend schema, #1379 Update Add API wizard\n\n\n\n\nAdd API wizard removed, API added to Catalog with a small form\n\n\nAll proxy backend related settings removed collection, schema and API settings tab\n\n\nAPIs cannot be connected to APIs at the moment\n\n\nWorked also on reorganizing project structure\n\n\n\n\nDasha\n\n\n\n\n\n\nIntegrate SDK download to Documentation tab: ongoing\n\n\n\n\n\n\nNazia\n\n\n\n\n\n\n1393 Wireframe for API Proxy Add \n Edit UI\n\n\n\n\nWireframe for SDK download\n\n\n\n\nDamir\n\n\n\n\n\n\n1378 Design Proxies collection and schema, #1383 UI for adding or editing API proxy\n\n\n\n\nSidebar added for different settings, new view added for Proxies, only API Umbrella supported\n\n\n\n\nVille\n\n\n\n\n\n\n1388 Plan \n test MongoDB database migration from 2.x to 3.x\n\n\n\n\nNightly upgraded to 3.x, WiredTiger engine\n\n\nUpdate scripts shared to Shaliko\n\n\n\n\n1375 Data migration strategy\n\n\n\n\nBased on the investigation, percolate:migrations selected as package for database migrations\n\n\n\n\n1406 Test database migration with percolate:migrations\n\n\n\n\nSample migration done for isPublic field, closed without merging due to multiproxy changes to collections\n\n\n\n\n1378, #1383: Finalising Damir's tasks on Proxies\n\n\n\n\nInvestigating Swagger authentication case", 
             "title": "2016 08 26 Sprint 29 Review"
@@ -2984,21 +2999,6 @@
             "location": "/organization/minutes/2016-09-12-Sprint-31-Planning-Meeting-Minutes/#task-assignments", 
             "text": "* 1540 - Wireframe for \"API owner to be able to control 'Try it out!' button\" - Nazia - 1\n* 1450 - wireframe to Add and test rate limiting field to Proxy backend collection - Nazia - 1\n* 1532 - Edit proxy fom not showing existing proxy values - Brylie - 1\n* 1493 - Store Proxy backend collection data in API Umbrella - Brylie - 5\n* 1509 - Delete Proxy backend from API Umbrella - Ville - 3\n* 1510 - Edit Proxy backend and store changes in API Umbrella - \n* 1479 - Update Dashboard Select API List - Damir - 2\n* 1484 - Disable Add proxy button if one proxy exists - Damir - 1\n* 1190 - Add and test limiting field to Proxy backend collection - Nazia (wireframing) - 1\n* 1436 - Multi-proxy data migration - Ville - 5\n* 1445 - Instruct user about proxy settings after adding an API - Brylie - 2\n* 1200 - Allow only unique backend base paths -  - 1\n* 1535 - Determine how to handle API Umbrella base URL consistently in project - Brylie - 1\n* 1533 - SyncApiUmbrellaBackends method: how to store API URL? - Brylie - 2\n* 1123 - Veryfy emails after sign up - Ville - 3\n* 1504 - Localize avaiilable UI texts - Vesa   Taija   Nazia\n* 1477 - Delete API not responding - Brylie\n* 1472 - Visibility of API: Selector is shown for annonymous - Brylie\n* 1525 - Feedback form not working properly - Damir \n* 1514 - Add a setting for SMTP configuration - Ville - 2\n* 1507 - Unable to edit \"Username\" in \"Profile\" view -", 
             "title": "Task Assignments"
-        }, 
-        {
-            "location": "/organization/minutes/2018-08-15-Sprint-29-Planning-Meeting-Minutes/", 
-            "text": "Sprint 29 Planning\n\n\n\n\nDate: 15.08.2016 10:00-11.00\n\n\nParticipants: Brylie, Damir,  Nazia, Sandhya, Taija, Ville\n\n\n\n\nTask Assignment\n\n\n\n\n1091 - Design API Backend Schema - Brylie - 1\n\n\n1233 - Create Proxy API Backend Collection - Brylie - 5\n\n\n1378 - Design Proxies Collection and Schema - Damir - 3\n\n\n1190 - Ensure that rate limiting setting works - Brylie - 1\n\n\n1375 - Data Migration Strategy - Ville - 3\n\n\n1379 - Update Add API Wizard - Ville - 5\n\n\n1381 - Update API Details Tab  - Brylie - 1\n\n\n1383 - UI for adding or eediting API Proxy - Damir - 1\n\n\n1200 - Allow only unique API backend URLs - Ville - 1\n\n\n1372 - Feature/API visibility - Damir", 
-            "title": "2018 08 15 Sprint 29 Planning Meeting Minutes"
-        }, 
-        {
-            "location": "/organization/minutes/2018-08-15-Sprint-29-Planning-Meeting-Minutes/#sprint-29-planning", 
-            "text": "Date: 15.08.2016 10:00-11.00  Participants: Brylie, Damir,  Nazia, Sandhya, Taija, Ville", 
-            "title": "Sprint 29 Planning"
-        }, 
-        {
-            "location": "/organization/minutes/2018-08-15-Sprint-29-Planning-Meeting-Minutes/#task-assignment", 
-            "text": "1091 - Design API Backend Schema - Brylie - 1  1233 - Create Proxy API Backend Collection - Brylie - 5  1378 - Design Proxies Collection and Schema - Damir - 3  1190 - Ensure that rate limiting setting works - Brylie - 1  1375 - Data Migration Strategy - Ville - 3  1379 - Update Add API Wizard - Ville - 5  1381 - Update API Details Tab  - Brylie - 1  1383 - UI for adding or eediting API Proxy - Damir - 1  1200 - Allow only unique API backend URLs - Ville - 1  1372 - Feature/API visibility - Damir", 
-            "title": "Task Assignment"
         }, 
         {
             "location": "/organization/minutes/Rotation/", 
